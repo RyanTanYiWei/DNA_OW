@@ -1,0 +1,33 @@
+Translated(src=nl, dest=en, text=Your permit application will soon be resolved with a few mouse clicks: who will believe it?
+De Volkskrant.nl
+December 3, 2020 Thursday 04:35 PM GMT
+
+
+Copyright 2020 DPG Media B.V. All Rights Reserved
+
+
+Length: 622 words
+Byline: Herman Weelink
+Body
+
+
+  The Environmental Act, which will unite countless laws and measures on spatial planning, relies heavily on a computer system that connects everything with everything. That will be a disaster, argues Herman Weelink.
+In an interview, Government Advisor Berno Strootman argues for a centrally coordinated spatial policy and for a Minister for Spatial Planning with 'power and money'. As a landscape architect and planner, I wholeheartedly agree with this. Unfortunately, the interview does not discuss 'power and money' in more detail.
+Of course, every minister needs money, but in order to exercise power, a minister also needs legal instruments. What instruments could that be for a Minister of Space?
+This is currently still the Spatial Planning Act, but the aim is to replace it in the foreseeable future with the Environmental Act. This should simplify planning procedures by combining a large number of regulations. According to Prime Minister Rutte, 'the largest legislative operation since Thorbecke'. A misplaced comparison, because that will be a disaster.
+Great disappearing act
+The Environmental Act is a lot like a big disappearing act. Twenty-six laws are reduced to one law, sixty General Administrative Orders are reduced to four and 75 ministerial regulations are compressed to one. To this end, the Environmental Act relies heavily on a computer system that connects everything to everything and should, among other things, make it clear after a few simple mouse clicks where someone stands when he applies for a permit.
+That sounds too good to be true and it is. The system has not yet been fully developed and that will take some time, if it is successful. There is too little money: municipalities must implement the law, but the promised budget neutrality appears to be unattainable. Things also go wrong in terms of content.
+Slowly but surely it becomes clear that you can try to tie laws and regulations together into one digital mass of bits and bytes, but that this would undermine the variability and complexity of all the sometimes incomparable, incoherent and possibly conflicting environmental aspects that are involved in countless individual permits. having to play a role has not disappeared. That complexity cannot be magically removed with a computer trick.
+Naive and dangerous
+And that's actually a good thing, because the idea that environmental policy can be automated is not only naive, but even dangerous. If an individual citizen can see where he stands at a simple glance, civil servants and administrators will do the same.
+As practice at the Tax Authorities has recently shown, such an automated system will give civil servants and administrators the irresistible temptation to simplify individual considerations and decision-making with those mouse clicks. The danger is then enormous that, together with 25 laws, 56 General Administrative Orders and 74 ministerial regulations, a balanced spatial policy, good governance and even legal certainty will be taken away.
+New debacle
+The next National Automation debacle, which will cost millions and perhaps billions more than budgeted, cannot deliver on its promises and will ultimately lead to protracted political wrangling, is on its way. The Environmental Act was already adopted in 2016, but its introduction has therefore been postponed several times. It is currently officially expected that it will finally come into effect on January 1, 2022, but calls are already growing to postpone its introduction even further.
+It would be even better to just get rid of it altogether. We are looking for a Minister of Space with money and power, not a handy Environmental Magician with a computer system.
+Herman Weelink
+
+Load Date: December 3, 2020
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

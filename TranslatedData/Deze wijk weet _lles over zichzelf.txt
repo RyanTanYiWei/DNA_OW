@@ -1,0 +1,60 @@
+Translated(src=nl, dest=en, text=This neighborhood knows everything about itself
+de Volkskrant
+September 20, 2018 Thursday
+
+
+Copyright 2018 De Persgroep Nederland BV All Rights Reserved
+
+
+Section: First; Page 19
+Length: 1044 words
+Byline: BART DIRKS
+Highlight: In Bezuidenhout they are not against three thousand additional homes. The Hague district is keeping a close eye on what this new construction means for parking spaces, schools and greenery. With a self-developed tool.
+Body
+
+
+Liveability report
+Bezuidenhout is a quiet residential area in The Hague, a stone's throw from Central Station and the Haagse Bos. Many 1930s houses, beautiful squares, nice shops, cozy restaurants. But will the neighborhood remain as attractive if three thousand homes are built in the coming years? Or is there a threat of a shortage of parking spaces, dentists, schools and public greenery? And what about air quality? And the noise pollution?
+
+Difficult questions, but in Bezuidenhout they know the answers down to the decimal point. With thanks to a digital tool, developed by volunteers from the neighborhood council: the Liveability Impact Assessment, or LER for short. The publicly accessible monitor is praised by the city council and local officials - but also feared by project developers and councilors. Because at the push of a button it becomes clear what consequences new construction has on the environment.
+
+In the community center on Johannes Camphuijsstraat, Jacob Snijders opens his laptop for a demonstration. 'The LER contains data from our district, linked to firm agreements and objectives of the city, the government and Europe,' explains the chairman of the district council. The figures come from public institutions such as the Central Bureau of Statistics (CBS), the National Institute for Public Health and the Environment (RIVM) and the municipality of The Hague. 'We can see for 45 indicators whether they are 'green' or 'red' and what changes when construction takes place.'
+
+In the monitor's software you can, for example, build a new apartment complex in the neighborhood and specify how many people will live there. The wealth of information this produces - clearly visualized in 3D maps and meters - is impressive, as Snijders now knows. 'Thanks to the LER, city hall takes us a lot more seriously. We can talk to project developers sooner. Of course, they are not looking forward to us filing an objection with the Council of State.'
+More air pollution
+The Hague will gain as many as one hundred thousand more inhabitants by 2040, and Bezuidenhout is also counting on 30 percent more neighbors. Thanks to the LER, it is already clear that in the future there will be too few dentists, playgrounds and public green areas, and that noise pollution and air pollution will increase. "We didn't think of that ourselves, that is clear from the official standards and guidelines," says Snijders.
+
+There is great appreciation for the digital tool from Bezuidenhout at City Hall. The coalition agreement of the new mayor and aldermen states that experiments will be conducted with residents and entrepreneurs with the use of the monitor. The LER is also being picked up nationally. The neighborhood council has already held presentations at, among others, the Association of Dutch Municipalities (VNG) and the Netherlands Environmental Assessment Agency (PBL).
+
+'The LER can develop into a fantastic tool for sustainable housing construction in the existing city,' says Bart Rijken, researcher in sustainable urbanization at the PBL. 'It makes information transparent in a visually attractive way for people who do not have the time or desire to collect and combine the necessary data themselves. You can see at a glance where it would be a problem according to the existing standards, and where it wouldn't be.'
+
+According to Rijken, the LER is rather one-sidedly focused on the neighborhood. 'A city is more than the sum of individual neighborhoods. Of course, this can become a problem with additional housing construction, for example with the agreed green areas. But Bezuidenhout does border the Malieveld and the Haagse Bos. Moreover, housing within the city spares the existing greenery outside the city. That's worth something too. In such cases, current standards may need to be overhauled, rather than the construction plans.'
+Nimby behavior
+Rijken warns users against a pitfall: 'If the municipality is only asked to strictly enforce existing standards, you will not get any further than the well-known Nimby behavior - not in my backyard.' All in all, he believes that Bezuidenhout draws attention to potential bottlenecks in a 'progressive and innovative way'.
+
+That is exactly what they aim for in the neighborhood. "We have no opinion about quality of life and we are not against new construction," emphasizes Jonneke Thijssen, who heads the LER working group of the neighborhood council. 'The LER is a means of communication, nothing more and nothing less. The tool is accessible to everyone via our site. Civil servants, politicians, project developers and local residents therefore have access to the same information. We only show factual information and make it clear how the municipality stands with regard to the agreements that have been made with us as citizens. We want to discuss problems before residential towers and apartments are built, not afterwards.'
+
+With the LER, Bezuidenhout is ahead of the Environmental Act. From 2021, this new law will bundle dozens of existing laws and hundreds of rules regarding infrastructure, buildings, cultural heritage, water, air, soil and nature. 'There is already an environmental impact assessment, the EIA, but no liveability impact assessment yet,' says Thijssen. 'That's why we started working ourselves.'
+
+If it is up to the district council, the LER will become available for other districts in The Hague and in other municipalities. The underlying software was built on behalf of Bezuidenhout by the StrateGis Group, a software company in Amersfoort that makes digital tools for 'managing' information from spatial projects such as real estate and area development.
+
+'Our monitor can therefore be adopted by other districts and municipalities,' says Jacob Snijders. 'I'd love to, even. One of the experts to whom we showed the LER gave a nice compliment: you are democratizing the information. That's exactly what it's all about.'
+Trees
+This 3D visualization shows how many trees there are per inhabitant. The yellow blocks are the new construction.
+Noise
+Image of which streets in Bezuidenhout have (or will experience) the most noise pollution after new construction.
+Parking pressure
+In red, the visualization shows where parking pressure in Bezuidenhout is highest. The crowds in the middle are not too bad.
+The district council hopes that neighborhoods elsewhere in the Netherlands will also use the software
+
+View the original page: page 19
+
+Graphic
+
+ 
+Jacob Snijders and Erik Bolks (right) from the neighborhood council walk around Bezuidenhout.
+
+Load Date: September 19, 2018
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

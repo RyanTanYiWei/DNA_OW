@@ -1,0 +1,30 @@
+Translated(src=nl, dest=en, text=Environmental law postponed again
+NRC.nl
+February 1, 2022 6:23 PM GMT
+
+
+Copyright 2022 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 514 words
+Byline: Jos Verlaan
+Highlight: For the third time in two years, the Environmental Act, which regulates all legislation regarding spatial planning and environmental permits, has been postponed.
+Body
+
+
+The introduction of the Environmental Act has been postponed again. This environmental law must regulate all legislation in the field of spatial planning and environmental permits.
+Minister Hugo de Jonge (Public Housing and Spatial Planning, CDA) announced the postponement in letters to the Senate and House of Representatives on Tuesday. The Environmental Act is therefore postponed for the third time in two years. According to De Jonge, introduction as of July this year is irresponsible because in practice, services to citizens and businesses could be jeopardized.
+Prestigious law Announced in 2014
+ The Environmental Act must become a radical simplification of laws and regulations, a revolution in spatial planning, even the largest constitutional revision since 1848.
+ When it was announced in 2014, the Rutte II Cabinet was still hopeful and ambitious: zoning plans, permits for an event or renovation, rules on tree felling and noise pollution: a whole tangle of rules would be brought together in one law that could be understood by every citizen. . But merging thousands of articles of law is disappointing in practice.
+De Jonge thus deviates from the policy of his predecessor, then minister Kajsa Ollongren (Home Affairs, D66). Until just before her departure from the ministry, last December, she insisted on rapid implementation, despite the risks of chaos and yet another ICT drama. Originally, De Jonge also seemed to want a quick introduction, as his internal staff said after the first introductory meetings with the new minister. But after follow-up consultations with representatives of municipalities and provinces (VNG and IPO) and the software suppliers involved, he has now decided to postpone.
+Also read: The Environmental Act is a potential stumbling block for Minister De Jonge
+Digital database
+On Monday, those software suppliers informed De Jonge that the digital processes for implementing the law are still far from in order. The biggest stumbling block is the national digital database. Thousands of legal articles and ministerial regulations have been combined in the new law. To make this possible, local rules and zoning plans must be linked to the national database, the so-called DSO. In practice - municipalities and provinces have been testing the new system for more than a year - the software of the various systems appears to be unable to communicate sufficiently with each other. The database that must support everything has become a fragmentary repository of information, as was previously mentioned in consultation documents between municipalities and the ministry.
+De Jonge confirms in his letter to both Houses that the digital systems are not yet in order: “More time is needed to practice properly. This is currently not possible with all systems.”
+De Jonge does not specify when the law can be introduced: immediately after the summer in October, or only in January next year. The House of Representatives has already approved the new law. The Senate will only agree if it is clear that the law is sound in practice.
+
+Load Date: February 1, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

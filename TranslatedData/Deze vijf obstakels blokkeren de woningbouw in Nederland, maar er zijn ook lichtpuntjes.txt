@@ -1,0 +1,44 @@
+Translated(src=nl, dest=en, text=These five obstacles block housing construction in the Netherlands, but there are also bright spots
+De Volkskrant.nl
+November 4, 2022 Friday 02:03 PM GMT
+
+
+Copyright 2022 DPG Media B.V. All Rights Reserved
+
+
+Length: 971 words
+Byline: Marc van den Eerenbeemt, Kirsten Hannema
+Body
+
+
+  Housing construction suffered a new blow this week with the nitrogen ruling of the Council of State. What are the obstacles? And are there any bright spots?
+Builders, municipalities and clients have been involved in feverish discussions for months about the progress of upcoming housing projects. The construction of more than 25,000 homes is in doubt, according to research by the trade magazine Cobouw at the end of September. Due to the nitrogen ruling by the Council of State last Wednesday, hundreds more construction projects will come to a standstill, the construction sector warns.
+That is a blow to Minister Hugo de Jonge of Housing and Spatial Planning. His most important assignment: build 900,000 new homes by 2030. This should dampen derailed house prices and alleviate the housing shortage.
+It is difficult to determine which projects are being postponed and why. The developers and architects with whom De Volkskrant spoke do not want to name projects, for fear that construction partners will withdraw. From their responses it can be concluded what the most important obstacles are to housing production.
+Obstacle 1: nitrogen crisis
+When the Council of State overturned the government's nitrogen and nature policy three years ago, the construction exemption was devised; Last Wednesday, that 'rule' was thrown out by the judge. There will not be a total construction stop; The possible consequences for nitrogen emissions must now be calculated for each project. This will lead to even more delays.
+Bright spot 1: more conversions
+Many opportunities in creating homes remain underutilized, experts say. Existing homes can be better utilized, for example by making it easier to divide houses or by no longer punishing cohabitation with a reduction in pension or benefits. More empty business premises could also be converted into homes, for which a nitrogen permit is probably not required. According to Statistics Netherlands, only 9,500 homes were converted last year, the lowest number in seven years.
+Obstacle 2: Labor shortage
+The current housing crisis partly stems from the economic crisis that started in 2008 with the collapse of banks that sold 'junk mortgages', dragging the real estate market along with them. Construction companies went bankrupt, almost half of architects lost their jobs and many construction workers were retrained. The consequences are still palpable in the shortage of housing and construction personnel.
+Bright spot 2: industrial construction
+A number of large construction companies see a possible solution in industrial construction. Delivering houses in ready-made pieces saves labor and time. However, setting up such a production line requires a significant investment.
+Obstacle 3: more expensive building materials
+Construction was able to continue during the corona pandemic, but the lockdowns in China, among other things, led to shortages of building materials. Costs also rose sharply. The war in Ukraine caused energy prices to skyrocket, causing material prices to rise further; those for steel and aluminum have doubled compared to last year. Developers therefore no longer dare to quote a fixed construction price, causing negotiations on new projects to fail.
+Construction contracts are currently being shifted back and forth furiously. “We are now renegotiating with the municipality about land prices,” says a developer. A municipal official still sees room for improvement in the margins of a construction company. Sometimes developers ask municipalities for a reduction in the mandatory percentage of social housing in a project. With more owner-occupied homes they would be able to complete the project, says an architect. “At least, that's what they say.”
+Bright spot 3: sustainable demolition
+“This is a golden opportunity to stimulate sustainable projects,” says architect Robert Winkel, who is developing a wooden residential tower with medium-priced rental apartments in Rotterdam. Fortunately, the wood had already been purchased last year. Another possible advantage: 'sustainable demolition', in which materials are dismantled and sold, is becoming increasingly worthwhile.
+Obstacle 4: rising interest rates
+The extremely low interest rates of recent years were intended to help the economy through the financial and corona crisis. As a result, and the decline in housing construction, the housing market quickly went crazy. Now that mortgage interest rates are rising, just like energy prices, home buyers are putting on the brakes again. Some people cancel the planned purchase of a new-build home for fear of not selling their current home or for too low an amount. This makes developers, who are also affected by the increased interest rates, wary of new projects.
+Bright spot 4: counter-cyclical construction
+Now that housing associations have more financial scope, they can do what they had to refrain from doing in the previous crisis: build counter-cyclically; against the economic climate. This may also be possible at lower costs. This means that housing construction will still continue.
+Obstacle 5: faltering government
+The Netherlands has long been praised for its spatial planning and social housing. Now both politicians and civil servants are struggling with the complexity of construction tasks, from housing and infrastructure to new energy supplies.
+A new Environmental Act should facilitate construction procedures and participation. But the introduction continues to be postponed. The implementation turns out to be – ironically – too complicated. A developer also complains about a shortage of civil servants. “They just don't have the people to review all the permit applications.”
+Bright spot 5: own ministry
+With the return of a Ministry of Housing and Spatial Planning, the government is taking steps towards more unity and urgency in housing policy. A total of almost 11 billion euros has been made available to accelerate housing construction, with an emphasis on affordable homes.
+
+Load Date: November 4, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

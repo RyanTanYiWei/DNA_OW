@@ -1,0 +1,35 @@
+Translated(src=nl, dest=en, text='Investments in the power grid are still insufficient to eliminate scarcity'; Minister Jetten for Climate and Energy:
+De Telegraaf.nl
+February 8, 2022 Tuesday 8:54 PM GMT
+
+
+Copyright 2022 Mediahuis Nederland BV All Rights Reserved
+
+
+Section: DFT; DFT/NEWS; FRONT PAGE
+Length: 464 words
+Byline: DFT Editorial
+Dateline: Amsterdam
+Body
+
+
+Despite billions of investments by companies in expanding the electricity grid, capacity will remain scarce in the coming years.
+Companies and consumers often offer more stored solar and wind energy. New connections to the energy grid have been stopped for companies in many regions due to an overcrowded network.
+Despite all the new investments, Minister Jetten for Climate and Energy states that he has 'no illusion' that he can 'remove the scarcity of network capacity at the push of a button'.
+He expects that regional managers with lower authorities will do a lot more, 'partly because management options are limited', the D66 minister writes to the House of Representatives about his own options.
+Extra support
+The regional network operators are investing billions to expand their networks. The three largest companies require equity of at least €4 to €5 billion, which they expect to achieve at least until 2030.
+Network operator Stedin, which mainly works in the Randstad, must strengthen its equity this year in order to expand. Jetten says he is investigating whether he, in addition to Stedin shareholders such as municipalities and provinces, can 'contribute to this capital need'.
+The current Environmental Act gives Jetten room to accelerate procedures, permits still take six to eight years before a new network can be constructed. However, he does not expect 'any acceleration' from new legal procedures.
+Extensions
+He helps TenneT to expand in North Brabant. Several hundred kilometers of above-ground high-voltage cables are being laid in the Kop van Noord-Holland.
+Jetten also sees 'significant relief' coming from the so-called rush-hour lane used on the energy grid, for extra input, which sometimes results in up to 30% extra capacity.
+Residential areas want large 'neighborhood batteries' for temporary storage of their energy from wind and sun. But research agency CE Delft notes that such neighborhood batteries "will not yet be profitable" until 2030, mainly due to the higher costs.
+Jetten also states in his letter to Parliament that he sees 'no room' to give some companies priority on the energy grid. In the Netherlands, whoever registers first will be connected first by grid operators. Suddenly giving someone priority would be discrimination and would be stopped by Brussels, according to Jetten.
+Blockage use
+The minister does, however, want grid operators to cancel applications for network capacity from companies in the new Energy Act if they do not use it. If they are given access by a network operator, but it is certain that they will not receive an environmental permit or will not use it at all, then this is "undesirable, especially in times of scarcity," according to Jetten.
+
+Load Date: February 8, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

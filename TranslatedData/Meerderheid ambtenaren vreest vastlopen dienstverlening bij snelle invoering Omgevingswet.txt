@@ -1,0 +1,37 @@
+Translated(src=nl, dest=en, text=Majority of civil servants fear service disruptions if the Environmental Act is introduced quickly
+de Volkskrant
+September 28, 2022 Wednesday
+
+
+Copyright 2022 DPG Media B.V. All Rights Reserved
+
+
+Section: First; Page 12
+Length: 432 words
+Byline: HESSEL VON PIEKARTZ
+Highlight: Seven in ten civil servants responsible for introducing the Environment Act believe its introduction on January 1, 2023 is too early. This is evident from a poll by I&O research commissioned by civil servants magazine Domestic Governance.
+Body
+
+
+The concerned officials fear, among other things, that municipal services will partly come to a standstill if the law does come into effect on the planned date. Some are even afraid of 'chaos'. The construction of homes, among other things, may be significantly delayed. Only one in six civil servants interviewed is still strongly in favor of the introduction date, the rest have not yet been decided.
+
+This means that the Environmental Act, which has long been criticized, is once again under fire. Its introduction must be 'the largest legislative operation since the Second World War'. The law bundles 26 existing laws regarding spatial planning and will therefore determine how scarce space in the Netherlands will be distributed.
+
+The government wants to use the law to, among other things, relax the licensing procedure. Citizens currently have to deal with dozens of counters and rules, but soon they will be able to go to one digital counter. The idea is that companies and citizens can build faster and that the government saves money.
+
+The intention sounds good, but in practice the introduction of the new law will mainly lead to many new problems. The ICT systems in particular do not appear to be ready in time for implementation. In recent months it has become apparent that the test versions of the counter do not always work properly. Several municipalities have already reported complaints about the system.
+
+At the beginning of June it even emerged that critical civil servants had been intimidated or suspended by the Ministry of the Interior. Whistleblowers told the Senate that they had to keep quiet about problems. In their own words, the officials had to, among other things, paint a rosier picture of the digital system.
+Enthusiasm
+Despite the criticism, responsible minister Hugo de Jonge (Public Housing) remained enthusiastic about the law. According to him, the Environmental Act is 'a blessing for humanity' and actually accelerates the construction of a large number of homes in the Netherlands.
+
+This summer, the Senate voted in favor of the implementation date of January 1, 2023. However, a majority of the Senate wants an additional investigation into the IT problems of the digital counter. The ICT Assessment Advisory Board will issue a decision in October. If there is insufficient improvement, the Senate can still pull the emergency brake.
+
+Postponing the implementation date would be a major setback for Minister De Jonge, who finally wants to push through the law after ten years of tug-of-war. Earlier this year he promised to adhere to the implementation date of January 1. “There will be no more postponement, no date for go or no go, this is what we are going to do,” he said.
+
+View the original page: page 12
+
+Load Date: September 27, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

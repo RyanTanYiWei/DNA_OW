@@ -1,0 +1,49 @@
+Translated(src=nl, dest=en, text=Municipality titatover formula
+The Telegraph
+February 27, 2020 Thursday
+Amsterdam
+
+
+Copyright 2020 De Telegraaf All Rights Reserved
+
+
+Section: REGION; Page 05
+Length: 1458 words
+Body
+
+
+Lawyer Alexandra Boot about leasehold in Amsterdam
+“A benchmark for land price increases, against which the reasonableness of ground rent increases can be measured, is completely lacking.” This is what lawyer Alexandra Jurgens-Boot says, who has specialized in leasehold, among other things, in recent years. The rates that the municipality of Amsterdam now charges, with the so-called neighborhood street quote, make living in the capital unaffordable.
+In recent decades, the leasehold system has proven to be a tool to guide municipal policy and land policy, says the lawyer from Boot Advocaten. According to her, the original reasons for leasehold are no longer contemporary. The municipality has other options and new instruments in the environmental law to maintain control over the environment.
+What is the purpose of leasehold?
+It was once invented to give farmers cheap land so that fields could be cultivated. It was never intended to be used in cities. That came much later. Then the system was artificially put together. Legally, many things have also been added to the rules. This has not made it any easier or any better. It is a closed system of property law. Much more attention needs to be paid to its reasonableness and fairness.
+Of course there are discussions about that too.
+There are rightly discussions about, among other things, the general leasehold conditions and therefore also about permission for zoning change and ground rent revision.
+What is unclear?
+When I look at my own work, you see that case law is still divided on how to look at the relationship between ground rent (the amount of the lease payment) and land value and to whom it should belong.
+Are we not doing well in Amsterdam?
+Suppose you compare a house with a car. In Amsterdam we calculate the value of a house residually and only the stones belong to the resident, the rest of the house price is the land value according to the municipality. It would mean that with a car only the tin, the shell of a car, matters. But my dealer says that the most important value can be attributed to the software installed in the car. It's the same with homes. It's about the impact and the content of the building. It's not always about location. It's about relevance and the use of a building. An annual net rental yield or an investment value should be much more decisive than, for example, a neighborhood street quote that is currently used in your land value calculation. Land value is a very fictional concept. Land in itself does not generate money. A building makes money; and its use. But then maintenance also needs to be done. However, the municipality does not enforce maintenance clauses, which means that industrial estates, among other things, are becoming neglected.
+How do you determine the value of a home and that of the land beneath it?
+There are no clearly defined legal rules for this. Now the building value, the street quote and the WOZ are included and from there a land value is determined. But all those parts can be discussed and all those parts can be challenged. If it is not prescribed how the system should be, you can make comments about each system. Because there are so many interests. As a developer, tenant and landowner. It is complicated to whom which part of the value belongs. Moreover, it is a public-private system. And therein lies the inequality. This must not conflict with reasonableness and fairness.
+Does the residual calculation method fall short?
+Go ahead and explain that residual calculation method. That is difficult and complicated. How do you distinguish between land, house and development value. And what do you base that on? For lawyers it is a lot of uncertainty. That is the only thing you can determine objectively. These are standards that you have to fulfill together. The final valuation must do justice to all parties involved. In my opinion, it is not doing that at the moment, because the municipality wants to make money. What is reasonable will have to be considered.
+What are we forgetting?
+In all our desire to regulate, we do not look at Brussels legislation. But it is crucial for all our actions here. What is described in leasehold conditions may conflict with European consumer law and therefore certain clauses may be unreasonably onerous and are therefore voidable. Leasehold conditions may also conflict with reasonableness and fairness. In addition, there may be state aid and/or conflict with procurement law.
+So as a resident, but also as a municipal council, you must look critically at the leasehold system. For example, people in Amsterdam now have the opportunity to buy off leasehold, that money flows back to the community, but who actually owns that money? The value of the land and the development of the land price do not correspond with the canon.
+Judges look at each individual legal element. So when you look at real estate, you cannot just look at the land transaction and land value and ignore European law at the same time. Because that is what the municipality of Amsterdam does.
+And, very important: there is a difference of balance in the power position. For Amsterdammers with their own home, it is a matter of swallowing or choking. They cannot negotiate the price, let alone explain to the municipality how the calculations were made. Because just to be clear: there is no expert in the Netherlands who determines how to determine leasehold rates, so it is extremely debatable. It just depends on what you want to agree on. And if you have no choice about what you want to agree on, like the Amsterdam homeowner, then I say again: it's just take it or leave it.
+Then there are leaseholders who do not like the fact that the municipality does not release how the neighborhood street quote is calculated.
+As far as I'm concerned, those residents are completely right. The municipality has a dominant position in determining leasehold rates. Transparency is part of this. And also following European rules. The way to determine the distribution of the land value and building value is very important. The municipality has a strict obligation to provide reasons in this regard.
+Is it time for Amsterdam residents to protest against purchasing a home?
+Buying out is not affordable for many people. Amsterdam is the only city in our country that still has a dated leasehold system. Then what are we doing? And then there are the significant inequalities in payments between residents in the South and residents in the South-East, for example. These are quite significant differences in amounts. People don't have money for that, do they? The only thing that is happening now is that owner-occupied homes in the capital are becoming unaffordable. Did the system help? Nowhere in the Netherlands do we have such a big problem with housing shortages as in Amsterdam. But Amsterdam stubbornly clings to the system. At a certain point, people or groups of people will take legal action against the municipality. It's difficult to explain it simply. Most importantly, there is no legal framework as a benchmark for land prices. Amsterdam has devised the neighborhood street quote for this, among other things. But from a European perspective this is questionable.
+I am sure that it will be an extremely interesting process to sort out the Amsterdam leasehold at European level. I dare say that Brussels law will put an end to the entire leasehold system. Because, to begin with, it is simply contrary to Article 1 of the so-called ECHR Treaty and, among other things, the principle of proportionality and the principle of equality.
+It is all fictional how the Amsterdam rates are structured. These are all estimates. You can have a discussion about every part. I can only conclude that the standards are lacking. The street quote also says nothing about living enjoyment and exploitation and then all kinds of mandatory insulation standards will soon be imposed on Amsterdam residents. What does that do to the value of a home? And to whom does that value belong?
+Should Amsterdam residents be able to buy their land?
+People in Amsterdam are not able to buy their land and that is contrary to European treaties.
+Shouldn't there be a supervisor? Leasehold is simply a financial product, isn't it?
+So far, no body has emerged that is willing to supervise leasehold. It has been regularly raised with the Netherlands Authority for the Financial Markets, but the bad thing about leasehold is that almost all of them are individual contracts. Where should you start?
+
+Load Date: February 26, 2020
+
+
+End of Document, pronunciation=None, extra_data="{'translat...")

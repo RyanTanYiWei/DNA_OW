@@ -1,0 +1,29 @@
+Translated(src=nl, dest=en, text=Minister De Jonge is postponing the introduction of the Environmental Act for six months
+NRC.nl
+October 14, 2022 3:14 PM GMT
+
+
+Copyright 2022 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 405 words
+Byline: Arjan Meesterburrie
+Highlight: The introduction of the Environmental Act will be postponed until July 1, 2023. After a critical advisory report, Minister Hugo de Jonge (Spatial Planning, CDA) wants to take more time to practice with ICT systems.
+Body
+
+
+The introduction of the Environmental Act will be postponed again by six months. Minister Hugo de Jonge (Public Housing and Spatial Planning, CDA) had long insisted on introduction as of January 1, 2023, but late on Friday afternoon in a letter to the Senate and House of Representatives he said he considered it irresponsible to stick to that date. This is already the fourth time that the introduction of the law, which was announced eight years ago, has been postponed.
+Prestigious law Announced in 2014
+ The Environmental Act must become a radical simplification of laws and regulations, a revolution in spatial planning, even the largest constitutional revision since 1848.
+ When it was announced in 2014, the Rutte II Cabinet was still hopeful and ambitious: zoning plans, permits for an event or renovation, rules on tree felling and noise pollution: a whole tangle of rules would be brought together in one law that could be understood by every citizen. . But merging thousands of articles of law is disappointing in practice.
+“We are taking an additional six months, which can be used for further testing and practice, and provide additional support for the competent authorities,” De Jonge writes. “This means that we have chosen July 1, 2023 as the effective date.”
+Also read: ICT advisory board warns: 'major social risks' when introducing Environmental Act
+The new postponement of the introduction comes after the ICT Assessment Advisory Board was published on Monday. It states that the digital system on which the Environmental Act is to operate, the Digital System of the Environmental Act (DSO), still has "significant limitations". That is why the Advisory Board warned of "social risks" if Minister De Jonge were to insist on introduction as of January 1 and possible delays in construction projects.
+Bundling existing laws and regulations
+The Environmental Act bundles 26 existing laws and more than a hundred rules and regulations in the field of spatial planning and is intended to make it easier to apply for and grant permits. The law was already passed in the House of Representatives in 2015 and by the Senate in 2016.
+De Jonge held on to introduction on January 1 for a long time, because he also sees major disadvantages in pushing the date back again. Postponement could be detrimental to municipalities and provinces that are sufficiently prepared and lead to additional costs of "several tens of millions".
+
+Load Date: October 15, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

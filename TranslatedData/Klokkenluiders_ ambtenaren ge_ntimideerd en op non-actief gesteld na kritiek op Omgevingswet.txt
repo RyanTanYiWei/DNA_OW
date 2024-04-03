@@ -1,0 +1,30 @@
+Translated(src=nl, dest=en, text=Whistleblowers: civil servants intimidated and suspended after criticism of the Environment Act
+De Volkskrant.nl
+June 9, 2022 Thursday 08:58 PM GMT
+
+
+Copyright 2022 DPG Media B.V. All Rights Reserved
+
+
+Length: 718 words
+Byline: Anna de Haas
+Body
+
+
+  Civil servants and other stakeholders critical of the Environmental Act or its introduction are said to have been intimidated or suspended by the Ministry of the Interior. Several whistleblowers reported this to the Senate.
+According to First Chamber Member Saskia Kluit of GroenLinks, the signals came in last Monday, prior to a debate on the law. The civil servants, external software suppliers and hired self-employed persons said they were put under pressure to portray developments surrounding the Environmental Act and the Digital System Environmental Act (DSO) in a more rosy way than they actually were. They had to keep criticism to themselves.
+Following the whistleblowers, the trade magazine Domestic Administration spoke with the officials involved. They state that the Ministry of the Interior was actively covering up disappointing reports about the introduction of the Environmental Act. One of the civil servants was asked whether he was good at lying, prior to a presentation before a parliamentary committee. “I had to tell them that everything was going well,” he tells Domestic Administration. When he refused, the presentation was transferred to another organization.
+In a response to the Ministry of the Interior, the Ministry of the Interior informed that a conversation has now taken place between Kluit and Secretary General Maarten Schurink about 'signals of non-professional escalation towards people who criticize the progress or content of the Environment Act'. Schurink states that a discussion will take place at his ministry about 'the limits of ethical escalation behavior'.
+It is unclear how many people involved were intimidated or sent away by the ministry. Kluit states that she understands from the whistleblowers that others have also been put under pressure, but that they do not dare to come forward. The signals prompted Senator Peter Nicolaï of the Party for the Animals to open a reporting point. Officials who have been pressured not to report their concerns or have been forced to provide misleading information about the DSO's progress can report there.
+By a thread
+The Environmental Act must become an overarching law for spatial planning: 26 laws, 60 General Administrative Orders and 75 ministerial regulations are all combined in this one law. From converting a shed to a new data center or planting a forest: everything will soon be done via the digital counter of the Environmental Act. It is not without reason that Prime Minister Mark Rutte called this 'the largest legislative operation since the renewal of the Constitution' in 1848.
+The plan, which has been in the works for more than ten years, should come into effect on January 1, 2023. The Senate was initially scheduled to debate on June 21 with Minister Hugo de Jonge of Spatial Planning and then vote definitively a week later on the introduction of the long-awaited Environmental Act. But that vote has been postponed due to the problems surrounding the DSO, the ICT system in which all area information will soon be bundled.
+
+According to MP Kluit, dozens of municipalities have already reported concerns and the Council of State also warned earlier this year of major implementation problems. The parties involved have been saying for some time that crucial parts of the DSO are still not functioning and state that the technology behind the system is far too complex. Some even doubt whether the digital system will ever function properly.
+The Senate is therefore not confident that the digital system will be able to launch without any problems on January 1. Especially now that it is unclear how reliable the information that has been shared by the ministry so far about the introduction is. They want a new investigation into the IT system.
+The House's doubts endanger the promise and wish of Minister De Jonge. After the law was postponed four times, the minister promised that January 1 would be the date. “There will be no more postponement, no date for go or no go, this is what we are going to do,” said De Jonge. To give municipalities the necessary six months of preparation time, De Jonge wants to publish the law in the Staatsblad on July 1. Now that the vote has been postponed by the Senate, that deadline appears unattainable.
+
+Load Date: June 9, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

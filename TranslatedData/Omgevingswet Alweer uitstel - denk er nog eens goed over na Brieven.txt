@@ -1,0 +1,33 @@
+Translated(src=nl, dest=en, text=environmental code
+ Another postponement - think it over; Letters
+
+NRC
+February 7, 2022 Monday
+1st Edition
+
+
+Copyright 2022 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: OPINION; Page 17
+Length: 389 words
+Byline: J.H.A.M. Grijpink
+Body
+
+
+The new Environmental Act was supposed to come into effect on July 1, 2022, but the new Minister for Housing and Spatial Planning Hugo de Jonge (CDA) has postponed this again by at least three months. Under the new Environmental Act, the municipality will have control over all applications, decisions and permits in the field of the living environment in one digital environmental portal. Behind this counter there is a complex collaboration between hundreds of agencies at all levels of government. This is an ICT project of unprecedented scale, with enormous consequences and risks for society. The introduction has already been postponed many times and many are counting on further postponement. But is it just a matter of postponement, or is there more going on?
+We know from scientific research that major system changes often fail. In addition, lawyers warn that the Environmental Act is practically unenforceable. The Royal Notarial Professional Association states that it will soon be more difficult for home buyers to determine the legal limitations of a home or piece of land. The turbulent housing market does not want these kinds of additional problems.
+Developments surrounding the arrival of a mega data center in Zeewolde show a fourth category of risks with regard to our living environment: climate and environment. Despite all the criticism, the Zeewolde municipal council recently adjusted the zoning plan to make this data center possible. The Senate subsequently requested the government not to sell the required government land as long as the environmental effects are not clear. Due to the nature of the risks for the environment and climate, we cannot expect that these considerations can be properly made at municipal level. Our rapidly increasing climate concerns have made the basic principle of municipal control over integrated treatment of our living environment obsolete, especially now that in the new cabinet the responsibility for this has been divided among three ministers: Housing and Spatial Planning, Climate and Energy and Economic Affairs and Climate.
+This requires reconsideration of the Environmental Act and IT solutions. My advice: do not postpone again, but recalibrate and downsize, both the law and the IT required for it. Better half-turned than completely gone astray.
+J.H.A.M. Grijpink em. professor of information science (UU)
+Link to PDF
+
+Graphic
+
+ 
+Photo Eric Brinkhorst
+
+Load Date: February 6, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")
