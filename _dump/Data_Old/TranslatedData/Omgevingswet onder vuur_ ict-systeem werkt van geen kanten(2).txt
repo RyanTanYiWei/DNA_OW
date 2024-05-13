@@ -1,0 +1,34 @@
+Translated(src=nl, dest=en, text=Environmental law under fire: ICT system does not work at all
+De Volkskrant.nl
+February 11, 2022 Friday 07:18 PM GMT
+
+
+Copyright 2022 DPG Media B.V. All Rights Reserved
+
+
+Length: 738 words
+Byline: Mac van Dinther
+Body
+
+
+  The Environmental Act, the new spatial planning law, is under fire. Automation experts, design agencies and software suppliers are heavily critical of the Digital System for the Environment Act (DSO), the ICT system that forms the foundation for the law.
+According to the parties involved, crucial parts of the DSO are still not functioning and the technology behind the system is far too complex. Some even doubt whether the DSO will ever function properly. This would jeopardize the entire Environmental Act.
+The Environmental Act, which according to Prime Minister Mark Rutte is 'the largest legislative operation since the revision of the Constitution in 1848', must replace all existing regulations in the field of spatial planning. 26 laws, 60 general administrative measures and 75 ministerial regulations are combined in this one law. The law was already approved by the House of Representatives and Senate in 2015 and 2016. But due to problems with the DSO, the introduction has already been postponed four times, the last time until July 1 this year.
+Last week, the Minister of Housing and Spatial Planning, Hugo de Jonge, decided to postpone again. He mentioned October 1 this year or January 1, 2023 as possible new dates. But according to parties involved in the project, introduction as of October 1 is excluded. They doubt whether the date of January 1, 2023 is feasible.
+De Jonge came to his decision after urgent consultations with the suppliers of software that must connect municipalities and other authorities to the DSO. All area information must be bundled in this digital system, which has been worked on for more than seven years. This allows the submitter of a project to see what is going on somewhere at the touch of a button.
+But the DSO is still in the testing phase, says Bas Janssen of IAM4, supplier of planning and control software. 'Important parts are still being changed every day. It is impossible to develop against that.'
+Back to the drawing board
+The problems are mainly caused by the fact that the DSO has become much more complex than intended, says Hennie Genee of Cadac Group, which supplies planning software to municipalities. “In fact, the entire project should go back to the drawing board for simplification,” says Genee. 'But that will cause delays, and the ministry does not want that. People are afraid that the momentum for the law will then disappear.'
+According to Janssen of IAM4, the project has been plagued from the start by a lack of direction from the ministry. 'There were 35 teams working on it, all on their own island. That leads to unprecedented complexity and you continue to drag it behind you.'
+Serious doubts have also arisen about the DSO in the Senate. The senators sent a laundry list of 33 pages of questions to De Jonge at the end of January.
+The ministry recognizes that the DSO is still under construction. But project leader Arco Groothedde emphasizes that the system is running well enough to start. 'Will we encounter anything else? Certainly, but that is normal for such a large project. We're going to fix that.'
+It is an illusion to think that, says Lieuwe Koopmans of Tercera, market leader in planning software for municipalities and provinces. 'The ministry is putting on a good news show to the outside world. But they don't understand it. This system will never work. It is far too complex.' Koopmans calls nonsense that the DSO can be adjusted in a working manner, as the ministry suggests. “You're not going to drive a car that isn't finished yet, are you?”
+Then just call it off?
+If the minister is wise, he will cancel the entire project, says Jan Struiksma, emeritus professor of public administration, specialized in environmental law. Struiksma, who took part in an expert meeting organized by the Senate, predicts a 'drama' if the law, including the DSO, is introduced.
+According to Struiksma, there is a tribal battle going on behind the scenes between the agencies involved, such as the Land Registry and Rijkswaterstaat. According to him, nothing is left of the original idea that the new law will make everything simpler. 'It's going to be a maze. All kinds of emergency measures will have to be taken and you will face a flood of legal procedures. And the question remains whether it will ever work.'
+According to a 2021 report by KPMG, the introduction of the DSO will cost 1.3 to 1.9 billion euros. There is also substantive criticism of the law, which gives a lot of decision-making power to municipalities.
+
+Load Date: February 11, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

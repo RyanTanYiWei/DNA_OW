@@ -1,0 +1,29 @@
+Translated(src=nl, dest=en, text=The annual report of the Council of State appears to have been drawn up by a whistleblower who abandons the academic tone
+NRC.nl
+April 21, 2023 9:18 AM GMT
+
+
+Copyright 2023 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 648 words
+Byline: Folkert Jensma
+Highlight: Overloading and understaffing in government is a major risk. There is a danger of getting stuck, according to the annual report of the Council of State.
+Body
+
+
+Is the Netherlands in danger of getting stuck? Or has it actually already happened? The latest edition of the Council of State's annual report appears to have been drawn up by a whistleblower who has definitively abandoned the academic tone of previous vice presidents. In his annual report this week, Thom de Graaf outlines an overloaded and understaffed government that avoids painful choices, raises expectations too high and no longer acts adequately.
+He did this together with an equally concerned chairman of the Administrative Jurisdiction Division, Bart Jan van Ettekoven. “Sorry that I am completely exhausted by this,” said this highest administrative judge in his sketch of the implementation practice that has stalled here and there. Where penalty payments are piling up uselessly, governments are kept out of the wind by administrative judges in case of failing legislation, workloads are increasing and an "insanely large legislative complex" (the Environmental Act) will be introduced in one go despite pleas. Which, according to Van Ettekovens, will lead to "about five years of litigation" on all kinds of new legal questions.
+This has created a source of uncertainty and delays for years. Especially now that the Netherlands urgently needs to be reorganized for the energy transition, agricultural reform and housing demand. But the Cabinet has not yet given a satisfactory answer to the Department's request to please introduce the Environmental Act in phases.
+On the sidewalk
+And then Minister Hugo de Jonge (CDA, public housing) also surprised the judges at the Kneuterdijk with the Strengthening Public Housing Management Act. The Council of State appoints it as the first and only appeal judge, completely against the normal system of case law. With this law, the government wants to better coordinate and, above all, accelerate housing construction - including by reducing the legal process from two to one authority. But the Administrative Jurisdiction Division will receive all appeals from all over the Netherlands and must then deal with them within six months.
+Van Ettekoven calls this “unrealistic”, a source of “major concerns” and a form of “interference with the rule of law”. After all, in that short period the Department (with 50 vacancies for 300 lawyers) cannot have an expert investigation carried out and 'interim rulings' are impossible. As well as offering a 'loop' to the objecting citizen or government body to remedy something in the meantime.
+So that's going to get stuck. Actually, that's already happening. The Department's average lead time increased slightly to 26 weeks. But in larger, more complicated cases, the Division now regularly takes more than a year to reach a decision.
+Compensate
+This makes the Department an exact example in-house of the trend to which De Graaf devotes his entire annual review: public administration is in dire straits or has brought itself into dire straits. Partly due to incidental crises such as housing construction, nitrogen, asylum, Groningen, recovery allowances. But also due to a lack of capacity and civil discontent. Add to this the usual Hague ills of compartmentalization, overconfidence and political pressure to compensate for every setback among citizens, and the result is gloomy. For his central advice, De Graaf goes back to the statesman Willem Drees Sr. (1886-1988): not everything is possible and certainly not everything at the same time. The government must really start prioritizing, tempering expectations, monitoring coherence in policy and implementation and not closing everything down or locking it in with agreements. But above all, I also want to learn by listening carefully to performers and judges. To this end, those in the Department have agreed on a fixed subheading in their judgments: 'Feedback to the legislature'. In the hope that the message will reach the towers in The Hague.
+Also read this article: Finally support in the Environmental Act in the Senate
+
+Load Date: April 21, 2023
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

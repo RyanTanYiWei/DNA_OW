@@ -1,0 +1,26 @@
+Translated(src=nl, dest=en, text=Plants provide light in the park
+The Telegraph
+November 19, 2019 Tuesday
+Rotterdam
+
+
+Copyright 2019 De Telegraaf All Rights Reserved
+
+
+Section: REGION; Page 14
+Length: 271 words
+Body
+
+
+Produce electricity yourself
+From our Rotterdam
+editorial
+Rotterdam - Rotterdam is the first city in the world to have a park with interactive lighting powered by plant current. Alderman Bert Wijbenga (Outdoor Space) opened the 'Park of Tomorrow' yesterday. The piece of greenery is located on the Vlonderpad on the Reyeroord in the IJsselmonde district.
+Together with the company Plant-e and designer Ermi van Oers of Nova Innova, the municipality developed the interactive green strip, where electricity-producing plants respond to the presence of passers-by. “Small lights will twinkle on the plant stream as people pass by,” the municipality said.
+In the Reyeroord district, residents looked at the layout of the green area, from the type of planting to the benches. It is one of the innovative projects in the IJsselmond district. “In Reyeroord we have opted for an approach in which the wishes and dreams of residents are central. Here, major developments in the city are translated into the street. From energy transition, climate adaptation, poverty reduction to the introduction of the Environmental Act. “We really see Reyeroord as a model district of the future,” says Wijbenga.
+“Investing in innovation is important. We don't yet know whether plants can really be used as an energy supplier in the future, but we are definitely making a start with this project.” The lighting may not always work, the councilor emphasizes: “Nature cannot be rushed; If the bacterial growth does not cooperate or the weather is bad, the lights may not work. Monitoring is also part of this exploration.”
+
+Load Date: November 18, 2019
+
+
+End of Document, pronunciation=None, extra_data="{'translat...")

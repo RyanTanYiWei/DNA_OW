@@ -1,0 +1,44 @@
+Translated(src=nl, dest=en, text=The Ministry withheld major concerns about the introduction of the Environmental Act
+NRC Handelsblad
+April 2, 2020 Thursday
+1st Edition
+
+
+Copyright 2020 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: ECONOMY; Page 1
+Length: 559 words
+Byline: Rik Rutten
+
+Jos Verlaan
+Dateline: The Hague
+Body
+
+
+ABSTRACT
+           Internal Affairs legislation withheld an official cry for help regarding the Environmental Act. Now the ministry has opted for a postponement, "because of corona".
+COMPLETE TEXT:
+         Chaos in the systems, unattainable deadlines. The top of the Interior kept major concerns about the Environmental Act secret. It had been known internally for months that the planned introduction in 2021 was virtually impossible.
+On Wednesday evening, a few hours after NRC had reported on the internal concerns and had reported that the two main builders of the necessary software were pushing for a postponement, the ministry announced a postponement in a letter to the House of Representatives, saying "partly in view of [ ...] the coronavirus".
+According to the software developers, the new delay surrounding the Environmental Act - which decentralizes spatial planning in one fell swoop - was already inevitable. Crucial parts of the system are not yet available, testing the software will still take months.
+"I think we are so far into the danger zone that if we let it continue now, things will really not go well on January 1," said director Sander van der Merwe of main supplier Visma Roxit on Tuesday at a private video conference. Director Lieuwe Koopmans of Tercera, which must prepare the provinces for the Environmental Act, predicted "a failure, yet another ICT drama in the government".
+The top of the Ministry of the Interior cannot be surprised. After an internal inventory that the top officials had made - the contents of which are known to NRC - a warning was issued in December about chaos and fragmentation in decision-making. Due to internal opposition, the introduction and testing of the software would take longer, almost certainly resulting in a delay, possibly even of several years.
+According to the inventory, things are going wrong with national management. Government services such as Rijkswaterstaat and the Land Registry must cooperate when introducing the law. But the note contains terms such as "mutual misunderstanding" and "old pain". Participating organizations take "revenge" among themselves if they lose influence and "hope that someone else gets the blame" if things go wrong.
+If the introduction is to be successful, the conclusion after the inventory is made, "strong intervention" is necessary and parties must stop "fighting for territory".
+Decision moment
+The ministry did not share the findings with the Senate, which at that time still had to vote on the Environmental Act. "There is sufficient confidence that that date is feasible," Van Veldhoven said in the Senate in February. It agreed and approved.
+It is unlikely that the ministry would opt for a postponement on its own initiative, said Koopmans van Tercera, who therefore came forward himself. "I have been talking to those civil servants for years and hearing the minister in Parliament, but those civil servants are the boss. And they are certainly not going to tell the minister that her own ministry does not have its affairs in order."
+"More time is needed to make a good start together," says Visma Roxit director Van der Merwe. He proposes introducing the systems gradually.
+The coronavirus, an insider said before the letter to Parliament was published on Wednesday, could well become a "grateful excuse" to announce a postponement without losing face.
+Link to PDF
+
+Graphic
+
+ 
+Photo Koen van Weel / ANP
+
+Load Date: April 2, 2020
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

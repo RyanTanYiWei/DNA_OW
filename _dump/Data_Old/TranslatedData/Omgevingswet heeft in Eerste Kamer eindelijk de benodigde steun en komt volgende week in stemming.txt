@@ -1,0 +1,30 @@
+Translated(src=nl, dest=en, text=The environmental law finally has the necessary support in the Senate and will be voted on next week
+NRC.nl
+March 7, 2023 8:44 PM GMT
+
+
+Copyright 2023 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 627 words
+Byline: Jos Verlaan
+Highlight: Introduction of the Environmental Act should enable Hugo de Jonge to succeed with his housing program.
+Body
+
+
+Minister Hugo de Jonge (Housing, CDA) will be given the legal scope to get his public housing plans (900,000 homes in 2030) and nitrogen policy in order. On Tuesday, after three years of hesitation and five postponements, a majority in the Senate voted in favor of introducing the Environmental Act. More power in spatial planning policy, which is why De Jonge wants no more delay and to start working on the Environmental Act from January 2024.
+The Senate will finally vote on this next week, but the question is whether the new law will indeed give him that extra perseverance. The Environmental Act bundles all legislation in the field of spatial planning and environmental permits. Less bureaucracy and more efficient regulations were the ambition in 2016. The Achilles heel of the Environmental Act is a well-functioning national database in which all local and national rules, zoning plans and environmental projects are bundled, the so-called Digital System Environmental Act (DSO). De Jonge's ministry itself is responsible for this. But that national database is not getting off the ground. It is now one of the most expensive government IT projects (estimated cost of 2 billion euros), but software suppliers complain a lot about constantly changing program requirements.
+The Digital System Environmental Act is now one of the government's most expensive IT projects
+And where tests are conducted between government agencies and, for example, urban planning agencies, it is often not possible to match the software programs with each other.
+When he took office in 2021, De Jonge knew that he would have a headache file in his portfolio with the Environmental Act. But he doesn't want to delay anymore now. Commendable administrative decisiveness, said chairman Hanneke Willemstein of the Dutch Association for Councilors prior to the debate. “But if that decisiveness does not work in practice, there is a threat of a debacle such as the Benefits Affair or the financial settlement in Groningen.”
+Gaps and errors
+Major interest groups such as the Nature and Environment Foundation and Natuurmonumenten made it more explicit in their response. All those gaps and errors in the DSO's software cause hasty implementation, chaos and legal uncertainty, they argue. “The law itself has become so complex that it has become incomprehensible to citizens.”
+Also read: Minister was too rosy about the Environmental Act
+Remarkable criticism comes from chairman Bart Jan van Ettekoven of the Administrative Jurisdiction Division of the Council of State. He called this “concerns” in a written contribution to the debate. According to Van Ettekoven, concerns are mainly about the reliability of the DSO: “Citizens, governments and courts must be able to trust that the DSO provides a complete and correct representation. In addition, a user-friendly DSO must be in place at least six months before it comes into effect, which can be used by citizens seeking justice, the authorities involved and administrative judges.” And that is not the case now.
+The fear of yet another ICT debacle also played a clear role in the debate. It would be a self-driving Tesla, it was said. “But it will look like a manual version that barely passes the MOT.” Senator Theo Rietkerk (CDA) spoke about a multitude of policy officials who produce piles of visions and paper, without an overview of feasibility. Yet on Tuesday there seemed to be a majority that will vote in favor next week. According to De Jonge, nothing new. Because, according to him, the debate was not about that law at all, but about the implementation date.
+Correction 08-032023: the first name of Bart Jan van Ettekoven was not displayed correctly in an earlier version.
+
+Load Date: March 8, 2023
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

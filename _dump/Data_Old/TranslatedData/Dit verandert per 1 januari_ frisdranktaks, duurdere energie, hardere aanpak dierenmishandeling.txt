@@ -1,0 +1,43 @@
+Translated(src=nl, dest=en, text=This will change on January 1: soft drink tax, more expensive energy, tougher approach to animal abuse
+De Volkskrant.nl
+January 1, 2024 Monday 04:00 AM GMT
+
+
+Copyright 2024 DPG Media B.V. All Rights Reserved
+
+
+Length: 943 words
+Byline: Niels Waarlo
+Body
+
+
+This year also starts with a pile of new measures and changes in the wallet. A few important ones at a glance: from the soft drink tax to the ban on disposable cups in offices and canteens.
+Energy bill up, price ceiling no longer necessary
+To make the use of natural gas less attractive, the tax on natural gas will increase and that on electricity will decrease. In addition, grid management costs are increasing due to investments to prevent the power grid from becoming clogged. An average household pays roughly 11 euros more per month. A gas-free household actually has a lower energy bill.
+In addition, the price ceiling will no longer apply, but that does not seem to make much difference. The vast majority of Dutch households currently spend less than the maximum price for electricity and gas set by the government.
+Drink tea, not soda
+In an attempt to get Dutch people to drink less unhealthy cola, the government is increasing the tax on soft drinks to more than 26 cents per liter. Now this is still 9 cents. This also applies to lemonades, non-alcoholic beer, vegetable juices and fruit juices. Where animal dairy is exempt, alternatives such as oat milk will be subject to the tax increase. Protests from producers and a petition (signed more than 50,000 times) have so far been to no avail.
+Fixed minimum wage for everyone
+Until now, there were separate minimum daily, weekly and monthly wages, but now there is one minimum hourly wage for everyone. This prevents minimum wage earners who work 40 hours from earning less per hour than people with a 36-hour working week. This has been the case until now.
+Just like every six months, the statutory minimum wage increases. This concerns an increase of 3.75 percent, to 13.27 euros gross, for employees aged 21 and older. Benefits such as the AOW, Sickness Benefits Act and WIA, which are linked to the minimum wage, will also increase. For example, the AOW benefit will increase from 1,378.98 to 1,459.53 euros net.
+Take disposable cups out of the office
+Single-use plastic packaging is no longer permitted for on-site consumption. This also applies to paper coffee and tea cups with a thin layer of plastic. Offices, sports canteens, zoos and catering establishments must find alternatives to the containers and cups en masse.
+Officially there is one exception: disposable PET cups. This type of plastic is relatively easy to recycle. The condition is that the organization collects at least three quarters for recycling. Following parliamentary motions, an exception has been added in practice: if an organization continues to use cardboard coffee cups with plastic but collects three-quarters of them for recycling, the inspectorate will tolerate this for the time being.
+What is still allowed is to provide disposable containers and cups with plastic for a takeaway meal or coffee-to-go. Since last summer, entrepreneurs have had to charge a levy for this, although the cabinet has decided not to enforce this anymore.
+More double surnames
+Children may receive the surname of both parents. Until now, parents had to choose. This is the largest system change since 1998, when children could be given their mother's surname for the first time.
+Obviously, the length of surnames is not intended to increase quadratically with generation. Parents who already have a compound surname must split it again if they both want to pass it on. If dad is called Willems Bakker and mom is called Bosch de Jong, then they can, for example, name their child Bakker de Jong.
+Interest on student debt multiplies
+Despite the anger of student union LSVb and protests in the House of Representatives, interest on student debt is rising sharply. It goes from 0.46 to 2.56 percent, with a repayment period of 35 years. The interest on student debt is simply linked to the interest that the government itself pays on loans, according to the government.
+With an average debt of 17 thousand euros, this amounts to 350 euros in interest per year. The interest rate is determined individually for a period of five years. Anyone who did this two years ago, for example, will not have to deal with the interest rate increase for a while.
+The idea is that people with student debt will be able to get a higher mortgage from 2024 if they pay off faster. Until now, banks looked at the total student debt, from now on they will only take into account the monthly costs associated with repaying the student debt. Making additional repayments therefore means being able to borrow more for a mortgage, because the monthly amount for the student debt then decreases.
+Environmental law feared by civil servants comes into effect
+Dozens of different laws and hundreds of regulations on nature, the environment, building and housing have been combined into one Environmental Act. Sounds like a simplification, and that is the intention. Anyone who wants to build a dormer window or shed should be able to obtain a permit within eight weeks, instead of 26.
+But the law has been repeatedly postponed because implementation proved to be very complex for local authorities. It is quite a job to digitally bring together the large amounts of data from different systems, from data on soil quality to zoning plans. Provinces and municipalities still fear that the system does not work properly and will actually lead to delays.
+Tougher approach to animal abuse
+Abuse or neglect of animals carries a maximum penalty of five years in prison, instead of three. This is part of a package of measures to tackle animal abuse more forcefully. For example, suspects can be banned from keeping animals for a longer period of time, in the most serious cases for life. Moreover, the judge can more easily close companies if they treat animals poorly.
+
+Load Date: December 31, 2023
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

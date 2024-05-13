@@ -1,0 +1,36 @@
+Translated(src=nl, dest=en, text=Land Registry: fewer mandatory land expropriations
+De Telegraaf.nl
+April 19, 2022 Tuesday 4:00 AM GMT
+
+
+Copyright 2022 Mediahuis Nederland BV All Rights Reserved
+
+
+Section: DFT; DFT/NEWS
+Length: 377 words
+Byline: Gert van Harskamp
+Dateline: Amsterdam
+Body
+
+
+Although there is great fear among farmers that the government will implement mandatory expropriation to reduce nitrogen, mandatory purchase by the municipality, national government or province rarely occurs in the Netherlands.
+This is evident from research by the Land Registry into expropriation over the past 27 years, between January 1, 1995 and September 30, 2021. The number of expropriations has even decreased over the years.
+Of all landowners, 89%, or 18,120, transferred their land in good consultation. Forced expropriation ultimately took place in 11%. In terms of area, 15,000 hectares (84%) were transferred in good consultation and 3,008 hectares (16%) through expropriation during the research period.
+Farmers
+This compulsory expropriation happens most often among farmers. More than 60% of the forcibly purchased hectares was agricultural land.
+The number of expropriations has fallen sharply since 1995. This is partly due to major expropriation projects in the period between 1995 and 2001 for the construction of the Betuwe Route and the High-Speed ​​Line South. For example, in 1998 there were 115 expropriations per Royal Decree, while last year there were less than twenty. However, the amount of expropriated surface area has remained stable.
+The two most common reasons for governments to acquire land are the construction of infrastructure and spatial development, especially housing. The State mainly expropriates land for infrastructure and nature compensation, while municipalities withdraw land for housing construction.
+environmental code
+There is currently a lot of buzz surrounding expropriation, because that law is being drastically changed. The current Expropriation Act will be incorporated into the Environmental Act and this will have major consequences for landowners who are expropriated. Where an expropriation is now done by Royal Decree, this will immediately be done by the administrative body, i.e. the municipal council, province, water board or the national government.
+In addition, there will be a strict separation between expropriation and compensation. The amount of compensation will be determined by the civil court.
+Moreover, the new Environmental Act has already been postponed several times. This was supposed to come into effect in July, but Minister Hugo de Jonge (Spatial Planning) reported in February that this was not feasible due to ICT problems.
+
+Graphic
+
+ 
+Image, More than 60% of the compulsory expropriated hectares is agricultural land., ANP/HH
+
+Load Date: April 19, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

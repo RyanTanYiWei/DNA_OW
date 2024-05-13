@@ -1,0 +1,36 @@
+Translated(src=nl, dest=en, text=The government's ICT incompetence can no longer continue like this
+NRC.nl
+October 9, 2023 12:21 PM GMT
+
+
+Copyright 2023 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 879 words
+Byline: Alexander Klöpping, Onno Eric Blom
+Highlight: The government's mismanagement in the field of ICT is causing a lot of misery, write Onno Eric Blom and Alexander Klöpping. ICT must become a crucial theme for politics.
+Body
+
+
+The Dutch government's IT infrastructure is like an old, dilapidated house. The wiring is broken and the pipes are leaking. It's drafty and it creaks. The foundations need to be renovated, but no one dares to touch them anymore for fear that everything will collapse. As a result, we continue to make expensive repairs, the system becomes increasingly unreliable, and new policies remain on the table.
+ Onno Eric Blom is a tech entrepreneur. He graduated in public administration from Leiden University College.
+ Alexander Klöpping is a media entrepreneur. He founded the Blendle platform.
+The consequences for our society are immense. For example, politicians have been asking for a fair box 3 tax for years, but the Tax Authorities have not been able to achieve this technically. “Speed ​​is required,” NRC previously wrote, “because doing nothing costs 400 million euros per year.”
+The same tax authorities are afraid that within a few years they will no longer be able to collect the most crucial taxes. That would mean losing a third of our annual tax revenue. Cost: the insane amount of.
+But the consequences of incompetence in the field of ICT go further than just the Tax Authorities. For example, the launch of the Environmental Act has been delayed for almost 10 years due to poor ICT management, while the budget has already been exceeded by 1.1 billion euros. The project surrounding the digitization of personal budgets, which was initially to be set up free of charge by health insurers, also cost almost 100 million and is five years overdue. At Defense, the Speer ICT project was so delayed that the total costs far exceeded one billion.
+Also read: Very old, vulnerable, inefficient: the sales tax system is creaking on all sides
+Side issue
+These problems are just the beginning of the misery that awaits us if we continue on our current course. For far too long, digital infrastructure has been treated as an afterthought by administrators. Executors are given a limited renovation budget, only to lose it in the meantime and see all the work disappear into the trash bin. ICT talent is also undervalued in the government, resulting in increasing staff shortages. Due to a lack of internal knowledge, it is not possible to write proper tenders, causing greedy private parties and consultancies to walk away with hundreds of millions of taxpayers' money. And if the decision is made to build something internally, policymakers hardly think about the technical implementation. Programmers are then confronted with unfeasible or extremely impractical plans, without being able to make any adjustments.
+ICT talent is undervalued by the government, causing staff to leave
+This cannot go on any longer. Politicians must see the digital functioning of the government as a crucial matter and radically change course before the ship sinks. ICT must be high on the agenda for the upcoming formation. We are already making a first step with a number of policy proposals, based on the best advice from committees, professors and top technical talent.
+First of all, politicians must seriously invest in ICT renovation. We must stop just sticking plasters on very old systems and take a real step towards modernization. That is why technical debt must be reduced to zero in ten years.
+To achieve this, there must be digital-first implementation bodies that can pick up projects if they have stalled with other implementers. Within these organizations, IT professionals must be able to build without the baggage of decades of outdated computer systems, processes and internal politics. By giving the cabinet the choice to, for example, place sales tax as a framed project with such an executor, we also prevent even more knowledge from leaking to private parties.
+In addition, we want to make it more attractive for technical talent to work for the public good, with a market-based scale system in which you can grow without having to become a manager. Furthermore, IT professionals must be involved in policymaking. This means that technical obstacles are identified early and adjustments can be made in time during the legislative process.
+Standardized
+Look at the country with the most digitalized government in the world: Estonia. There they set up the X-road system, which connects all government services in a safe, transparent and standardized manner. Due to the once-only principle, citizens and companies only have to share information with the government once and it is only stored in one place. This means that data can no longer 'float around' and citizens have control over who can view what data. These types of implementation principles are not only desperately needed, but will soon even be mandatory under European legislation. If we want to be able to comply with this on time, the government must take action quickly.
+Reprogramming the government is not just about saving money, retaining knowledge and increasing agility. It is also about renewed confidence in governance. That is why now is the time to break the digital standstill.
+
+Load Date: October 9, 2023
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

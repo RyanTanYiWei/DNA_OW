@@ -1,0 +1,31 @@
+Translated(src=nl, dest=en, text=The Ministry of the Interior suppressed criticism of the Environmental Act
+NRC.nl
+June 9, 2022 6:13 PM GMT
+
+
+Copyright 2022 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 586 words
+Byline: Jos Verlaan
+Highlight: Officials and other stakeholders have been put under pressure to paint a rosy picture of the Environmental Act. Whistleblowers have reported to the Senate.
+Body
+
+
+The top officials of the Ministry of the Interior have tried to suppress internal criticism of the introduction of the Environmental Act. Civil servants, hired self-employed people and external software suppliers were put under pressure to portray that the introduction was going well. Criticism is hushed up or must be kept private, including in communication with members of the Senate.
+Several whistleblowers have said this to members of the Senate. Before a debate on the law last Monday, senators received five reports from whistleblowers, confirms Senator Saskia Kluit (GroenLinks). “We receive signals from self-employed people at the ministry, software suppliers, but also from municipal officials who in practice have very different experiences than what we formally hear, but are not allowed to talk about them.”
+Secretary-General Maarten Schurink has announced that he wants to discuss "the limits of ethical escalation behavior" at his ministry, says his spokesperson. According to him, civil servants can also report signals of such behavior anonymously, if necessary via the internal whistleblower scheme. Schurink responds to questions about whistleblowers from the Senate.
+If more reports are received regarding the Environment Act, the Senate will be informed, according to the ministry spokesperson. The Senate has yet to make a final decision on the effective date of the Environmental Act.
+Also read: Environmental law postponed again
+Gigantic database
+The Environmental Act was devised twelve years ago to simplify spatial planning and related procedures and licensing. The law should lead to less regulation and offer more opportunities for citizens and companies to arrange permits themselves.
+To achieve this, local rules and zoning plans must be linked to a gigantic national database, the so-called DSO. And that's been going wrong for years. Because the government works with various software suppliers, which means that ICT systems are insufficiently coordinated and difficult to access. It is not possible to get that national database in order and thus introduce a well-functioning Environmental Act. That is why it is a difficult file for responsible minister Hugo de Jonge (Spatial Planning, CDA).
+“Are you good at lying?”
+There are plenty of signals that things are going wrong in practice. The trade magazine Domestic Governance writes this week about the culture at the ministry, where a "permanent good news show" is staged and reluctant civil servants are intimidated. “Are you good at lying?” a person involved was asked just before a presentation in the House of Representatives. "No? Then let's ask someone else to do the presentation.”
+Nevertheless, De Jonge stated in the Senate last week that it is responsible to introduce the law in January 2023. A majority in the Senate doubts this, including GroenLinks. Senator Kluit: “What the minister says is at odds with what we hear in practice.” De Jonge did not receive the green light on Tuesday to introduce the law in January. A debate on it planned for later this month was postponed until after the summer recess.
+Senator Peter Nicolaï (Party for the Animals) set up a hotline on Thursday for civil servants who feel they are victims of intimidation practices at the ministry or who had to provide misleading information about the Environment Act to the House.
+
+Load Date: June 9, 2022
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

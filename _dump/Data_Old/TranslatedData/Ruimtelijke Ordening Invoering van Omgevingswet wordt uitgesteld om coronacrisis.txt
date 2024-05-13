@@ -1,0 +1,23 @@
+Translated(src=nl, dest=en, text=Spatial Planning
+ Introduction of the Environmental Act is postponed due to the corona crisis
+NRC Handelsblad
+April 2, 2020 Thursday
+1st Edition
+
+
+Copyright 2020 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: IN THE NEWS; Page 2
+Length: 122 words
+Dateline: Amsterdam
+Body
+
+
+         The introduction of the Environmental Act is postponed. The Ministry of the Interior announced on Wednesday evening that the law - a drastic revision of all laws and regulations surrounding spatial planning - cannot come into effect on January 1, 2021. The reason given is that the postponement is necessary "partly in view of the changing reality as a result of the coronavirus". That postponement was already inevitable, say the two main software suppliers. The digital infrastructure is not ready, there is not enough time to develop software. An internal inventory of the ministry, the contents of which are known to NRC, attributes the problems to chaos, "mutual misunderstanding" and "old sores" in decision-making.
+Link to PDF
+
+Load Date: April 2, 2020
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")

@@ -1,0 +1,30 @@
+Translated(src=nl, dest=en, text=ICT watchdog cracks Environmental Act again
+NRC.nl
+November 13, 2020 8:48 PM GMT
+
+
+Copyright 2020 Mediahuis NRC B.V. All rights reserved
+
+
+Length: 585 words
+Byline: Rik Rutten
+Highlight: The critical report from ICT watchdog BIT is yet another setback for the Environment Act.
+Body
+
+
+It should have been a radical simplification of laws and regulations, a revolution in spatial planning, even the largest constitutional revision since 1848. But the problems for the Environmental Act continue to pile up. The situation is now so dire that the government must significantly adjust its ambitions to prevent a complete failure of the law. This is stated in new advice from the government's own IT watchdog, the ICT Toetsing Bureau (BIT).
+The BIT, which was established after previous government IT failures to investigate the feasibility and necessity of new projects and to prevent new blunders, does not shy away from hard conclusions in the report. The national base, on which all digital systems will soon have to run, will especially suffer. “Although more than 90 percent of the development budget has now been spent, there is still uncertainty about the practical workability and manageability,” the BIT writes about this so-called 'DSO-LV'.
+Contained in official jargon, extremely critical notes are also heard about the poor cooperation in the digitization operation and a lack of guidance from the ministry.
+Yet another setback
+It is yet another setback for the Environmental Act. In 2014, the Rutte II cabinet spoke about it hopefully and ambitiously. Zoning plans, a permit for an event or renovation, rules on tree felling and noise pollution: a whole tangle of rules would be brought together in one law that would be easy to understand for every citizen.
+But the merger of approximately 3,000 articles of law and 120 ministerial regulations quickly proved to be disappointing in practice. Software developers could barely handle the gigantic task. Municipalities struggled with their new responsibility: they must prepare everything locally to familiarize citizens with the new system.
+Councilors and developers about the introduction of the law in NRC, as did the National Ombudsman, that many citizens would soon get lost in a maze of digital forms and decision trees. In April, the Ministry of the Interior announced that it would postpone the introduction by a year, to 2022, officially due to the corona crisis. Shortly before, software developers had again expressed their doubts about the introduction, which showed that the problems surrounding the introduction had been known to the top of the ministry for months. The cooperation between different government services, the memo said, was plagued by "mutual misunderstanding" and "old sores".
+Advice: focus on the basics
+Even with a year's delay, according to the BIT, it is still questionable whether it will be possible to implement the law "in a timely and successful manner". The agency therefore advises to adjust the ambitions significantly and to focus only on the most basic components for the time being.
+It is a painful observation for the ministry: the BIT also conducted an investigation in 2017 and even then the agency's advice was to further elaborate the law. The ministry followed that advice, which removed many of the simplifications for citizens that the government had in mind in 2014. Even that stripped-down version is in danger of becoming too complex, the BIT now says.
+In a response to the House of Representatives on Friday, Minister Kajsa Ollongren (Home Affairs, D66) informed the House of Representatives that she remains confident in the successful introduction of the law. “As usual, the BIT clearly identifies where the risks are and makes recommendations. I accept these recommendations.”
+
+Load Date: November 14, 2020
+
+
+End of Document, pronunciation=[[]], extra_data="{'translat...")
