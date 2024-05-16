@@ -1,0 +1,31 @@
+Translated(src=nl, dest=en, text=One in three home fires starts in the chimney: how can you burn safely?
+AD/Algemeen Dagblad.nl
+March 10, 2024 Sunday 10:00 AM GMT
+
+
+Copyright 2024 DPG Media B.V. All Rights Reserved
+
+
+Length: 518 words
+Byline: Olger Koopman
+Body
+
+
+Horrible scenes in Putten and Nijbroek where two monumental farms burned to the ground. The cause was (probably) in the chimney, as is the case in one in three house fires. Jan Wittenberg - risk management advisor at the IJsselland fire brigade: "Unfortunately, knowledge and skills are still too often lacking."
+First of all: it is certainly not said that the fires in Putten and Putten were caused by poor combustion or maintenance. But in general, according to Wittenberg, there is still a world to be won among stove owners.
+Okay, fire away then: how can you burn safely?
+“It all starts with the right stove and the right installation. Have it done by a recognized company with a good reputation. Also be well informed before you make a purchase. For example, pay attention to whether the 'power' of the stove suits your space. If the heater is too large, it will quickly become too hot and you will have to mute it. And that causes smoke development."
+How bad is that, except for the neighbors?
+"Smoke means soot and soot adheres to the walls of the flue. There are often significant concentrations of unburned fuel particles, especially at the end of the flue. It's called creosote and it is quite flammable. We often see that a chimney fire starts there.”
+Great, you have a decent stove. And then?
+“Then ensure complete combustion when burning. Use the Swiss method when lighting the stove. You place the large blocks on the bottom and the small pieces of wood on top. The fire starter goes all the way on top.
+This way you get the most complete combustion. Always make sure you have good, dry wood. Too often we see that everything goes into the stove."
+What legal rules are there?
+"Rules for the construction of a stove and a flue are laid down in the Environmental Act. Things are different when it comes to use. It is very wise to have the chimney swept annually by a skilled sweeper, but this is not legally required."
+Insurers also place few requirements on their customers regarding use other than the presence of a spark arrestor, says Wouter Meijering - spokesperson at Univé. With the exception of owners of thatched houses and farmhouses, who must have their chimney swept annually. However, in the event of a fire you must always be able to demonstrate that you have had the chimney properly maintained.
+Do you do nothing else at all?
+,,Certainly! For new customers, an inspection with camera and drone is carried out as standard after taking out home insurance. Very necessary, because in twenty percent of cases this leads to a temporary ban on burning. And in half of the other cases, providing targeted advice is necessary."
+About seven years ago you came to Putten, does it still exist?
+"Not mandatory, but insured people with a thatched roof or farmhouse can take an online heating course at Univé Dichtbij. If they successfully complete this, they will not only receive a heating certificate, but also a reward of fifty euros."
+
+Load Date: April 30, 2024, pronunciation=[[]], extra_data="{'translat...")

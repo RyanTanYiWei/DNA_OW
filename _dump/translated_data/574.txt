@@ -1,0 +1,41 @@
+Translated(src=nl, dest=en, text=Where do we start with the Environmental Act?
+NRC
+January 2, 2024 Tuesday
+1st Edition
+
+
+Copyright 2024 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: OPINION; Page 18
+Length: 1036 words
+Byline: Martin Hendriksma
+Body
+
+
+ABSTRACT
+For the time being, do not expect any positive effect from the Environmental Act, which finally came into effect on January 1 after years of delay, writes Martin Hendriksma.
+COMPLETE TEXT:
+The government is investing almost three billion euros in the Environmental Act. The law is intended to speed up spatial planning procedures in the Netherlands, but for the time being the opposite seems to be happening.
+On January 1, the Environmental Act finally came into effect after five postponements. Twenty-six separate laws on protecting and utilizing the physical environment will be bundled from 2024. This should accelerate decision-making on new initiatives, ranging from the construction of a residential area to the installation of solar panels on your house. The only question is when the Environmental Act will have that effect. Even proponents of the law are more likely to expect delays in the coming years. The fear is becoming increasingly louder that less vocal citizens are being put at a disadvantage by the law. The implementation costs of the Environmental Act are now estimated at 2.7 billion euros. What are we getting into?
+The idea of ​​the Environmental Act emerged at the beginning of this century, as the answer to the compartmentalized decision-making of governments. Anyone who wanted to start an initiative had to go to a dozen counters. That didn't work out. Under the Environmental Act, the national government, provinces, municipalities and water boards will work together as one government. Motto: 'Simply better'. The say of local residents is also changing. From now on, the initiator must take care of the participation himself. And not only when all decision-making has been made, but from the first serious idea. Where necessary, the plans can be adjusted in a timely manner.
+An important advantage of the law is the more flexible rules. Social tasks such as housing construction, water storage and the energy transition place great pressure on our scarce square meters. A province such as Gelderland calculated that it needs one and a half times its own land area to realize all its spatial ambitions. That ground is not there. The Environmental Act makes it easier to combine various tasks. In 2017, a Groningen provincial official proudly guided me through the Eems Delta, where experiments had already been carried out with the rules of the Environmental Act. Controversial plans by local industry were thwarted by nature organizations. Until the higher emissions from companies could be compensated with the construction of a bird island. Company happy, seagulls happy.
+The crucial facilitator of the Environmental Act is the digital system. The idea is that you and I can arrange our new shed with just a few pushes of a button from behind our laptop. To achieve this, the licensing rules of the four governments have been combined in this system. A series of questions should lead citizens to a clear answer and relieve overcrowded municipalities. Well, not so.
+It is usually not a match made in heaven, the government and ICT. This also applies to the Digital System of the Environmental Act (DSO). The connection of the municipal software to the basic government provision was particularly difficult. It was the main reason that the Environmental Act had to be postponed five times.
+It is difficult to assess whether this vulnerable system is ready for use. In the summer of 2022, on behalf of the Ministry of the Interior, I requested the minutes of the consultation between the software suppliers and the Ministry of the Interior, under which the Environment Act falls, invoking the Open Government Act (Woo). This resulted in a less positive image than the responsible minister Hugo de Jonge had presented. It is impossible to say what has been discussed in the consultations between the ministry and software companies since then. No minutes have been kept since that appeal to the Woo. Last month I put it to the test with four common requests, such as installing solar panels and that shed in the backyard. The conclusion for all four was: 'Contact your municipality.' That which was precisely not the intention.
+The Council of State was also critical of the Environmental Act last summer. Chairman of the Administrative Jurisdiction Division Bart Jan van Ettekoven fears a "playground for the commercial legal profession". According to him, the rubber spatial rules and the new method of participation will raise "hundreds of new legal questions" until case law arises. In addition, the Scientific Council for Government Policy recently published the Grip report. According to the council, leaving participation to the initiator will lead to less vocal citizens being left behind. The Environmental Act thus reinforces the division in society. According to Minister De Jonge, municipalities can overcome this with a participation regulation, but not all municipalities already have one.
+And will it work that way soon? I spoke to two leading members of the VTH committee, which released an alarming report at the beginning of 2021 about the state of our licensing, supervision and enforcement system. Can the Environmental Act sufficiently restrict the polluting practices of companies such as Tata Steel and Chemours? Commission chairman Jozias van Aartsen and his right-hand man Winnie Sorgdrager fear the opposite. "Large polluters have free rein under the Environmental Act."
+It is becoming difficult to continue to see the benefits of the Environmental Act. Yes, in a crowded country, combining ambitions in one location is necessary - the Environmental Act certainly helps with that. But it won't be 'simply better' for a while. Research has shown that the payback period for municipal investments in the Environmental Act is up to 35 years. Lawsuits will prove to be a brake on necessary spatial development. And the question is whether municipalities can organize participation in such a way that all citizens feel heard, especially when they are faced with large private parties.
+The Environmental Act starts under a gloomy star.
+Would you like permission for a new shed in just a few clicks? That will be disappointing
+It is usually not a match made in heaven, the government and ICT
+Martin Hendriksma is a writer and editor on space and environment for Domestic Governance.
+Link to PDF
+
+Graphic
+
+ 
+The Environmental Act should accelerate decision-making on new initiatives, ranging from the construction of a residential area to the installation of solar panels.
+Photo Kees van de Veen
+
+Load Date: January 1, 2024, pronunciation=[[]], extra_data="{'translat...")

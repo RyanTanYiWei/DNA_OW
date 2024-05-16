@@ -1,0 +1,33 @@
+Translated(src=nl, dest=en, text=Mega law threatens to fail
+NRC.NEXT
+November 28, 2019 Thursday
+1st Edition
+
+
+Copyright 2019 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: COVER; Page 1
+Length: 478 words
+Byline: Rik Rutten
+
+Jos Verlaan
+Dateline: The Hague
+Body
+
+
+ABSTRACT
+           environmental code
+A year before the introduction of the Environmental Act, the problems continue to pile up.
+COMPLETE TEXT:
+         There are major concerns among municipalities, software suppliers and members of the Senate about the introduction of the Environmental Act, those involved tell NRC. From 2021, this law must replace, decentralize and digitize all legislation regarding spatial planning and the living environment. But the administrators and suppliers responsible for implementation have serious doubts about whether they can handle the job. The introduction may be postponed by the cabinet this week, sources report to NRC.
+In a month's time, municipalities must start testing the new legislation and the necessary ICT en masse. This will ultimately merge dozens of laws and more than a hundred ministerial regulations - from noise standards to catering rules to environmental legislation - into one law. Citizens should soon be able to arrange permits themselves, faster than is currently possible. The municipality is more at a distance. He only sets the rules and is given much more freedom in doing so.
+The law was initiated by the Rutte II cabinet, which also decentralized tasks such as labor participation, youth care and long-term care. When announcing the Environmental Act in 2014, Melanie Schultz van Haegen (VVD), then Minister of Infrastructure, spoke of "the largest legislative operation since the renewal of the Constitution in 1848".
+Promise of cost savings
+But municipalities that have already experimented with the new law fear that they will soon lack money, staff and knowledge to do their work properly. The responsible IT suppliers have serious doubts about whether they can deliver the software on time. And the National Ombudsman is counting on many complaints, because it is becoming unclear whether and when citizens can turn to the government with questions and conflicts.
+Previous decentralizations were accompanied by billions in budget cuts. Municipalities had to carry out their new tasks with less money, but would recoup this by being able to work extra efficiently, the government reasoned.
+With the same logic, the municipalities themselves pay a large part of the implementation of the Environmental Act. A number of directors already call the promised savings unlikely. Others expect to run out of time. At the end of 2018, the number of municipalities that feared that they would not be prepared in time with the existing efforts had risen to 31 percent. The percentage that did trust the introduction had fallen from 75 to 57 percent.
+On Friday, the cabinet will decide whether the introduction of the law can go ahead as planned or should be postponed, given the voting ratios in the Senate. The coalition no longer has a majority there since this year and a large number of parties want to force a postponement.
+Link to PDF
+
+Load Date: November 27, 2019, pronunciation=[[]], extra_data="{'translat...")

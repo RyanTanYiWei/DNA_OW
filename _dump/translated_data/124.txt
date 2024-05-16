@@ -1,0 +1,24 @@
+Translated(src=nl, dest=en, text=Duiven wants to allow significant noise pollution for new neighborhoods, but at how many decibels does health damage occur?
+AD/Algemeen Dagblad.nl
+April 17, 2024 Wednesday 08:48 AM GMT
+
+
+Copyright 2024 DPG Media B.V. All Rights Reserved
+
+
+Length: 546 words
+Byline: Piet Venhuizen
+Body
+
+
+Duiven would like to build, but the Plakse Weide, Ploen-Noord and Biezenkampen building sites are located near busy roads. That is why the municipality wants to increase the maximum acceptable noise load far above the standard value of 53 decibels from the new Environmental Act: for the Plakse Weide to 68, for the other two sites to 70 decibels. But is that healthy?
+1. At how many decibels does traffic noise cause health damage?
+With a noise level of 53 decibels during the day, which is considered acceptable according to the law, 10 percent of local residents still experience serious annoyance. According to experts, 53 decibels is equivalent to the sound of a coffee maker or an electric toothbrush. At 45 decibels at night, 3 percent suffer from serious sleep disturbance. As the number of decibels increases, the annoyance also increases. Every additional 3 decibels means a doubling of noise. A noise load of 68 decibels, as proposed in Duiven, is 32 times higher than a noise load of 53 decibels.
+2. What kind of health damage can occur?
+According to the GGD (Municipal Health Service), these are annoyance, sleep disturbance, stress and cardiovascular disease. Sound affects the body and mind in a direct way, but also indirectly, if someone judges the sound as undesirable. Long-term exposure can cause cardiovascular disease due to stress reactions. It is not possible to say exactly which disease occurs at what level of decibels. The moment, the duration, the personal characteristics of the listener and the situation in which the sound occurs are also important for the annoyance and experience. The RIVM has calculated that road traffic noise causes cardiovascular disease in approximately 750 people every year. About 65 people die from it every year.
+3. What is the role of the GGD and the RIVM in preventing noise pollution?
+The GGD is an advisor to municipalities and in its advice it indicates the health risk of noise based on the noise reports made with construction plans. The guiding principle here is a guideline drawn up by the RIVM (National Institute for Public Health and the Environment) that is based on scientific insights. In its advice, the GGD also makes suggestions for measures to reduce the consequences of noise pollution. For example, Duiven wants to install an earth wall with noise barriers between the Oostsingel and the new Plakse Weide district. The same must be done along the northeasternmost part of Vergertlaan. But other measures (quiet road surface, applying ripples along the road or a noise barrier along other roads) are too expensive, according to the municipality of Duiven.
+4. Why can Duiven allow a higher noise load?
+The Environmental Act that came into effect on January 1 sets the maximum noise load on homes at 70 decibels. This level is acceptable in busy areas and when mitigation measures are not an option. Duiven therefore wants to partially or completely reach this maximum for its new neighborhoods. This is far above the health-based guideline value that the GGD uses as a standard. The GGD is therefore only an advisor and cannot prescribe anything to the municipality. It is up to the municipality how it takes advice from the GGD into account in its decision.
+
+Load Date: April 17, 2024, pronunciation=[[]], extra_data="{'translat...")

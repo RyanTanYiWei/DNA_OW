@@ -1,0 +1,23 @@
+Translated(src=nl, dest=en, text=Fears of 'millennium bug' in Environmental Act are not unfounded
+Friesch Dagblad
+December 28, 2023 Thursday
+
+
+Copyright 2023 Mediahuis Noord All Rights Reserved
+
+
+Length: 469 words
+Body
+
+
+You can rightly say that the introduction of the Environmental Act is a painstaking task. Work has been going on for ten years on the merger of 26 laws and a multitude of regulations and measures in the areas of spatial planning, environment, soil, water, built environment, nature, countryside, air, noise and historic preservation. And the work is still not done when the new law finally comes into effect on January 1, after repeated postponements.
+In this newspaper, civil servants and a politician who have been intensively working on this say that the municipalities and the province are in principle ready, but also that they are looking at the new year with some tension. Will the new digital system hold up? And will it be sufficiently user-friendly for citizens and entrepreneurs? There is the specter of some kind of millennium bug, which captivated governments and companies in 1999. However, when all computers switched to the year 2000 at midnight on January 1, nothing happened. That's what officials hope for on the eve of 2024.
+The work is far from done. Because municipalities and provinces still have to convert their zoning plans into environmental plans. That will take years, sometimes until 2032. One civil servant sighs that the positive feeling about the Environmental Act will only break ground then. A gloomy perspective shines through. The citizen also awaits a new experience compared to the current permit or reporting procedure. They will have to answer a long list of questions, partly about matters that have nothing to do with the project in question. The digital system cannot (yet) be broken down by application type.
+Responsible minister Hugo de Jonge sees great advantages in this. All issues are no longer viewed per sector but in context. According to him, this is essential for the challenges in the areas of housing, infrastructure, agriculture and nature. He also said that the thick package of laws has now been reduced to one bundle.
+That does not mean simplification. All these laws and regulations have been given a new collection wrapper, but the laws themselves have not been removed one iota or one iota.
+All in all, the fear of a 'millennium bug' is not unfounded. However, officials now want to continue with it, otherwise the motivation to embrace the new Environmental Act in the working method will erode.
+Citizens will also have to persevere. They must go with the civil servants into the depths and experience the teething problems of the new system. It is hoped that after that time, citizens will continue to have the feeling that they are dealing with a reliable government that has a facilitating rather than a restrictive role when it comes to the living environment.
+mainredactie@frieschdagblad.nl
+The laws and regulations have been given a new collection wrapper, but not one iota has been changed
+
+Load Date: January 23, 2024, pronunciation=[[]], extra_data="{'translat...")

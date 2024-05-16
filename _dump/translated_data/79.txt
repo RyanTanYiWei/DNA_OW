@@ -1,0 +1,27 @@
+Translated(src=nl, dest=en, text=Circus Appathon
+The Limburger
+April 20, 2020 Monday
+Sittard-Geleen
+
+
+Copyright 2020 Mediahuis Limburg BV / Dagblad De Limburger All Rights Reserved
+
+
+Section: POLLUX& VAN DE BEEK; Page 2
+Length: 439 words
+Byline: Frans Pollux
+Body
+
+
+When the government starts an ICT project - for example around the new Environmental Act - you know two things for sure: it costs a lot of money, and it doesn't work. Oh, and it's never finished. So three things you know for sure.
+Last weekend an 'appathon' took place (two days of talking about a safe corona app) organized by government officials. The hip word appathon brings to mind a sultry room full of creative computer nerds who enjoy an all-nighter on energy drinks, pizza margherita for dinner and pizza fungi for breakfast. But this appathon lacked that vibe. It had more of the atmosphere of something organized by government officials. Happy.
+Imagine a table with a somewhat surprised-looking presenter, and then seven developers each with a pitch, ranging from relatively boring to fairly boring to downright boring. Logical, because every app is essentially the same: keep track of who comes near you, and send messages if you appear to have corona. (Or in the future: if you turn out to have ideas that are dangerous to the state.)
+Thanks to a live stream (which is hip in itself), the Netherlands was able to watch. What we saw was a "fascinating circus", according to one of the experts involved, the Limburg professor and ICT savvy Michel van Eeten. Other experts also found it a circus, but less fascinating: they resigned, dissatisfied with the quality. For example, one of the 'privacy-safe' apps had a massive data breach on day 1 - that's like opening a conference on alcohol abuse with a drunk speaker.
+"Such a process attracts bullshit artists," says Van Eeten. "And money-sucking consultants who stick their name on someone else's work and then sell it."
+Another IT fiasco for the government? No, not at all, says Van Eeten. What makes this open process useful is that everyone can see the failure of certain proposals live. Experts blow away the hot air surrounding the apps. "Normally these bullshit artists sit alone in a room with civil servants. They lack the knowledge, they cannot see through it. Now experts are exposing their weaknesses with complicated questions. The bad developers are visibly being torn down."
+Two apps (for the nerds: those from DEUS and ITO) were quite appealing to Van Eeten. "Although there was a lot of bluff involved." The key question: would he put such an app on his phone himself?
+,,Yes. As long as it takes at least another month to tinker with it, and the source code is scrutinized by experts."
+'Normally these bullshit artists sit alone in a room with civil servants.'
+PDF file of this document
+
+Load Date: April 19, 2020, pronunciation=[[]], extra_data="{'translat...")

@@ -1,0 +1,25 @@
+Translated(src=nl, dest=en, text=A flexible zoning plan in Weurt
+The Gelderlander
+December 9, 2014 Tuesday
+Wijchen Beuningen
+
+
+Copyright 2014 Wegener NieuwsMedia BV All Rights Reserved
+
+
+Section: 3_WB
+Length: 136 words
+Body
+
+
+The organization Platform31 is trying out new plan forms on behalf of the government, together with the municipality, with fewer and more flexible rules.
+ This is an experiment in anticipation of a new national Environmental Act.
+ Through this experiment, Platform31 investigates to what extent flexibility contributes to more initiative.
+ Laan 1945 in Weurt has been designated as a test area.
+ The so-called invitation planning policy must entice residents and entrepreneurs to take new initiatives.
+ This year two working groups started working. Both consist of six involved Weurten residents.
+ New plans are not completely rule-free. The people of Weurten formulate some guidelines.
+ A city council committee will discuss the rule changes tonight.
+ The flexible zoning plan will probably only apply from the end of 2015.
+
+Load Date: December 8, 2014, pronunciation=[[]], extra_data="{'translat...")

@@ -1,0 +1,38 @@
+Translated(src=nl, dest=en, text=Too much noise in a new-build house
+NRC
+October 11, 2022 Tuesday
+1st Edition
+
+
+Copyright 2022 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: COVER PAGE; Page 1
+Length: 688 words
+Byline: Karlijn Kuijpers
+Dateline: Amsterdam
+Body
+
+
+ABSTRACT
+National noise standards
+New-build homes are increasingly located in places where noise standards are exceeded. The reason is the housing shortage.
+COMPLETE TEXT:
+Since 2018, municipalities have been developing thousands of homes in areas where national noise standards are exceeded. The enormous pressure to build - 900,000 new homes are needed by 2030 - means that municipalities have to urgently look for new building locations.
+But there is hardly any suitable building land. That is why municipalities move away from areas where noise pollution is higher than legally permitted. "The boundaries are being tested and stretched," says Fred Woudenberg, head of the living environment at the GGD Amsterdam and former member of the Health Council.
+To make housing construction possible, municipalities are turning to an interim law. With the so-called 'interim law on urban and environmental approach', municipalities can allow noise pollution above the legal limits. The law, originally intended to use the scarce space in the city more efficiently, allows municipalities to allow unlimited additional noise pollution above the legal limit values.
+Since its introduction in 2006, the interim law has been applied once or at most twice a year. But in 2021, the law was already used six times, for more than 5,700 homes, and this year municipalities also decided to deviate from the noise standards for six new construction projects, for more than 1,400 homes.
+Crisis and Recovery Act
+In addition to the interim law, municipalities also use the Crisis and Recovery Act, which was introduced after the economic crisis of 2008 to stimulate housing construction. This crisis law is being used to increase noise standards for a period of ten years. For example, the municipality of Delft used the law this year to allow more noise pollution for the Schieoevers Noord construction project, with 6,500 homes.
+"All the easy spots were allocated years ago," says Matthijs van der Meulen of consultancy firm RHO, which assists many municipalities. "There are almost only environmentally harmful locations left for large construction projects."
+53 decibels
+The World Health Organization (WHO) recommends not exposing homes to more than 53 decibels of road noise. At this level, one in ten people experience serious discomfort, above which substantial health damage occurs. In the Netherlands the maximum limit is 63 decibels. Since 2012, up to 5 decibels extra has been allowed, because traffic noise is expected to decrease in the future.
+Municipalities may anticipate this and temporarily allow additional noise pollution. But traffic noise is not decreasing at all, according to figures from the RIVM: engines may be quieter, but at the same time there are more and heavier cars driving, which actually increases the nuisance. If the noise pollution is still too great after this deduction, municipalities will turn to the interim law or the Crisis and Recovery Act.
+In the Environmental Act, which may be introduced on January 1, 2023 after years of delay, the legal limit will increase to 70 decibels. The temporary interim law and the Crisis and Recovery Act will also be made permanent. And municipalities are given even more room to deviate from environmental standards: they may decide to give less weight to health than other interests such as employment. This leads to "special and unequal protection of citizens", writes the umbrella organization of GGDs in response to the new rules.
+Until 2012, provinces and the environmental inspectorate had to give permission if municipalities wanted to deviate from national environmental standards. This is no longer mandatory since then. "The Human Environment and Transport Inspectorate no longer has a supervisory role in spatial planning," writes the Ministry of Infrastructure and Water Management in response to questions from NRC.
+Since then, municipalities have been allowed to decide on their own to deviate from environmental standards. For example, the municipality of Amsterdam plans to use the interim law for Haven Stad, a new construction project with up to 70,000 homes, wedged between industrial estates and the A10.
+All the easy spots were published years ago
+Matthijs van der Meulen advisor
+Link to PDF
+
+Load Date: October 10, 2022, pronunciation=[[]], extra_data="{'translat...")
