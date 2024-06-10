@@ -1,0 +1,35 @@
+Translated(src=nl, dest=en, text='The risks at Schiphol will end at some point'
+Leidsch Dagblad
+April 6, 2022 Wednesday
+City
+
+
+Copyright 2022 Mediahuis Nederland BV All Rights Reserved
+
+
+Section: REGION; Page 2
+Length: 931 words
+Byline: Anne de Vries
+Body
+
+
+Oegstgeest
+ The Environmental Federations of North and South Holland painted a bleak picture at the end of last month: more than 150,000 new-build homes in the provinces are being built in unhealthy locations due to noise pollution from flights to and from Schiphol. Councilors in a housing crisis have the thankless task of reconciling the region's housing needs with the health risks and national legislation and regulations for responsible living. And in this respect too, one municipality is not the same as the other.
+Shaking windows, waking up at six in the morning and stopping your conversation in the garden on a summer's day because of the noise of a plane flying over, every minute and a half on busy days. It is now routine for Ferdinand Harmsen from Leiden, board member of the Environment Without Flight Hindrance foundation.
+"Air traffic can be very disruptive," says Harmsen. “You also become very aware and adept at assessing the wind. It has been very busy in recent days, but the wind has just turned to the west, then it is quieter, because the rising planes are not so disruptive here."
+Harmsen contributed to the research by the Environmental Federations of North and South Holland on the housing needs and aircraft noise in the two provinces. The organizations analyzed the large new construction locations in the area and the noise contour of Schiphol. This contour is based on Schiphol's own noise pollution forecast for 2020, before the corona pandemic. Schiphol calculates with a noise standard of 48db(A) Lden. The A stands for the filter with which the human ear perceives the decibels. Lden stands for 'Level day-evening-night', the average noise level measured over 24 hours.
+But the noise standard that the World Health Organization (WHO) set in 2018 for a healthy living environment is a maximum of 45dB(A) Lden during the day and 40dB(A) Lden at night. According to the WHO, above this standard the health risks become too great. The RIVM and the Dutch GGDs also support this standard. The research shows that this noise standard is exceeded for at least 150,000 homes at more than a hundred construction locations. In addition to the homes of approximately two million people already living in the area.
+It has not escaped the attention of the councilor for spatial planning in Oegstgeest, Peter Glasbeek (Progressive Oegstgeest). "The 48db(A) Lden contour already reaches deep into Oegstgeest and people are demonstrably bothered by it," says Glasbeek. "At the same time, there is a discrepancy between Schiphol's growth ambition versus the housing construction task that we receive from the region."
+There was cheering in the relatively small municipality when the municipal council agreed to the relocation of the Leo Kanner school at the beginning of this year. Not only for the school's students, but also because this would free up a scarce new construction site. But the noise contour of Schiphol hitting the construction site immediately reared its head. “In Oegstgeest, housing construction is like blowing clay through a straw. There is thunder at every location. And 'just don't build it' is not an option."
+Insecure
+Glasbeek is also concerned about two additional uncertain factors: the construction of a second Kaagbaan runway, which is still planned due to the rejection of a motion by D66 last month, and a supplementary regulation of the new environmental law in which even stricter calculations are expected.
+In the Holland-Rhineland region, Glasbeek is not the only driver who feels cornered. The municipalities in the region have decided to sound the alarm together. “The discussion has certainly come to a head due to the housing shortage. Together we may still have something to say about the province and the national government. But the government has not taken any notice of it so far," says Glasbeek.
+The municipality of Teylingen is also part of this consultation. Glasbeek's colleague from Teylingen, Marlies Volten (VVD), sees things a little less gloomy. The councilor is critical of the noise pollution that some residents experience, but nothing has changed yet in the new construction projects in the municipality. "There are areas where these kinds of things occur that we do not develop, we can still make that choice." A luxurious position in the region.
+Yet a large part of the municipality, from Sassenheim to Warmond, falls under the noise contour on the Environmental Federations map. “We apply the national regulations of 48db(A) Lden. Our largest project Nieuw Boekhorst falls outside this scope. The Environmental Federation chooses a different area. If the laws and regulations change, we will take another look."
+Political choice
+The Environmental Federations also understand that scrapping new-build homes is not simply possible in the current living climate. They want municipalities to demand that Schiphol and the government reduce noise pollution. "You solve the problem by saying that less flying is allowed," says Nienke Schuil of the South Holland Environmental Federation. "It is a political choice. Less nuisance leaves room for more homes. The sectors have to put their money where their mouth is and not just hope for and, and, and. It will end at some point.”
+"It seems to me that all Dutch people should be able to find decent housing, instead of all of us being able to fly to Barcelona for 45 euros," Harmsen also says. "But Schiphol does not have to shrink, the number of flights has already decreased due to corona. The question now is: how far do we allow it to rebuild?''
+Aldermen deliberate on new construction plans
+PDF file of this document
+
+Load Date: April 5, 2022, pronunciation=[[]], extra_data="{'translat...")

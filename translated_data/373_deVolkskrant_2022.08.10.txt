@@ -1,0 +1,33 @@
+Translated(src=nl, dest=en, text=That's how it works, misinforming the House
+de Volkskrant
+August 10, 2022 Wednesday
+
+
+Copyright 2022 DPG Media B.V. All Rights Reserved
+
+
+Section: First; Page 2
+Length: 566 words
+Byline: IBTIHAL JADIB
+Body
+
+
+Column
+One of the recurring topics in our politics concerns the task of ministers to properly inform parliament. That often doesn't go quite well.
+
+The nice thing about the Netherlands is that we have the Open Government Act (Woo) - the successor to the Wob. Thanks to this law, minutes relating to the Environmental Act were released last Friday. This should come into effect on January 1, 2023, so that from now on you can apply for a permit to cut down that one tree in the garden with just a few simple mouse clicks on the internet. To make this possible, a large team of software builders is working hard.
+
+The released minutes concern verbatim Zoom meetings between various software builders and an official from the Ministry of the Interior. It takes a while to plow through - the minutes cover 99 pages full of software jargon - but after that you have been on top of everything like a fly on the curtain.
+
+The picture that emerges is a tangle of lines between the countless parties involved and the enormous time pressure on the project. This time pressure gives rise to the comment: 'It is actually an impossible situation.' Another then says: 'If you just pass this on to the minister, that it will simply be three months later, then that is fine too.' But passing on information to the minister is apparently not easy. This leads to misunderstanding among a software builder: 'Why isn't that stated more clearly to the minister if you think so? [...] I never understand that part. Because we keep staring at each other and why is it so strange to say that we just won't make it to January, because I don't understand who still believes in this. We never say anything to the outside world. And I find that strange.' The meeting continues afterwards, the point remains.
+
+The responsible minister, Hugo de Jonge, will then inform the Senate on May 6, 2022 about the progress of the operation. He writes that the digital basis of the Environmental Act has been delivered according to plan. This leads to questions from a software builder to the civil servant in the next Zoom meeting: 'I don't necessarily want to be the one asking the annoying questions here, but [I am] curious whether this is known outside this company as to how this is going. .' The official then has to admit that the answers to the Senate indeed state 'quite clumsily' that everything will be finished on April 1: 'And then I think, that is of course not entirely true.'
+
+Unfortunately, the official does not know who did the last editing hand. But, he continues, 'it is not our intention at all to confuse or misinform the world, it is just that these parliamentary questions are under high pressure and pass through many hands. Well, sometimes one is sent and when you read it afterwards you think, I would have written that down differently.' Moreover, the official believes that it is also up to the House itself, as senators could have requested a technical briefing. "They just have to ask for that themselves."
+
+On Tuesday I read in NRC: 'Minister Hugo de Jonge incorrectly informed the Senate about the progress of the Environmental Act'. So that's how things go.
+The software builder of the Environmental Act says: 'We never say anything to the outside world. And I find that strange'
+
+View the original page: page 2
+
+Load Date: August 9, 2022, pronunciation=[[]], extra_data="{'translat...")

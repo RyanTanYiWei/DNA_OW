@@ -1,0 +1,21 @@
+Translated(src=nl, dest=en, text=Environmental law is billion more expensive
+Friesch Dagblad
+June 8, 2023 Thursday
+
+
+Copyright 2023 Mediahuis Noord All Rights Reserved
+
+
+Length: 187 words
+Highlight: The Hague The one-off costs that governments must incur for the introduction of the Environmental Act will increase from 1.6 billion to 2.7 billion euros.
+Body
+
+
+This is evident from a still confidential investigation by KokxDeVoogd into the Integrated Financial Assessment System Revision of the Environment Act, which the Domestic Administration has managed to obtain. It is an update of the picture as sketched in the same way by the agency in spring 2021. With the Environmental Act, the government wants to simplify and merge the rules for spatial development.
+The sharply increasing amount is due to inflation (235 million), the earlier postponement of the law (332 million), the costs of implementing organizations such as environmental services (159 million), and the transition costs after the law comes into effect (343 million).
+It will therefore take municipalities (and other governments) even more time to recoup the investments made in the Environmental Act.
+The Environmental Act bundles 26 laws and more than a hundred rules for spatial planning, making it easier to obtain a building permit, for example. This must be done via a digital counter. For a long time it was questionable whether this system was stable and/or safe enough.
+The Environmental Act will come into effect on January 1 next year.
+Link to PDF
+
+Load Date: June 7, 2023, pronunciation=[[]], extra_data="{'translat...")

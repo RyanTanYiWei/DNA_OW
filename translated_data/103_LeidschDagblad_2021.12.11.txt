@@ -1,0 +1,22 @@
+Translated(src=nl, dest=en, text='Facade load' means that the windows must be closed
+Leidsch Dagblad
+December 11, 2021 Saturday
+City
+
+
+Copyright 2021 Mediahuis Nederland BV All Rights Reserved
+
+
+Section: REGION; Page 9
+Length: 311 words
+Body
+
+
+In your article about the new Environmental Act, you give local administrators relatively much room to grumble about the new Environmental Act, which, among other things, merges many noise regulations. It is undoubtedly an informative article, but also somewhat one-sided.
+After all, it is not at all strange to combine various local noise pollution into one nuanced and 'added up' noise pollution. There are large groups of citizens who simultaneously experience noise pollution every day from 'wind turbines, industry, railways, highways and aviation'. It has long been proven that noise pollution is very unhealthy for people and other living beings. So it's good that something is being done about this.
+I will give an example that more or less fits into this context. Since 2006, the Leiden Environment Agency has it has been established in at least 100 building plans that the expected noise load is much higher than permitted in the zoning plans. These expected noise loads are therefore contrary to the law. However, it is invariably added that the permitted facade load 'in this specific case' may be 15 to 20 percent higher than legally permitted. The 100 building plans mentioned since 2006 (sometimes entire neighborhoods) are gradually covering a very large part of the city. After all these years, the bottom line is that far too high a facade load (for noise) is permitted in almost every new district.
+The word 'façade load' means that the windows should remain closed, because if the sound could come in, you would have to measure the noise load of real people and animals. And there is certainly no work being done on that. Curiously enough, it could therefore be a conclusion that no windows should be installed in noise-congested facades. You can't open them and that is much healthier.
+Pim de Vroomen, Leiden
+PDF file of this document
+
+Load Date: December 10, 2021, pronunciation=[[]], extra_data="{'translat...")

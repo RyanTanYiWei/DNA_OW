@@ -1,0 +1,50 @@
+Translated(src=nl, dest=en, text=You are not allowed to sleep in the attic - too much noise
+NRC
+October 11, 2022 Tuesday
+1st Edition
+
+
+Copyright 2022 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: IN THE NEWS; Page 6
+Length: 1294 words
+Byline: Karlijn Kuijpers Photos Walter Herfst
+Body
+
+
+ABSTRACT
+Residential construction
+Municipalities are building thousands of homes in places where national noise standards are exceeded. Bad for health, but the pressure to build is great.
+COMPLETE TEXT:
+A construction worker hammers thick insulation boards against the facade of a new-build home in Delft. At a house further away, a crane lifts roof panels onto the wooden beams. The Grasbuurt, a new-build district with 168 spacious homes, should be completed here early next year. The houses are designed in 1920s style, have spacious gardens and a large attic with large windows and a dormer window. But there, in the attic, the new residents are not allowed to sleep. Their purchase deeds state that it is prohibited to use that floor as a bedroom.
+This is due to the A13. That highway passes less than a hundred meters behind the neighborhood. The noise pollution from the passing traffic on the twice-three-lane road is so bad that it exceeds legal standards. The insulation of the roof is not good enough to keep the noise out, and there is also more nuisance due to the height of the floor. While the project developer writes in a brochure that it will soon be "quiet and green living", you hear the constant roar of engines in the neighborhood.
+Municipalities are developing thousands of homes in areas where national noise standards are exceeded. The enormous pressure to build - 900,000 houses by 2030 - means that municipalities have to urgently look for new building locations. But there is hardly any suitable building land. Due to scarcity, municipalities are moving to old industrial estates or strips of land next to a highway or railway.
+To make this possible, municipalities take legal steps: accounting for noise pollution downwards, stacking exceptions upon exceptions, prohibiting sleeping in the attic in the purchase contract, or windows that cannot be opened. The law offers this space, but "the boundaries are being tested and stretched," says Fred Woudenberg, head of the living environment at the GGD Amsterdam and former member of the Health Council. Woudenberg is editor-in-chief of the magazine Geluid, was a board member of the Dutch Sound Pollution Foundation, and has forty years of noise policy stuck in his head.
+'Beautiful view'
+Amersfoort plans to build more than six hundred homes right next to an NS workshop and shunting yard. Six hundred new homes will be built in the municipality of Haarlemmermeer, with the noise of Schiphol and next to a busy N-road. "Some of the apartments have a beautiful view towards the Polderbaan," writes the project developer. But the residents have to make do with around 50 decibels from the same Polderbaan and another more than 60 decibels from the nearby Rijksweg, it appears. the acoustic research. According to the RIVM and the World Health Organization, such noise levels increase the risk of serious sleep problems, stress, high blood pressure and heart disease.
+A district with more than six hundred homes will be built on the Nieuwe Maas in Vlaardingen, directly opposite the Pernis industrial estate. On the currently vacant site you can hear the constant hum of the industry that surrounds the neighborhood on three sides. Seagoing vessels are filled with oil from the Vopak terminals nearby. "Future residents will have to be aware of the limitations of the area," says a brochure from the project developer.
+Amsterdam also plans to place the responsibility for a healthy living environment on future residents. In the new Haven Stad district, noise pollution is becoming so severe that the municipality is considering having residents declare in the purchase contract that they consciously choose a home with noise pollution.
+The municipalities say that they make a "careful weighing of interests", but that they are stuck because the noise pollution is too high in many places. They try to compensate for the nuisance by, for example, having quiet courtyard gardens or well-insulating walls built. The municipality of Amsterdam is trying to move roads to reduce noise pollution, but this does require support from the government, says a spokesperson.
+Little choice
+In Delft, the municipality says it plays "no role" in the ban on sleeping in the attic. "That is an agreement between the developer and the future resident." Ruud Kelder, an urban planner who has lived in the Delft new-build district on the A13 since 2019, finds this very easy. "You have no choice," he says. "This is almost the only place in Delft where you can buy a new-build house." His neighbor, who plays outside with her two children, even says she wants to move because of the noise. "It bothers me, I don't like to sit in the garden. You assume that the government will protect you well against nuisance, but that is not the case."
+Health loses out against the high pressure to build homes, says Fred Woudenberg. “Noise is one of the few environmental problems that has not diminished in recent years. Unlike air pollution or stench, noise cannot be reduced with technical measures. The pressure to build new homes is so great that many noise experts have been hired by municipalities only to push the boundaries."
+In recent years, new scientific research has made it clear that noise makes people sicker than previously thought. Noise pollution leads to serious insomnia, stress and heart problems, among other things. The World Health Organization and the RIVM therefore recommended lowering the standards in 2018 and 2019 respectively.
+Noise standards continue to rise
+But the Netherlands does the opposite. In the Environmental Act, which must be introduced after postponement on January 1, 2023, the noise standards will be increased even further. From then on, a maximum of 70 decibels of road noise may be heard on the facades of homes near municipal roads. That is 17 decibels higher than what the World Health Organization recommends, and is comparable to the sound of a vacuum cleaner. Moreover, the Environmental Act gives municipalities even more room to deviate from environmental standards: they may decide to give less weight to health than other interests, such as employment.
+The GGDs are seriously concerned. "The rules create special and unequal protection for citizens," writes umbrella organization GGD GHOR in response to the new rules. The GGDs argue for stricter standards, especially to protect people with a low income. They have little choice where they will live .
+Yet the GGDs cannot ignore the fact that a healthy living environment is increasingly becoming their own responsibility. There is a test on the GGD Amsterdam website to check whether you are noise sensitive. People who are tested as noise sensitive are advised not to live in a house with a lot of noise pollution.
+Fred Woudenberg knows that this is not an option for many people. Free housing choice is an illusion. "Even if you were to build social housing on the Schiphol runway, people would still live there."
+Some of the houses have a beautiful view towards the Polderbaan
+Text from the project developer
+About this article
+For this study, new construction projects were inventoried in which municipalities allow noise levels above the maximum limit value under the Noise Abatement Act.
+Thirty zoning plans in which municipalities use the Interim City and Environmental Approach Act, intended to use the scarce space in the city more efficiently, or the Crisis and Recovery Act to allow higher noise standards, have been listed for this purpose. Municipalities can use these two laws to deviate from the maximum noise limits.
+Link to PDF
+
+Graphic
+
+ 
+House construction with a lot of noise pollution. Top left and bottom left: Park Vijfslokken in Vlaardingen. Right: Grasbuurt in Delft.
+
+Load Date: October 10, 2022, pronunciation=[[]], extra_data="{'translat...")

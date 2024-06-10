@@ -1,0 +1,29 @@
+Translated(src=nl, dest=en, text=GroenLinks wants clarification from Minister De Jonge about disinformation
+Friesch Dagblad
+August 9, 2022 Tuesday
+
+
+Copyright 2022 Mediahuis Noord All Rights Reserved
+
+
+Length: 452 words
+Highlight: The Hague The GroenLinks faction of the Senate wants clarification from Minister Hugo de Jonge (Spatial Planning) about incorrectly informing the Senate about the Environmental Act.
+Body
+
+
+As the Senate, we wanted a careful process. It was the minister who was in a hurry
+Saskia Kluit
+In answers to parliamentary questions in May, De Jonge stated that the delivery of the Digital System Environmental Act (DSO), which is crucial for the implementation of the law, was on schedule. That turned out not to be the case, and the ministry knew it.
+Member of Parliament Saskia Kluit of GroenLinks calls it "worrisome" that the Senate has been incorrectly informed by the minister. The faction asked written questions on Monday; an unusual step for the Senate during the recess.
+The Environmental Act bundles all laws and regulations in the field of spatial planning, making it easier to apply for a permit and to grant it more quickly.
+It is not the first time that the Senate has been incompletely informed about the progress of the Environmental Act, says Kluit. "How can the Senate rely on the completeness and reliability of the information that the minister shares with us?" the GroenLinks senator wants to know, among other things.
+Conversation reports
+Reports of conversations between software suppliers and officials from the Ministry of the Interior show that the Senate was presented with too rosy a picture of the DSO, which is confirmed by an official from the ministry.
+The magazine Domestic Governance reports this on the basis of documents it received as a result of an appeal to the Open Government Act.
+"That letter from the minister suggests that it is stable (...) and on a number of points that is simply not the case," says a software supplier in one of the meeting reports about which the Ministry of Internal Affairs writes. He is talking about the DSO. official acknowledges this, but says that the response was rushed.
+Nonsense, says Senator Saskia Kluit. “As the Senate, we wanted a careful process. It was the minister who was in a hurry." Minister De Jonge wanted the Senate to agree before July 1 to the introduction of the Environmental Act as of January 1, 2023. The Senate decided on a 'yes, provided' in mid-July. A definitive yes depends on an assessment of the ICT Assessment Advisory Board and the results of a survey among future users promised by De Jonge;
+The advisory board's opinion, as well as the results of the survey, should be available by mid-October. The Senate is expected to decide on the implementation date in November.
+GroenLinks and PvdA, among others, are against introduction in 2023 and want a postponement. It is impossible for municipalities and provinces to work with two scenarios in the near future, says Kluit. She now still wants the right answers about the DSO.
+Link to PDF
+
+Load Date: August 8, 2022, pronunciation=[[]], extra_data="{'translat...")

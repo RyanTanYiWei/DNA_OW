@@ -1,0 +1,20 @@
+Translated(src=nl, dest=en, text=Environmental law postponed again, now until 2024
+de Volkskrant
+January 27, 2023 Friday
+
+
+Copyright 2023 DPG Media B.V. All Rights Reserved
+
+
+Section: First; Page 6
+Length: 106 words
+Byline: ANP
+Body
+
+
+Short
+The introduction of the Environmental Act will be postponed by six months. Minister Hugo de Jonge (Spatial Planning) informs the House of Representatives that the law must come into effect on January 1, 2024. This is the fifth time that the introduction of the law, which was already adopted in 2016, has been postponed. The Environmental Act must bundle dozens of laws and rules for spatial planning, making it easier to obtain a building permit, for example. In the future, municipalities will be able to grant this via a digital counter. The system required for this was not safe or stable enough for a long time.
+
+View the original page: page 6
+
+Load Date: January 26, 2023, pronunciation=[[]], extra_data="{'translat...")

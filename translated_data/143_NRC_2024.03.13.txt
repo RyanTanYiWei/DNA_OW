@@ -1,0 +1,57 @@
+Translated(src=nl, dest=en, text=In one fell swoop, the plot became significantly more valuable
+NRC
+March 13, 2024 Wednesday
+1st Edition
+
+
+Copyright 2024 Mediahuis NRC B.V. All Rights Reserved
+
+
+Section: DOMESTIC; Page 8
+Length: 1830 words
+Byline: Carola Houtekamer
+
+Merijn Rengers Photo Olivier Middendorp
+Body
+
+
+ABSTRACT
+report Data centers
+Tech giant Microsoft wants to build a colossal new data center in the Wieringermeerpolder. An official marked space for it on a "stupid card". And suddenly the plot of land owned by land dealer Argriport was potentially worth tens of millions of euros more.
+COMPLETE TEXT:
+They know they have to leave next week. The Polish couple - she works in cleaning, he is a roofer - has been happily living in the large shed on the Cultuurweg in the Wieringermeerpolder for three years. But now it's over. Their lease expires, they move to Opperdoes. The Ukrainians in the house next to the shed can stay a little longer, she says in the doorway. She expects the farm to be demolished. She points out the empty spaces along the straight Westfriesche Vaart that runs past the house, the trees have already been cut down. "Microsoft is coming."
+The demolition means the end of the house of the most famous farmer in the Wieringermeer: ​​agricultural reformer, resistance hero and former minister and European Commissioner Sicco Mansholt (PvdA). It was he who, in the years after the war, attempted to put an end to the miserable living conditions of smallholder farmers through economies of scale and rationalization. He could never have imagined that his doctrine of maximum yield per hectare would result seventy years later in this: land speculation and fiddling in municipal plans, even on Mansholt's own land.
+Less than a kilometer from Mansholt's old farm, hundreds of construction workers are rapidly erecting two colossal new halls for tech giant Microsoft. Every day they drive into the asphalted field next to a gigantic construction site in vans and cars with Polish and Lithuanian license plates. There, on the 'Venster-West' site, enormous halls are being built in dark gray with cheerfully colored panels on the highway side. When everything is complete, Microsoft will also connect these halls to the global cloud. A few years ago, the tech giant installed eight on the east side of the A7, in greenery, barely hidden from view by a row of newly planted trees.
+For the American multinational, it does not stop at Venster-West. The company is also determined to establish data centers on the adjacent plot 'B1' - the land next to Mansholt's farm.
+Berenschot
+In the municipal office of Hollands Kroon in Anna Paulowna, the entire Monday evening was dedicated to the advancing tech giant. The councilors of the North Holland rural municipality sit in a large circle in the meeting room De Ontmoeting, the public gallery is full in four rows. Jan Meijles from anti-data center action group Red de Wieringermeer is there, and a few seats away is Jack Kranenburg, commercial director of land dealer Agriport, the company that has already arranged about sixty hectares of building land in the Wieringermeer for Microsoft. Mayor Rian van Dam holds the microphone tightly, even when council members with pressing questions try to pull it out of her hands.
+This evening, the representatives will listen to three advisors from the Berenschot agency, who, on behalf of the council and the municipal council, reconstructed how the data centers came to Hollands Kroon from May to December 2023. The research was an election promise of the coalition party Onhouden Hollands Kroon, which came out on top in the 2023 municipal elections - partly thanks to its criticism of the ease with which previous coalitions brought data centers to the municipality.
+The most sensitive part of the research report is - in the words of Berenschot researcher Willem Buunk - "a clumsy card", which appeared out of nowhere in the municipality's 'environmental vision' at the end of 2016. The card is less than four square centimeters in size. B1 is designated as a plot on which new data centers may be built.
+Unwavering policy
+The question is how did that card get there? In the run-up to the new Environmental Act, Hollands Kroon wanted to record the plans for the land in the very extensive municipality in an environmental vision in 2015. The municipal council set up a working group and the aldermen involved - including VVD member Theo Meskers, responsible for data centers at the time - also took a look. And somewhere between the 2015 concept and the final plan at the end of 2016, it happened, according to the Berenschot researchers: suddenly, without the city council realizing it, there was that unclear map in the vision, on page twenty. Two red arrows have been drawn from the Venster-West area towards B1 as an 'expansion area' for Agriport.
+The ticket was hammered out without being noticed in the municipal council. And from that moment on, it was unwavering policy for the municipal council that a data center would be built at B1, even though no one knows exactly how this came about. In the words of Berenschot: "We have not been able to fully reconstruct how and why the map ended up in the environmental vision."
+Councilor Lars Ruiter of Independent Hollands Kroon wants to know more about this during the presentation at the town hall. The lectures vary, says Berenschot advisor Willem Buunk. “Ongoing processes had to be included in the environmental vision. Someone asked an official to sign a card." Afterwards he told NRC: "The councilors involved also requested something about Agriport and data centers. That became this card."
+The clumsiness of the picture is in stark contrast to the financial interests. The most recent annual report of Microsoft Datacenters Netherlands BV shows that the tech company had already spent almost 9.5 billion euros on the construction and design of data centers until the summer of 2022, especially in the Wieringermeerpolder. With the construction of new data centers at Venster-West and possibly B1, investments will only increase further.
+Agriport
+At the end of the presentation, Berenschot advisor Buunk emphasizes that he did not encounter any improper matters. But what the agency did not investigate is land speculation.
+NRC reconstructed the course of events on B1, which will start in February 2016. Then Anton Hiemstra from Agriport buys a piece of undeveloped land on Groetweg in Middenmeer, six kilometers from Mansholt's old farm, for just under 6 million euros.
+Hiemstra knows Microsoft's great ambitions inside and out. In 2013, he flew with then councilor Theo Meskers to Microsoft's headquarters in Seattle to convince the tech giant to settle on the Agriport land. The seller of the plot of land on Groetweg is the province of North Holland, which once purchased it for the construction of the Wieringerrandmeer - a failed ambitious construction and real estate project in the north of North Holland.
+Hiemstra's intentions with the plot on Groetweg quickly become clear. On June 15, less than four months after the deal with the province, he exchanged the land for plot B1, where a dairy farmer still kept cows. He does not know that his land will appear on a vague map in the environmental vision and moves to the Groetweg, where he has a new farm built. No one is talking about data centers. Until four months later the picture is suddenly included in the environmental vision. In one fell swoop, plot B1 has potentially become tens of millions of euros more valuable.
+The province was not aware of this, a spokesperson said. "It was only in April 2016 that the first ideas about this were exchanged in an administrative consultation between the municipality, Agriport and the province," emails a spokesperson, who says that they then insisted on "an overarching area vision".
+Jack Kranenburg of Agriport said after the meeting that the company had been eyeing the land along the A7 for a long time. "We make no secret of the fact that we want the entire strip. We first had the plots further away, then B1, and we recently bought the last piece. Of course, we go to the municipality and province with our client as early as possible to explore the possibilities. This is simply what a land dealer does: buy land and see if you can develop it." And the timing, so close to that picture? "We have been working on such an exchange with a farmer for years. He fell out like that. And the change is still not final.”
+Former councilor Theo Meskers, who was not present at the presentation, said over the telephone that he understood that Berenschot concluded that everything went smoothly and that he has nothing to add to that conclusion.
+Film footage
+Only the objection that Jan Meijles of Red de Wieringermeer has submitted against the change in the zoning plan for B1 still stands in the way of the final transformation of the farm and land of Sicco Mansholt into a construction location for data centers. His action group's case will be submitted to the Council of State in mid-April, and the municipal council has already approved the zoning change.
+And so Anita Blijdorp knows that she must hurry with the final tribute to Mansholt and other members of the resistance that she wants to organize at the historic location on the Cultuurweg. Blijdorp, who does a lot of research into the Second World War in the Wieringermeer, wants to show original film footage of the Normandy landings in Mansholt's shed, just like Mansholt himself did in September 1944.
+The film, she says, was dropped by the Allies in two large drums in West Friesland. The intention was to show the images of D-Day in the liberated parts of the Netherlands. The drums arrived at Mansholt, who, as a member of the resistance, took them by bicycle to Alkmaar for further transport. "But first he watched the films himself, with other resistance members."
+This week she called Jack Kranenburg from Agriport to find out if she can show the film in the shed in September. He doesn't know yet how the year will go, he said.
+The demolition plans for Mansholt's farm show the lack of historical awareness at Agriport and local politics, she believes. "At the end of his life, Mansholt dared to acknowledge that his policy had gone off the rails. He realized that agriculture and livestock farming, in addition to being rational in design, also had to be ecologically responsible. The fact that the fields of this historical figure are now being completely paved for a multinational like Microsoft is a very bitter way of dealing with history."
+'An official just signed a card', after which the land dealer's plot may have become worth tens of millions of euros more in one fell swoop
+We have not been able to fully reconstruct how and why the map ended up in the environmental vision
+Berenschot research agency
+We have been working on such an exchange with a farmer for years. He fell out like that. And the zoning change is still not final
+Jack Kranenburg, director of land trader Agriport
+The demolition plans for the farm of agricultural reformer and resistance hero Sicco Mansholt show the lack of historical awareness
+Link to PDF
+
+Load Date: March 12, 2024, pronunciation=[[]], extra_data="{'translat...")
