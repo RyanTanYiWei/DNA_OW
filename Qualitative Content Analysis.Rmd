@@ -1,0 +1,449 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-07-11"
+---
+
+# Set Up
+```{r warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(RColorBrewer)
+library(gridExtra)
+library(readxl)
+library(lubridate)
+library(vcd)
+```
+
+# Read Data
+```{r}
+events <- read_excel("eventlist_11_7.xlsx", sheet = "eventlist")
+
+# create year category
+events <- events %>% mutate(year=year(time))
+
+# print column names
+colnames(events)
+```
+# Data Cleaning/Checking (Actors)
+
+
+## Check for Topic/Storyline/Substoryline 
+```{r}
+contentlist <- events %>% 
+  distinct(Topic, Storyline, Substoryline) %>%
+  arrange(Topic)
+
+# Printing Repeats
+contentlist %>%
+  group_by(Substoryline) %>%
+  filter(n() > 1) %>%
+  ungroup()
+
+# Write Content List
+write.csv(contentlist, "outputs_analysis/contentlist.csv")
+
+#contentlist
+#events %>% distinct(Topic)
+```
+
+## Check for Actor Labels e.g. Repeats
+```{r}
+actorlist <- events %>% 
+  distinct(person, `Actor Type`) %>%
+  arrange(person)
+
+# Printing Repeats
+actorlist %>%
+  group_by(person) %>%
+  filter(n() > 1) %>%
+  ungroup()
+
+actorlist
+```
+
+
+# Analyze Top Entry Types
+
+## Top Sub-Storylines by Year
+```{r}
+yearly_summary <- events %>%
+  group_by(year) %>%
+  summarize(year_sum = n())
+
+top_y_substorylines <- events %>%
+  left_join(yearly_summary, by = "year") %>%
+  group_by(year, Substoryline, year_sum) %>%
+  summarize(count = n()) %>%
+  #arrange(desc(year)) %>%
+  arrange(-year, across(c(count), desc)) %>%
+  group_by(year) %>%
+  top_n(3, wt = count) %>%
+  mutate(fraction = count/year_sum) %>%
+  ungroup()
+
+top_y_substorylines
+write.csv(top_y_substorylines,"outputs_analysis/top_year_substorylines.csv")
+```
+
+
+## Top Storylines by Year
+```{r}
+top_y_storylines <- events %>%
+  left_join(yearly_summary, by = "year") %>%
+  group_by(year, Storyline, year_sum) %>%
+  summarize(count = n()) %>%
+  #arrange(desc(year)) %>%
+  arrange(-year, across(c(count), desc)) %>%
+  group_by(year) %>%
+  top_n(3, wt = count) %>%
+  mutate(fraction = count/year_sum) %>%
+  ungroup()
+
+top_y_storylines
+write.csv(top_y_storylines,"outputs_analysis/top_year_storylines.csv")
+
+```
+
+## Top Sub-Storylines by Actor Type
+```{r}
+actor_summary <- events %>%
+  group_by(`Actor Type`) %>%
+  summarize(actor_sum = n())
+
+top_a_substorylines <- 
+  events %>%
+  left_join(actor_summary, by = "Actor Type") %>% 
+  group_by(`Actor Type`, Substoryline, actor_sum) %>%
+  summarize(count = n()) %>%
+  arrange(`Actor Type`, across(c(count), desc)) %>%
+  group_by(`Actor Type`) %>%
+  top_n(10, wt = count) %>%
+  mutate(fraction = count/actor_sum) %>%
+  ungroup()
+
+top_a_substorylines
+write.csv(top_a_substorylines,"outputs_analysis/top_actor_substorylines.csv")
+```
+
+
+## Top Storylines by Actor Type
+```{r}
+top_a_storylines <- 
+  events %>%
+  left_join(actor_summary, by = "Actor Type") %>% 
+  group_by(`Actor Type`, Storyline, actor_sum) %>%
+  summarize(count = n()) %>%
+  arrange(`Actor Type`, across(c(count), desc)) %>%
+  group_by(`Actor Type`) %>%
+  top_n(10, wt = count) %>%
+  mutate(fraction = count/actor_sum) %>%
+  ungroup()
+
+top_a_storylines
+
+write.csv(top_a_storylines,"outputs_analysis/top_actor_storylines.csv")
+```
+## Count of most frequent topics
+```{r}
+years <- seq(min(events$year), max(events$year))
+
+# Create a complete grid of all combinations of storylines and years
+complete_grid <- expand.grid(Storyline = unique(events$Storyline), year = years)
+
+# Group by Storyline and Year to count occurrences
+grouped <- events %>%
+  group_by(Storyline, year) %>%
+  summarise(Count = n(), .groups = 'drop')
+
+# Merge the complete grid with the grouped data, filling missing values with 0
+complete_data <- complete_grid %>%
+  left_join(grouped, by = c("Storyline", "year")) %>%
+  replace_na(list(Count = 0))
+
+# Aggregate counts for each storyline across all years
+total_counts <- complete_data %>%
+  group_by(Storyline) %>%
+  summarise(TotalCount = sum(Count), .groups = 'drop')
+
+# Sort the storylines by total count in descending order
+sorted_storylines <- total_counts %>%
+  arrange(desc(TotalCount))
+
+# Select the top 6 storylines
+top_6_storylines <- sorted_storylines %>%
+  head(6)
+
+# Filter the complete data to include only the top 6 storylines
+top_6_data <- complete_data %>%
+  filter(Storyline %in% top_6_storylines$Storyline)
+
+# Plot the data
+ggplot(top_6_data, aes(x = year, y = Count, shape = Storyline, color = Storyline, group = Storyline)) +
+  geom_line() +
+  geom_point()+
+  labs(title = "Top 6 Most Frequent Storylines over Time",
+       x = "Year",
+       y = "Count",
+       color = "Storyline") +
+  #ylim(0, max(top_6_data$Count))+
+  scale_x_continuous(breaks = 2011:2024)+
+  theme_minimal() +
+  theme(legend.position = "bottom")+
+  guides(shape = guide_legend(ncol = 2))
+  
+
+```
+
+## Evolution of conflict topics
+```{r}
+conflicts <- c("[Decentralization is beneficial (D)]",
+              "[Centralization is needed instead (C)]",
+              "[EPA is effective for CP (CP)]", 
+              "[EPA not effective for CP (Not CP)]", 
+              "[EPA simplifies procedures (Simple)]",  
+              "[EPA does not simplify procedures (Not Simple)]", 
+              "[EPA's Introduction should (Postpone)]",
+              "[EPA's Introduction should (Not Postpone)]")
+
+sha <- c(3,4)
+shapes <- c("[Decentralization is beneficial (D)]" = sha[1],
+              "[Centralization is needed instead (C)]" = sha[2],
+              "[EPA is effective for CP (CP)]" = sha[1], 
+              "[EPA not effective for CP (Not CP)]" = sha[2], 
+              "[EPA simplifies procedures (Simple)]" = sha[1],  
+              "[EPA does not simplify procedures (Not Simple)]" = sha[2], 
+              "[EPA's Introduction should (Postpone)]" = sha[1],
+              "[EPA's Introduction should (Not Postpone)]" = sha[2])
+
+pairing <- c("[Decentralization is beneficial (D)]" = "Decentralization/Centralization",
+              "[Centralization is needed instead (C)]" = "Decentralization/Centralization",
+              "[EPA is effective for CP (CP)]" = "Citizen Participation", 
+              "[EPA not effective for CP (Not CP)]" = "Citizen Participation", 
+              "[EPA simplifies procedures (Simple)]" = "Simplification",  
+              "[EPA does not simplify procedures (Not Simple)]" = "Simplification", 
+              "[EPA's Introduction should (Postpone)]" = "Postpone/Not Postpone",
+              "[EPA's Introduction should (Not Postpone)]" = "Postpone/Not Postpone")
+
+lev = c('Decentralization/Centralization','Citizen Participation','Simplification','Postpone/Not Postpone') 
+
+# Filter the complete data to include only the top 6 storylines
+conflict_data <- complete_data %>%
+  filter(Storyline %in% conflicts) %>%
+   mutate(pair = pairing[Storyline])
+
+
+  
+conflict_data$Storyline <- factor(conflict_data$Storyline, 
+                      levels = conflicts)
+
+# Plot the data
+ggplot(conflict_data, aes(x = year, y = Count, shape = Storyline, color = Storyline, group = Storyline)) +
+  geom_line() +
+  geom_point()+
+  labs(title = "Key Conflicting Pairs of Storylines over Time",
+       x = "Year",
+       y = "Count",
+       color = "Storyline") +
+  scale_x_continuous(breaks = 2011:2024)+
+  scale_y_continuous(position = "right", limits=c(0, 15))+
+  theme_minimal() +
+  theme(legend.position = "bottom")+
+  guides(shape = guide_legend(ncol = 2, byrow= TRUE))+
+  #scale_color_manual(values = colors) +
+  scale_shape_manual(values = shapes) +
+  facet_grid(~factor(pair, levels= lev)~., switch = "y") +
+  theme(strip.text.y.left = element_text(angle = 0)) 
+  
+  
+  
+```
+ 
+## Evolution of Most Frequent Topics
+```{r}
+
+df_ <- events %>%
+  left_join(yearly_summary, by = "year") %>%
+  group_by(year, Storyline, year_sum) %>%
+  summarize(count = n()) %>%
+  #arrange(desc(year)) %>%
+  arrange(-year, across(c(count), desc)) %>%
+  group_by(year) %>%
+  top_n(3, wt = count) %>%
+  mutate(fraction = count/year_sum) %>%
+  ungroup()
+
+df <- df_  %>%
+  group_by(year) %>% 
+  arrange(year, desc(count)) %>% 
+  mutate(ranking = row_number())
+
+df
+```
+
+```{r fig.height=10, fig.width=10}
+my_theme <- function() {
+  # Colors
+  color.background = "white"
+  color.text = "#22211d"
+  # Begin construction of chart
+  theme_bw(base_size=15) +
+    # Format background colors
+    theme(panel.background = element_rect(fill=color.background, color=color.background)) +
+    theme(plot.background  = element_rect(fill=color.background, color=color.background)) +
+    theme(panel.border     = element_rect(color=color.background)) +
+    theme(strip.background = element_rect(fill=color.background, color=color.background)) +
+    # Format the grid
+    theme(panel.grid.major.y = element_blank()) +
+    theme(panel.grid.minor.y = element_blank()) +
+    theme(axis.ticks       = element_blank()) +
+    # Format the legend
+    theme(legend.position = "bottom") +
+    theme(legend.text      = element_text(size=10, face="bold"))+
+    
+    # Format title and axis labels
+    theme(plot.title       = element_text(color=color.text, size=20, face = "bold")) +
+    theme(axis.title.x     = element_text(size=14, color="black", face = "bold")) +
+    theme(axis.title.y     = element_text(size=14, color="black", face = "bold", vjust=1.25)) +
+    theme(axis.text.x      = element_text(size=10, vjust=0.5, hjust=1, angle = 90, color = color.text)) +
+    theme(axis.text.y      = element_text(size=10, color = color.text)) +
+    theme(strip.text       = element_text(size=5, face = "bold")) +
+    # Plot margins
+    #theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm"))
+    theme(plot.margin = unit(c(0.35, 0.6, 1, 1), "cm"))
+}
+```
+
+```{r}
+#png("outputs_diagrams/ranks.png")
+
+ggplot(data = df, aes(x = year, y = ranking, group = Storyline)) +
+  geom_line(aes(color = Storyline, alpha = 1), size = 1.5) +
+  geom_point(aes(color = Storyline, alpha = 1, label = , size = 4) +
+  geom_point(color = "#FFFFFF", size = 1) +
+  scale_y_reverse(breaks = 1:17) + my_theme() +
+  scale_x_continuous(breaks = 2011:2024, minor_breaks = 2011:2024, expand = expansion(mult = c(0,-0.5), 
+                                         add = c(0.2, 9))) +
+  geom_text(data = df %>% filter(year == "2024"),
+            aes(label = Storyline, x = 2024.5) , hjust=0, fontface = "bold", color = "#888888", size = 3) 
+  
+#dev.off()
+
+```
+
+
+
+
+# Correlation Test
+```{r}
+colnames(events)
+```
+
+## Chi Square Test (Test of Association)
+```{r warning=TRUE}
+# Define Chi Square Function
+chi_sq_p_value <- function(x, y) {
+  tbl <- table(x, y)
+  chi2 <- chisq.test(tbl)
+  p_value <- chi2$p.value
+  return(p_value)
+}
+
+y_vars <- c("Topic", "Storyline", "Substoryline")
+x_vars <- c("Actor Type", "organization", "year", "document_id", "document_source")
+
+# Initialize an empty matrix
+chi_sq_matrix <- matrix(nrow = length(x_vars), ncol = length(y_vars), 
+                         dimnames = list(x_vars, y_vars))
+
+# Calculate Chi-Square p-values for each pair and fill the matrix
+for (i in 1:length(x_vars)) {
+  for (j in 1:length(y_vars)) {
+    chi_sq_matrix[i, j] <- chi_sq_p_value(events[[x_vars[i]]], events[[y_vars[j]]])
+  }
+}
+
+chi_sq_df <- as.data.frame(as.table(chi_sq_matrix))
+colnames(chi_sq_df) <- c("X_Variable", "Y_Variable", "p_value")
+
+ggplot(chi_sq_df, aes(X_Variable, Y_Variable, fill = p_value)) +
+  geom_tile() +
+  geom_text(aes(label = round(p_value, 3)), color = "black") + 
+  scale_fill_gradientn(colors = c("dodgerblue2", "white", "white"), values = c(0, 0.1, 1), 
+                       limits = c(0, 1), name = "Chi Square Test (p-value)") +
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  ggtitle("Test of Association between Content and Attribute Variables") +
+  xlab("X Variables") +
+  ylab("Y Variables")
+```
+
+## Contextualizing Chi Square Test (Numerical)
+Intepreting ChiSq
+x2: higher, more association
+df: contexualizes comparisons
+p-value <0.05 there is association
+
+Intepreting Cremers V
+1 is strong association, 0 is no association
+
+```{r}
+y = events$Topic 
+#y = events$Storyline
+#y = events$Substoryline 
+x = events$`Actor Type`
+#x = events$`organization`
+#x = events$`year`
+#x = events$`document_id`
+#x = events$`document_source`
+
+print( chisq.test(table(y, x )))
+```
+
+## Cramers_V Test (Strength of Association)
+```{r warning=FALSE}
+# Define Cramers V Function
+cramers_v <- function(x, y) {
+ return (assocstats(table(x, y))$cramer) 
+}  
+
+y_vars <- c("Topic", "Storyline", "Substoryline")
+x_vars <- c("Actor Type", "organization", "year", "document_id", "document_source")
+
+
+# Initialize an empty matrix
+cramers_matrix <- matrix(nrow = length(x_vars), ncol = length(y_vars), 
+                         dimnames = list(x_vars, y_vars))
+
+# Calculate Cramér's V for each pair and fill the matrix
+for (i in 1:length(x_vars)) {
+  for (j in 1:length(y_vars)) {
+    c_v = chi_sq_matrix[i, j]
+    
+    # Fltering ChiSq P Value > 0.05
+    if (is.na(c_v) || c_v > 0.05) {
+      #filter
+    } else {
+      cramers_matrix[i, j] <- cramers_v(events[[x_vars[i]]], events[[y_vars[j]]])
+    }
+  }
+}
+
+# Plot Heatmap
+cramers_df <- as.data.frame(as.table(cramers_matrix))
+colnames(cramers_df) <- c("X_Variable", "Y_Variable", "Cramers_V")
+
+ggplot(cramers_df, aes(X_Variable, Y_Variable, fill = Cramers_V)) +
+  geom_tile() +
+  geom_text(aes(label = round(Cramers_V, 3)), color = "black") + 
+  scale_fill_gradient2(low="lightblue", high="dodgerblue2",, limit = c(0, 1), guide="colorbar", name = "Cramér's V" ) +
+  #scale_fill_gradient2(low = "white", high = "red", midpoint = 0, limit = c(0, 1), space = "Lab", name = "Cramér's V") +
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  ggtitle("Strength of Association between Content and Attribute Variables") +
+  xlab("X Variables") +
+  ylab("Y Variables")
+
+```
+

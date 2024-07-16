@@ -37,6 +37,26 @@ library(gridExtra)
 set.seed(12345)
 ```
 
+# Temp: Get Event List
+```{r}
+
+getwd()
+dna_init()
+dna_openDatabase(db_url = "FirstRun.dna", 
+                 coderPasswor = "97863909")
+
+dna_printDetails()
+
+
+eL <- dna_network(networkType = "eventlist",
+  variable1 = "organization",
+  variable2 = "concept",
+  qualifier = "agreement",
+  normalization = "no")
+
+eL %>% write.csv("eventlist.csv")
+```
+
 # Retrieve Network Data
 ```{r}
 getwd()
