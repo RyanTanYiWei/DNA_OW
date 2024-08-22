@@ -1,0 +1,82 @@
+"","actor_type","issue","count","fraction","actor_sum"
+"1","Academic and Research","Instrument Logic",15,0.365853658536585,41
+"2","Academic and Research","Stances on Implementation",10,0.24390243902439,41
+"3","Academic and Research","Viability of Implementation",7,0.170731707317073,41
+"4","Academic and Research","Effectiveness of Policy (Simplification)",3,0.0731707317073171,41
+"5","Academic and Research","Threats from Implementation",3,0.0731707317073171,41
+"6","Academic and Research","Effectiveness of Policy (Citizen Participation)",1,0.024390243902439,41
+"7","Academic and Research","Effectiveness of Policy (Integration)",1,0.024390243902439,41
+"8","Academic and Research","General Implementation Beliefs",1,0.024390243902439,41
+"9","Architectural & Planning Associations","Instrument Logic",1,0.5,2
+"10","Architectural & Planning Associations","Viability of Implementation",1,0.5,2
+"11","Community and Civic Groups","Effectiveness of Policy (Citizen Participation)",5,0.277777777777778,18
+"12","Community and Civic Groups","Instrument Logic",5,0.277777777777778,18
+"13","Community and Civic Groups","Effectiveness of Policy (Noise)",2,0.111111111111111,18
+"14","Community and Civic Groups","Prioritization of objectives",2,0.111111111111111,18
+"15","Community and Civic Groups","Stances on Implementation",2,0.111111111111111,18
+"16","Community and Civic Groups","Effectiveness of Policy (Simplification)",1,0.0555555555555556,18
+"17","Community and Civic Groups","Viability of Implementation",1,0.0555555555555556,18
+"18","Developers and Construction","Effectiveness of Policy (Citizen Participation)",10,0.294117647058824,34
+"19","Developers and Construction","Instrument Logic",6,0.176470588235294,34
+"20","Developers and Construction","Prioritization of objectives",6,0.176470588235294,34
+"21","Developers and Construction","Effectiveness of Policy (Simplification)",5,0.147058823529412,34
+"22","Developers and Construction","Viability of Implementation",4,0.117647058823529,34
+"23","Developers and Construction","Effectiveness of Policy (Integration)",1,0.0294117647058824,34
+"24","Developers and Construction","Stances on Implementation",1,0.0294117647058824,34
+"25","Developers and Construction","Threats from Implementation",1,0.0294117647058824,34
+"26","Environmental Groups","Instrument Logic",6,0.5,12
+"27","Environmental Groups","Effectiveness of Policy (Citizen Participation)",2,0.166666666666667,12
+"28","Environmental Groups","Effectiveness of Policy (Simplification)",1,0.0833333333333333,12
+"29","Environmental Groups","Prioritization of objectives",1,0.0833333333333333,12
+"30","Environmental Groups","Stances on Implementation",1,0.0833333333333333,12
+"31","Environmental Groups","Viability of Implementation",1,0.0833333333333333,12
+"32","Government (Municipal)","Viability of Implementation",23,0.205357142857143,112
+"33","Government (Municipal)","Effectiveness of Policy (Citizen Participation)",21,0.1875,112
+"34","Government (Municipal)","Instrument Logic",19,0.169642857142857,112
+"35","Government (Municipal)","Stances on Implementation",17,0.151785714285714,112
+"36","Government (Municipal)","Threats from Implementation",11,0.0982142857142857,112
+"37","Government (Municipal)","Effectiveness of Policy (Integration)",6,0.0535714285714286,112
+"38","Government (Municipal)","General Implementation Beliefs",6,0.0535714285714286,112
+"39","Government (Municipal)","Prioritization of objectives",6,0.0535714285714286,112
+"40","Government (Municipal)","Effectiveness of Policy (Noise)",2,0.0178571428571429,112
+"41","Government (Municipal)","Effectiveness of Policy (Simplification)",1,0.00892857142857143,112
+"42","Government (National)","Stances on Implementation",35,0.301724137931034,116
+"43","Government (National)","Instrument Logic",26,0.224137931034483,116
+"44","Government (National)","Viability of Implementation",17,0.146551724137931,116
+"45","Government (National)","Effectiveness of Policy (Citizen Participation)",13,0.112068965517241,116
+"46","Government (National)","Effectiveness of Policy (Simplification)",7,0.0603448275862069,116
+"47","Government (National)","General Implementation Beliefs",7,0.0603448275862069,116
+"48","Government (National)","Prioritization of objectives",5,0.0431034482758621,116
+"49","Government (National)","Threats from Implementation",5,0.0431034482758621,116
+"50","Government (National)","Effectiveness of Policy (Integration)",1,0.00862068965517241,116
+"51","Government (Provincial)","Instrument Logic",7,0.259259259259259,27
+"52","Government (Provincial)","Effectiveness of Policy (Simplification)",3,0.111111111111111,27
+"53","Government (Provincial)","General Implementation Beliefs",3,0.111111111111111,27
+"54","Government (Provincial)","Prioritization of objectives",3,0.111111111111111,27
+"55","Government (Provincial)","Stances on Implementation",3,0.111111111111111,27
+"56","Government (Provincial)","Effectiveness of Policy (Citizen Participation)",2,0.0740740740740741,27
+"57","Government (Provincial)","Effectiveness of Policy (Integration)",2,0.0740740740740741,27
+"58","Government (Provincial)","Effectiveness of Policy (Noise)",2,0.0740740740740741,27
+"59","Government (Provincial)","Viability of Implementation",2,0.0740740740740741,27
+"60","Government (Waterboard)","Instrument Logic",2,1,2
+"61","ICT Companies","Stances on Implementation",7,0.466666666666667,15
+"62","ICT Companies","General Implementation Beliefs",3,0.2,15
+"63","ICT Companies","Viability of Implementation",3,0.2,15
+"64","ICT Companies","Effectiveness of Policy (Simplification)",2,0.133333333333333,15
+"65","Independent","Effectiveness of Policy (Citizen Participation)",6,0.352941176470588,17
+"66","Independent","Instrument Logic",4,0.235294117647059,17
+"67","Independent","Effectiveness of Policy (Noise)",2,0.117647058823529,17
+"68","Independent","Viability of Implementation",2,0.117647058823529,17
+"69","Independent","Effectiveness of Policy (Integration)",1,0.0588235294117647,17
+"70","Independent","Effectiveness of Policy (Simplification)",1,0.0588235294117647,17
+"71","Independent","General Implementation Beliefs",1,0.0588235294117647,17
+"72","Industries and Businesses","Threats from Implementation",7,0.7,10
+"73","Industries and Businesses","Effectiveness of Policy (Citizen Participation)",1,0.1,10
+"74","Industries and Businesses","Effectiveness of Policy (Simplification)",1,0.1,10
+"75","Industries and Businesses","Stances on Implementation",1,0.1,10
+"76","Intermediaries","Viability of Implementation",4,0.25,16
+"77","Intermediaries","Prioritization of objectives",3,0.1875,16
+"78","Intermediaries","Stances on Implementation",3,0.1875,16
+"79","Intermediaries","Effectiveness of Policy (Citizen Participation)",2,0.125,16
+"80","Intermediaries","Instrument Logic",2,0.125,16
+"81","Intermediaries","Threats from Implementation",2,0.125,16

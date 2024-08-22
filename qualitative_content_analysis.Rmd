@@ -1,0 +1,1251 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-07-11"
+---
+
+# Set Up
+```{r warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(RColorBrewer)
+library(pals)
+library(gridExtra)
+library(readxl)
+library(lubridate)
+library(vcd)
+library(ggnewscale)
+set.seed(12345)
+```
+
+# Read Data
+```{r}
+events <- read_excel("eventlist_11_7.xlsx", sheet = "eventlist")
+
+# create year category
+events <- events %>% mutate(year=year(time))
+
+# print column names
+colnames(events)
+```
+# Data Cleaning/Checking (Actors)
+
+## Check for issue/storyline/sub_storyline i.e. wrong classifications
+```{r}
+contentlist <- events %>% 
+  distinct(issue, storyline, sub_storyline) %>%
+  arrange(issue)
+
+# Printing Repeats
+contentlist %>%
+  group_by(sub_storyline) %>%
+  filter(n() > 1) %>%
+  ungroup()
+
+# Write Content List
+#write.csv(contentlist, "outputs_analysis/contentlist.csv")
+
+#contentlist
+#events %>% distinct(issue)
+```
+
+## Check for Actor Labels e.g. Repeats
+```{r}
+actorlist <- events %>% 
+  distinct(person, organization, `actor_type`) %>%
+  arrange(person)
+
+# Printing Repeats
+actorlist %>%
+  group_by(person) %>%
+  filter(n() > 1) %>%
+  ungroup()
+
+# Write Content List
+#write.csv(actorlist, "outputs_analysis/actorlist.csv")
+```
+
+```{r}
+summarylist <- events %>% 
+  distinct(summary) 
+
+summarylist
+
+# Printing Repeats
+summarylist %>%
+  group_by(summary) %>%
+  filter(n() > 1) %>%
+  ungroup()
+```
+
+## Check Unique Content Labels
+```{r}
+print(paste0("issue: ", length(unique(events$issue))))
+print(paste0("story: ", length(unique(events$storyline))))
+print(paste0("sub_story: ", length(unique(events$sub_storyline))))
+print(paste0("document_id: ", length(unique(events$document_id))))
+print(paste0("actors: ", length(unique(events$person))))
+print(paste0("organization: ", length(unique(events$organization))))
+print(paste0("statements: ", nrow(events)))
+print(paste0("document_source: ", length(unique(events$document_source))))
+      
+table(events$document_source)
+```
+## Review Actor List
+```{r}
+actlist <- events %>%
+  group_by(actor_type) %>%
+  summarise(organizations = paste(unique(organization), collapse = ", "))
+#write.csv(actlist, "outputs_analysis/list_of_actor.csv", row.names = FALSE)
+```
+## Actor Count
+```{r}
+actcount <- events %>%
+  group_by(actor_type) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+actcount
+```
+
+
+## Check Histogram
+```{r}
+ggplot(events, aes(x = year)) +
+  geom_histogram(breaks = seq(2010.5, 2024.5, by = 1), fill = "skyblue", color = "black") +
+  stat_bin(breaks = seq(2010.5, 2024.5, by = 1), geom = "text", aes(label = after_stat(count)), vjust = -0.5) +
+  scale_x_continuous(breaks = 2011:2024) +
+  labs(title = "Histogram of Event Counts by Year",
+       x = "Year",
+       y = "Count") +
+  theme_minimal()
+
+```
+
+# Correlation Test (Actor vs Content)
+
+## Chi Square Test (Test of Association)
+```{r warning=TRUE}
+# Define Chi Square Function
+chi_sq_p_value <- function(x, y) {
+  tbl <- table(x, y)
+  chi2 <- chisq.test(tbl)
+  p_value <- chi2$p.value
+  return(p_value)
+}
+
+y_vars <- c("issue", "storyline", "sub_storyline")
+x_vars <- c("person", "organization", "actor_type", "year", "document_id", "document_source")
+
+# Initialize an empty matrix
+chi_sq_matrix <- matrix(nrow = length(x_vars), ncol = length(y_vars), 
+                         dimnames = list(x_vars, y_vars))
+
+# Calculate Chi-Square p-values for each pair and fill the matrix
+for (i in 1:length(x_vars)) {
+  for (j in 1:length(y_vars)) {
+    chi_sq_matrix[i, j] <- chi_sq_p_value(events[[x_vars[i]]], events[[y_vars[j]]])
+  }
+}
+
+chi_sq_df <- as.data.frame(as.table(chi_sq_matrix))
+colnames(chi_sq_df) <- c("X_Variable", "Y_Variable", "p_value")
+
+# plot graph
+g4 <- ggplot(chi_sq_df, aes(X_Variable, Y_Variable, fill = p_value)) +
+      geom_tile() +
+      geom_text(aes(label = round(p_value, 3)), color = "black") + 
+      scale_fill_gradientn(colors = c("dodgerblue2", "white", "white"), values = c(0, 0.1, 1), 
+                           limits = c(0, 1), name = "P-value)") +
+      theme_minimal() + 
+      theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+      ggtitle("Test of Association: Content vs Independent Var",
+              subtitle = "Chi Square Test") +
+      xlab("Independent Variables") +
+      ylab("Content Variables")
+
+# save plot
+png(paste0("outputs_diagrams/correlation_chisq.png"),
+    width = 6,
+    height = 4.5,
+    units = "in",
+    pointsize = 4,
+    res=600)
+g4
+dev.off()
+```
+
+## Contextualizing Chi Square Test (Numerical)
+Intepreting ChiSq
+x2: higher, more association
+df: contexualizes comparisons
+p-value <0.05 there is association
+
+Intepreting Cremers V
+1 is strong association, 0 is no association
+
+```{r}
+y = events$issue 
+#y = events$storyline
+#y = events$sub_storyline 
+x = events$`actor_type`
+#x = events$`organization`
+#x = events$`year`
+#x = events$`document_id`
+#x = events$`document_source`
+
+print( chisq.test(table(y, x )))
+```
+
+## Cramers_V Test (Strength of Association)
+```{r warning=FALSE}
+# Define Cramers V Function
+cramers_v <- function(x, y) {
+ return (assocstats(table(x, y))$cramer) 
+}  
+
+y_vars <- c("issue", "storyline", "sub_storyline")
+x_vars <- c("person", "organization", "actor_type", "year", "document_id", "document_source")
+
+
+# Initialize an empty matrix
+cramers_matrix <- matrix(nrow = length(x_vars), ncol = length(y_vars), 
+                         dimnames = list(x_vars, y_vars))
+
+# Calculate Cramér's V for each pair and fill the matrix
+for (i in 1:length(x_vars)) {
+  for (j in 1:length(y_vars)) {
+    c_v = chi_sq_matrix[i, j]
+    
+    # Fltering ChiSq P Value > 0.05
+    if (is.na(c_v) || c_v > 0.05) {
+      #filter
+    } else {
+      cramers_matrix[i, j] <- cramers_v(events[[x_vars[i]]], events[[y_vars[j]]])
+    }
+  }
+}
+
+# Plot Heatmap
+cramers_df <- as.data.frame(as.table(cramers_matrix))
+colnames(cramers_df) <- c("X_Variable", "Y_Variable", "Cramers_V")
+
+g5 <- ggplot(cramers_df, aes(X_Variable, Y_Variable, fill = Cramers_V)) +
+            geom_tile() +
+            geom_text(aes(label = round(Cramers_V, 3)), color = "black") + 
+            scale_fill_gradient2(low="lightblue", high="dodgerblue2",, limit = c(0, 1), guide="colorbar", name = "Cramér's V" ) +
+            #scale_fill_gradient2(low = "white", high = "red", midpoint = 0, limit = c(0, 1), space = "Lab", name = "Cramér's V") +
+            theme_minimal() + 
+            theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+            ggtitle("Strength of Association: Content vs Independent Var",
+                    subtitle = "Cramer's V") +
+            xlab("Independent Variables") +
+            ylab("Content Variables")
+
+
+# save plot
+png(paste0("outputs_diagrams/correlation_cremersv.png"),
+    width = 6,
+    height = 4.5,
+    units = "in",
+    pointsize = 4,
+    res=600)
+g5
+dev.off()
+```
+
+# Analyze Top Entry Types
+
+## Top Storylines of All Time
+```{r}
+top_story <- function(n, var){
+  return(
+    events %>%
+        group_by(storyline) %>%
+        summarize(count = n()) %>%
+        arrange(desc(count)) %>%
+      top_n(n, wt = count)
+  )
+}
+```
+
+## Top Storylines/ Sub-Storylines by Year
+```{r}
+yearly_summary <- events %>%
+  group_by(year) %>%
+  summarize(year_sum = n())
+
+top_y <- function(n, var){
+  return(events %>%
+        left_join(yearly_summary, by = "year") %>%
+        group_by(year, eval(parse(text = var)), year_sum) %>%
+        summarize(count = n()) %>%
+        #arrange(desc(year)) %>%
+        arrange(-year, across(c(count), desc)) %>%
+        group_by(year) %>%
+        top_n(n, wt = count) %>%
+        mutate(fraction = count/year_sum) %>%
+        ungroup() %>%
+        select(year, `eval(parse(text = var))`, count, fraction, year_sum) %>%
+        setNames(c("year", var, "count", "fraction", "year_sum"))
+        )
+}
+
+print_top_y <- function(n, var){
+  write.csv(top_y(n, var),paste0("outputs_analysis/top_year_", n,"_", var,".csv"))
+}
+
+print_top_y(3, "storyline")
+print_top_y(3, "sub_storyline")
+print_top_y(10, "issue")
+```
+
+## Top Storylines/Actor Combination by Year
+```{r}
+
+top_y_AS <- function(n){
+  return(events %>%
+        group_by(year, actor_type, storyline) %>%
+        summarize(count = n()) %>%
+        #arrange(desc(year)) %>%
+        arrange(-year, across(c(count), desc)) %>%
+        group_by(year) %>%
+        top_n(n, wt = count)
+        )
+}
+
+print_top_y_AS <- function(n){
+  write.csv(top_y_AS(n),paste0("outputs_analysis/top3_year_ActorStorylineCombination.csv"))
+}
+
+print_top_y_AS(3)
+```
+
+## Top Storylines/ Sub-Storylines by Actor Type
+```{r}
+actor_summary <- events %>%
+  group_by(`actor_type`) %>%
+  summarize(actor_sum = n())
+
+top_a <- function(n, var){
+  return(events %>%
+        left_join(actor_summary, by = "actor_type") %>% 
+        group_by(actor_type, eval(parse(text = var)), actor_sum) %>%
+        summarize(count = n()) %>%
+        arrange(`actor_type`, across(c(count), desc)) %>%
+        group_by(`actor_type`) %>%
+        top_n(n, wt = count) %>%
+        mutate(fraction = count/actor_sum) %>%
+        ungroup() %>%
+        select(actor_type, `eval(parse(text = var))`, count, fraction, actor_sum) %>%
+        setNames(c("actor_type", var, "count", "fraction", "actor_sum"))
+        )
+}
+
+print_top_a <- function(n, var){
+  write.csv(top_a(n, var),paste0("outputs_analysis/top_actor_", n,"_", var,".csv"))
+}
+
+print_top_a(10, "storyline")
+print_top_a(3, "storyline")
+print_top_a(10, "sub_storyline")
+print_top_a(3, "sub_storyline")
+print_top_a(10, "issue")
+```
+
+
+# Temporal Analysis (Storyline vs Time)
+
+## Line Graph of most frequent topics (over time)
+```{r}
+years <- seq(min(events$year), max(events$year))
+
+# Create a complete grid of all combinations of storylines and years
+complete_grid <- expand.grid(storyline = unique(events$storyline), year = years)
+
+# Group by Storyline and Year to count occurrences
+grouped <- events %>%
+  group_by(storyline, year) %>%
+  summarise(Count = n(), .groups = 'drop')
+
+# Merge the complete grid with the grouped data, filling missing values with 0
+complete_data <- complete_grid %>%
+  left_join(grouped, by = c("storyline", "year")) %>%
+  replace_na(list(Count = 0))
+
+# Aggregate counts for each storyline across all years
+total_counts <- complete_data %>%
+  group_by(storyline) %>%
+  summarise(TotalCount = sum(Count), .groups = 'drop')
+
+# Sort the storylines by total count in descending order
+sorted_storylines <- total_counts %>%
+  arrange(desc(TotalCount))
+
+# Select the top 6 storylines
+top_6_storylines <- sorted_storylines %>%
+  head(6)
+
+# Filter the complete data to include only the top 6 storylines
+top_6_data <- complete_data %>%
+  filter(storyline %in% top_6_storylines$storyline)
+
+# Plot the data
+
+
+g1 <- ggplot(top_6_data, aes(x = year, y = Count, shape = storyline, color = storyline, group = storyline)) +
+  geom_line() +
+  geom_point()+
+  labs(title = "Top 6 Most Frequent Storylines over Time",
+       x = "Year",
+       y = "Count",
+       color = "storyline") +
+  scale_x_continuous(breaks = 2011:2024)+
+  theme_minimal() +
+  #theme(legend.position = "bottom")+
+  #guides(shape = guide_legend(ncol = 2))+
+  theme(legend.position = "right") +
+  theme(legend.key.size = unit(0.5, 'cm'))  
+
+g1
+
+png("outputs_diagrams/top6storylines_overtime.png",
+    width = 9,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+g1
+dev.off()
+```
+
+
+
+## Linegraph of Conflict Topics (over time)
+```{r}
+conflicts <- c("[Decentralization is beneficial (D)]",
+              "[Centralization is needed instead (C)]",
+              "[EPA is effective for CP (CP)]", 
+              "[EPA not effective for CP (Not CP)]", 
+              "[EPA simplifies procedures (Simple)]",  
+              "[EPA does not simplify procedures (Not Simple)]", 
+              "[EPA's Introduction should (Postpone)]",
+              "[EPA's Introduction should (Not Postpone)]")
+
+sha <- c(3,4)
+shapes <- c("[Decentralization is beneficial (D)]" = sha[1],
+              "[Centralization is needed instead (C)]" = sha[2],
+              "[EPA is effective for CP (CP)]" = sha[1], 
+              "[EPA not effective for CP (Not CP)]" = sha[2], 
+              "[EPA simplifies procedures (Simple)]" = sha[1],  
+              "[EPA does not simplify procedures (Not Simple)]" = sha[2], 
+              "[EPA's Introduction should (Postpone)]" = sha[1],
+              "[EPA's Introduction should (Not Postpone)]" = sha[2])
+
+#lev = c('Decentralization/Centralization','Citizen Participation','Simplification','Postpone/Not Postpone') 
+lev = c('Instrument Logic','Effectiveness of Policy \n(Citizen Participation)','Effectiveness of Policy \n(Simplification)','Stance on Implementation') 
+
+pairing <- c("[Decentralization is beneficial (D)]" = lev[1],
+              "[Centralization is needed instead (C)]" = lev[1],
+              "[EPA is effective for CP (CP)]" = lev[2],
+              "[EPA not effective for CP (Not CP)]" = lev[2],
+              "[EPA simplifies procedures (Simple)]" = lev[3],  
+              "[EPA does not simplify procedures (Not Simple)]" = lev[3], 
+              "[EPA's Introduction should (Postpone)]" = lev[4],
+              "[EPA's Introduction should (Not Postpone)]" = lev[4])
+
+
+# Filter the complete data to include only the top 6 storylines
+conflict_data <- complete_data %>%
+  filter(storyline %in% conflicts) %>%
+   mutate(pair = pairing[storyline])
+  
+conflict_data$storyline <- factor(conflict_data$storyline, 
+                      levels = conflicts)
+
+# Plot the data
+g2 <- ggplot(conflict_data, aes(x = year, y = Count, shape = storyline, color = storyline, group = storyline)) +
+  geom_line() +
+  geom_point()+
+  labs(title = "Key Conflicting Pairs of Storylines over Time",
+       x = "Year",
+       y = "Count",
+       color = "storyline") +
+  scale_x_continuous(breaks = 2011:2024)+
+  scale_y_continuous(position = "right", limits=c(0, 15))+
+  theme_minimal() +
+  theme(legend.position = "bottom")+
+  guides(shape = guide_legend(ncol = 2, byrow= TRUE))+
+  #scale_color_manual(values = colors) +
+  scale_shape_manual(values = shapes) +
+  facet_grid(~factor(pair, levels= lev)~., switch = "y") +
+  theme(strip.text.y.left = element_text(angle = 0)) 
+
+g2
+
+# Save image
+
+png("outputs_diagrams/topconflicts_overtime.png",
+    width = 7.5 ,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+g2
+dev.off()
+  
+  
+```
+## Linegraph of Issue Rankings (over time)
+
+Standardize Actor Colours
+```{r}
+# Set colors
+n_issue <- length(unique(events$issue))
+#palette <- kelly(n_issue+1)[-1] #remove the white one
+mycolors <- colorRampPalette(brewer.pal(8, "Dark2"))(n_issue)
+
+# Create a named vector for the issue type colors
+issue_colors <- setNames(palette, unique(events$issue))
+issue_colors
+```
+
+```{r warning=FALSE}
+
+nrank = 10
+
+df_ <- events %>%
+  left_join(yearly_summary, by = "year") %>%
+  group_by(year, issue, year_sum) %>%
+  summarize(count = n()) %>%
+  #arrange(desc(year)) %>%
+  arrange(-year, across(c(count), desc)) %>%
+  group_by(year) %>%
+  top_n(nrank, wt = count) %>%
+  mutate(fraction = count/year_sum) %>%
+  ungroup()
+
+df <- df_  %>%
+  group_by(year) %>% 
+  arrange(year, desc(count)) %>% 
+  mutate(ranking = row_number()) %>%
+  ungroup() %>%
+  complete(issue, year) 
+
+lastrankorder <- df %>% filter(year== 2024) %>% arrange(ranking) %>% .$issue
+df <- df %>% mutate(issue = factor(issue, levels = lastrankorder))
+
+
+# Plotting
+
+g9 <- ggplot(data = df, aes(x = year, y = ranking)) +
+      geom_line(aes(color = issue, alpha = 1), size = 1.5, na.rm = TRUE) +
+      geom_point(aes(color = issue, alpha = 1, label = , size = 4)) +
+      geom_point(color = "#FFFFFF", size = 1) +
+      labs(title = "Issues over Time",
+           subtitle = paste0("Tracking Rankings of All Issues by Year")) +
+      scale_y_reverse(breaks = seq(1,10,1)) + 
+      theme_minimal() +
+      theme(legend.position = "bottom")+
+      theme(legend.key.size = unit(0.5, 'cm'))  +
+      guides(shape = guide_legend(ncol = 2, byrow= TRUE))+
+      scale_x_continuous(breaks = 2011:2024, 
+                         minor_breaks = 2011:2024 ) +
+      theme(axis.text.x=element_text(angle=45,hjust=1)) +
+      theme(legend.position = "right",
+            legend.box.just = "left") + # Align legend text to the left within the box
+      guides(fill = guide_legend(ncol = 5, title.position = "top", bycol = TRUE, reverse = TRUE))+
+      guides(size = "none") +
+      guides(alpha = "none") +
+      scale_color_manual(values = issue_colors)
+      # +
+      # geom_text(data = df %>% filter(year == "2024"),
+      #           aes(label = issue, x = 2024.5) , hjust=0, fontface = "bold", color = "#888888", size = 3) 
+
+g9
+
+# Save Plot
+
+png(paste0("outputs_diagrams/rankings_issue_top",nrank,"_overtime.png"),
+    width = 9,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g9
+
+dev.off()
+```
+
+## Linegraph of Storyline Rankings (over time)
+```{r warning=FALSE}
+
+nrank = 7
+
+df_ <- events %>%
+  left_join(yearly_summary, by = "year") %>%
+  group_by(year, storyline, year_sum) %>%
+  summarize(count = n()) %>%
+  #arrange(desc(year)) %>%
+  arrange(-year, across(c(count), desc)) %>%
+  group_by(year) %>%
+  top_n(nrank, wt = count) %>%
+  mutate(fraction = count/year_sum) %>%
+  ungroup()
+
+df <- df_  %>%
+  group_by(year) %>% 
+  arrange(year, desc(count)) %>% 
+  mutate(ranking = row_number()) %>%
+  ungroup() %>%
+  complete(storyline, year)
+
+
+# Plotting
+
+g3 <- ggplot(data = df, aes(x = year, y = ranking)) +
+      geom_line(aes(color = storyline, alpha = 1), size = 1.5, na.rm = TRUE) +
+      geom_point(aes(color = storyline, alpha = 1, label = , size = 4)) +
+      geom_point(color = "#FFFFFF", size = 1) +
+      labs(title = "Storyline Rankings over Time",
+           subtitle = paste0("Tracking Top ", nrank," Storylines of Each Year")) +
+      scale_y_reverse(breaks = 1:17) + 
+      theme_minimal() +
+      theme(legend.position = "none")+
+      guides(shape = guide_legend(ncol = 2, byrow= TRUE))+
+      scale_x_continuous(breaks = 2011:2024, minor_breaks = 2011:2024, 
+                         expand = expansion(mult = c(0,-0.4), add = c(0.2, 11))) +
+      geom_text(data = df %>% filter(year == "2024"),
+                aes(label = storyline, x = 2024.5) , hjust=0, fontface = "bold", color = "#888888", size = 3) 
+
+g3
+
+# Save Plot
+
+png(paste0("outputs_diagrams/rankings_storyline_top",nrank,"_overtime.png"),
+    width = 9,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g3
+
+dev.off()
+```
+
+# Actor Analysis (Storyline vs Actor Type)
+
+Standardize Actor Colours
+```{r}
+# Set colors
+n_actor_types <- length(unique(events$actor_type))
+palette <- cols25(n_actor_types) #alphabet2, cols25, glasbey, polychomre
+
+# Create a named vector for the actor type colors
+actor_type_colors <- setNames(palette, unique(actor_storyline_proportion$actor_type))
+actor_type_colors
+```
+
+## Focus on Top Count Storylines
+```{r}
+n = 10
+topcountstorylines <- top_story(n)$storyline
+at <- sort(unique(events$actor_type))
+
+actor_storyline_proportion <- events %>% 
+  filter(storyline %in% topcountstorylines) %>%
+  mutate(storyline = factor(storyline, levels = rev(topcountstorylines))) %>%
+  mutate(actor_type = factor(actor_type, levels = rev(at))) %>%
+  group_by(storyline, actor_type) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  group_by(storyline) %>%
+  mutate(total = sum(count),
+         proportion = count / total) %>%
+  ungroup() %>%
+  select(storyline, actor_type, count, proportion)
+
+actor_storyline_proportion
+# Sort Based on number of actors
+actor_type_counts <- actor_storyline_proportion %>%
+  group_by(storyline) %>%
+  summarise(actor_type_count = n_distinct(actor_type))
+
+sorted_storylines <- actor_type_counts %>%
+  arrange(desc(actor_type_count))
+
+
+# Plot the horizontal barplot
+g13 <- ggplot(actor_storyline_proportion , aes(y = storyline, x = count, fill = actor_type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = actor_type_colors) +
+  labs(title = "Contribution of Storylines by Actor Type",
+       subtitle = "Storylines in Descending Order of Total Frequency") +
+  theme_minimal() +
+  theme(axis.title.x=element_blank())+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y = element_text(hjust = 1)) +
+  theme(legend.position = "bottom",
+        legend.justification = c(1.4, 0), # Align legend to the bottom-left
+        legend.box.just = "left") + # Align legend text to the left within the box
+  guides(fill = guide_legend(nrow = 5, title.position = "top", bycol = TRUE, reverse = TRUE))
+
+
+# Save plot
+png(paste0("outputs_diagrams/top",n,"story_vs_actortype.png"),
+    width = 7,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g13
+dev.off()
+
+```
+
+## Focus on Top Actor Storylines
+```{r}
+topactorstorylines <- unique(top_a(3, "storyline")$storyline)
+at <- sort(unique(events$actor_type))
+
+actor_storyline_proportion <- events %>% 
+  filter(storyline %in% topactorstorylines) %>%
+  mutate(storyline = factor(storyline, levels = rev(topactorstorylines))) %>%
+  mutate(actor_type = factor(actor_type, levels = rev(at))) %>%
+  group_by(storyline, actor_type) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  group_by(storyline) %>%
+  mutate(total = sum(count),
+         proportion = count / total) %>%
+  ungroup() %>%
+  select(storyline, actor_type, proportion)
+
+# Sort Based on number of actors
+actor_type_counts <- actor_storyline_proportion %>%
+  group_by(storyline) %>%
+  summarise(actor_type_count = n_distinct(actor_type))
+
+sorted_storylines <- actor_type_counts %>%
+  arrange(desc(actor_type_count))
+
+actor_storyline_proportion <- actor_storyline_proportion %>% 
+  mutate(storyline = factor(storyline, levels = rev(sorted_storylines$storyline)))
+
+
+# Plot the horizontal barplot
+g7 <- ggplot(actor_storyline_proportion , aes(y = storyline, x = proportion, fill = actor_type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = actor_type_colors) +
+  labs(title = "Contribution of Storylines by Actor Type",
+       subtitle = "Top 3 Most Occurring per Actor Type") +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank())+
+  theme(axis.text.y = element_text(hjust = 1)) +
+  theme(legend.position = "bottom",
+        legend.justification = c(1.4, 0), # Align legend to the bottom-left
+        legend.box.just = "left") + # Align legend text to the left within the box
+  guides(fill = guide_legend(nrow = 5, title.position = "top", bycol = TRUE, reverse = TRUE))
+
+g7
+
+# Save plot
+png(paste0("outputs_diagrams/top3Astory_vs_actortype.png"),
+    width = 7,
+    height = 6,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g7
+dev.off()
+
+```
+
+## Focus on Main Emergent Conflicts (by Proportion)
+```{r}
+conflicts <- c("[Decentralization is beneficial (D)]",
+              "[Centralization is needed instead (C)]",
+              "[EPA is effective for CP (CP)]", 
+              "[EPA not effective for CP (Not CP)]", 
+              "[EPA simplifies procedures (Simple)]",  
+              "[EPA does not simplify procedures (Not Simple)]", 
+              "[EPA's Introduction should (Postpone)]",
+              "[EPA's Introduction should (Not Postpone)]")
+at <- sort(unique(events$actor_type))
+
+actor_storyline_proportion <- events %>% 
+  filter(storyline %in% conflicts) %>%
+  mutate(storyline = factor(storyline, levels = rev(conflicts))) %>%
+  mutate(actor_type = factor(actor_type, levels = rev(at))) %>%
+  group_by(storyline, actor_type) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  group_by(storyline) %>%
+  mutate(total = sum(count),
+         proportion = count / total) %>%
+  ungroup() %>%
+  select(storyline, actor_type, proportion)
+
+
+# Set colors
+n_actor_types <- length(unique(actor_storyline_proportion$actor_type))
+palette <- cols25(n_actor_types) #alphabet2, cols25, glasbey, polychomre
+
+# Create a named vector for the actor type colors
+actor_type_colors <- setNames(palette, unique(actor_storyline_proportion$actor_type))
+
+# Plot the horizontal barplot
+g6 <- ggplot(actor_storyline_proportion , aes(y = storyline, x = proportion, fill = actor_type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = actor_type_colors) +
+  labs(title = "Contribution of Conflicting Storylines by Actor Type")+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank())+
+  theme(axis.text.y = element_text(hjust = 1)) +
+  theme(legend.position = "bottom",
+        legend.justification = c(1.4, 0), # Align legend to the bottom-left
+        legend.box.just = "left") + # Align legend text to the left within the box
+  guides(fill = guide_legend(nrow = 5, title.position = "top", bycol = TRUE, reverse = TRUE))
+
+g6
+
+# Save plot
+png(paste0("outputs_diagrams/conflictstory_vs_actortype_proportion.png"),
+    width = 7,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g6
+dev.off()
+
+```
+
+## Focus on Main Emergent Conflicts (by Counts)
+```{r}
+conflicts <- c("[Decentralization is beneficial (D)]",
+              "[Centralization is needed instead (C)]",
+              "[EPA is effective for CP (CP)]", 
+              "[EPA not effective for CP (Not CP)]", 
+              "[EPA simplifies procedures (Simple)]",  
+              "[EPA does not simplify procedures (Not Simple)]", 
+              "[EPA's Introduction should (Postpone)]",
+              "[EPA's Introduction should (Not Postpone)]")
+at <- sort(unique(events$actor_type))
+
+actor_storyline_proportion <- events %>% 
+  filter(storyline %in% conflicts) %>%
+  mutate(storyline = factor(storyline, levels = rev(conflicts))) %>%
+  mutate(actor_type = factor(actor_type, levels = rev(at))) %>%
+  group_by(storyline, actor_type) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  group_by(storyline) %>%
+  mutate(total = sum(count),
+         proportion = count / total) %>%
+  ungroup() %>%
+  #select(storyline, actor_type, proportion)
+  select(storyline, actor_type, count)
+
+# Set colors
+n_actor_types <- length(unique(actor_storyline_proportion$actor_type))
+palette <- cols25(n_actor_types) #alphabet2, cols25, glasbey, polychomre
+
+# Create a named vector for the actor type colors
+actor_type_colors <- setNames(palette, unique(actor_storyline_proportion$actor_type))
+
+# Plot the horizontal barplot
+g15 <- ggplot(actor_storyline_proportion , aes(y = storyline, x = count, fill = actor_type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = actor_type_colors) +
+  labs(title = "Contribution of Conflicting Storylines by Actor Type")+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank())+
+  theme(axis.text.y = element_text(hjust = 1)) +
+  theme(legend.position = "bottom",
+        legend.justification = c(1.4, 0), # Align legend to the bottom-left
+        legend.box.just = "left") + # Align legend text to the left within the box
+  guides(fill = guide_legend(nrow = 5, title.position = "top", bycol = TRUE, reverse = TRUE))
+
+g15
+
+# Save plot
+png(paste0("outputs_diagrams/conflictstory_vs_actortype_counts.png"),
+    width = 7,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g15
+dev.off()
+
+```
+
+## Focus on ISSUES (by Proportion)
+```{r}
+issue_order <- c(
+  "Instrument Logic",      
+  "Prioritization of objectives", 
+  "Effectiveness of Policy (Citizen Participation)",
+  "Effectiveness of Policy (Simplification)",  
+  "Effectiveness of Policy (Noise)",     
+  "Effectiveness of Policy (Integration)",          
+  "General Implementation Beliefs",                 
+  "Threats from Implementation",                         
+  "Viability of Implementation",               
+  "Stances on Implementation"                   
+)
+
+at <- sort(unique(events$actor_type))
+
+sort(unique(events$issue))
+
+actor_issue_proportion <- events %>% 
+  mutate(issue = factor(issue, levels = rev(issue_order))) %>%
+  mutate(actor_type = factor(actor_type, levels = rev(at))) %>%
+  group_by(issue, actor_type) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  group_by(issue) %>%
+  mutate(total = sum(count),
+         proportion = count / total) %>%
+  ungroup() %>%
+  select(issue, actor_type, count)
+
+# Plot the horizontal barplot
+g17 <- ggplot(actor_issue_proportion , aes(y = issue, x = count, fill = actor_type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = actor_type_colors) +
+  labs(title = "Contribution of Issues by Actor Type")+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank())+
+  theme(axis.text.y = element_text(hjust = 1)) +
+  theme(legend.position = "bottom",
+        legend.justification = c(1.4, 0), # Align legend to the bottom-left
+        legend.box.just = "left") + # Align legend text to the left within the box
+  guides(fill = guide_legend(nrow = 5, title.position = "top", bycol = TRUE, reverse = TRUE))
+
+g17
+
+# Save plot
+png(paste0("outputs_diagrams/issues_vs_actortype_proportion.png"),
+    width = 7,
+    height = 4,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g17
+dev.off()
+
+```
+
+
+# Actor + Storyline vs Time (Sum of Abs Y-Y Change)
+
+## Top Storylines by Actors
+```{r}
+topactorstorylines <- unique(top_a(2, "storyline")$storyline)
+at <- sort(unique(events$actor_type))
+
+actor_storyline_time <- events %>% 
+  filter(storyline %in% topactorstorylines) %>%
+  mutate(storyline = factor(storyline, levels = rev(topactorstorylines))) %>%
+  mutate(actor_type = factor(actor_type, levels = at)) %>%
+  group_by(storyline, actor_type, year) %>%
+  summarise(Frequency = n(), .groups = 'drop') 
+
+# Create a dataframe with all possible combinations
+complete_combinations <- expand_grid(
+  storyline = unique(actor_storyline_time$storyline),
+  actor_type = unique(actor_storyline_time$actor_type),
+  year = unique(actor_storyline_time$year)
+)
+
+# Perform a left join to ensure all years within the range are included
+full_data <- complete_combinations %>%
+  left_join(actor_storyline_time, by = c("storyline", "actor_type", "year")) 
+
+# Assuming full_data contains the filled in years with 0 frequencies as needed
+full_data <- full_data %>%
+  mutate(Frequency = replace_na(Frequency, 0)) %>%
+  arrange(storyline, actor_type, year) %>%
+  group_by(storyline, actor_type) %>%
+  mutate(
+    freq_change = abs(Frequency - lag(Frequency))
+  ) %>% 
+  ungroup()
+
+# Replace NA in freq_change with 0 (since there's no change for the first year)
+full_data <- full_data %>%
+  mutate(freq_change = replace_na(freq_change, 0))
+
+# Summarize the total frequency change for each combination
+summary_data <- full_data %>%
+  group_by(storyline, actor_type) %>%
+  summarise(total_freq_change = sum(freq_change), .groups = 'drop') 
+
+# Create a heat map using ggplot2
+g10 <- ggplot(summary_data, aes(y = storyline, x = actor_type, fill = total_freq_change)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "dodgerblue2") +
+  labs(
+    title = "Movements between Actor Types and Storylines",
+    subtitle = "Sum of Absolute Year-over-Year Frequency Change",
+    y = "Storylines (Top 2 per Actor Type)",
+    x = "Actor Type",
+    fill = ""
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(legend.position = "right", legend.key.height = unit(1, "cm"))
+
+
+g10 
+
+# Save plot
+png(paste0("outputs_diagrams/absChange_actor_top2Astoryline.png"),
+    width = 8,
+    height = 5,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g10
+dev.off()
+
+
+
+```
+## Top Storylines by Count
+```{r}
+topcountstorylines <- top_story(n)$storyline
+at <- sort(unique(events$actor_type))
+
+actor_storyline_time <- events %>% 
+  filter(storyline %in% topcountstorylines) %>%
+  mutate(storyline = factor(storyline, levels = rev(topcountstorylines))) %>%
+  mutate(actor_type = factor(actor_type, levels = at)) %>%
+  group_by(storyline, actor_type, year) %>%
+  summarise(Frequency = n(), .groups = 'drop') 
+
+# Create a dataframe with all possible combinations
+complete_combinations <- expand_grid(
+  storyline = unique(actor_storyline_time$storyline),
+  actor_type = unique(actor_storyline_time$actor_type),
+  year = unique(actor_storyline_time$year)
+)
+
+# Perform a left join to ensure all years within the range are included
+full_data <- complete_combinations %>%
+  left_join(actor_storyline_time, by = c("storyline", "actor_type", "year")) 
+
+# Assuming full_data contains the filled in years with 0 frequencies as needed
+full_data <- full_data %>%
+  mutate(Frequency = replace_na(Frequency, 0)) %>%
+  arrange(storyline, actor_type, year) %>%
+  group_by(storyline, actor_type) %>%
+  mutate(
+    freq_change = abs(Frequency - lag(Frequency))
+  ) %>% 
+  ungroup()
+
+# Replace NA in freq_change with 0 (since there's no change for the first year)
+full_data <- full_data %>%
+  mutate(freq_change = replace_na(freq_change, 0))
+
+# Summarize the total frequency change for each combination
+summary_data <- full_data %>%
+  group_by(storyline, actor_type) %>%
+  summarise(total_freq_change = sum(freq_change), .groups = 'drop') 
+
+# Create a heat map using ggplot2
+g19 <- ggplot(summary_data, aes(y = storyline, x = actor_type, fill = total_freq_change)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "dodgerblue2") +
+  labs(
+    title = "Movements between Actor Types and Storylines",
+    subtitle = "Sum of Absolute Year-over-Year Frequency Change",
+    y = "Storylines (Top Counts)",
+    x = "Actor Type",
+    fill = ""
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(legend.position = "right", legend.key.height = unit(1, "cm"))
+
+
+g19 
+
+# Save plot
+png(paste0("outputs_diagrams/absChange_actor_topcount.png"),
+    width = 8,
+    height = 5,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g19
+dev.off()
+
+
+
+```
+
+### Testing Abs Changes [CONFLICTS]
+```{r}
+at <- sort(unique(events$actor_type))
+
+actor_storyline_time <- events %>% 
+  filter(storyline %in% conflicts) %>%
+  mutate(storyline = factor(storyline, levels = rev(conflicts))) %>%
+  mutate(actor_type = factor(actor_type, levels = at)) %>%
+  group_by(storyline, actor_type, year) %>%
+  summarise(Frequency = n(), .groups = 'drop') 
+
+# Create a dataframe with all possible combinations
+complete_combinations <- expand_grid(
+  storyline = unique(actor_storyline_time$storyline),
+  actor_type = unique(actor_storyline_time$actor_type),
+  year = unique(actor_storyline_time$year)
+)
+
+# Perform a left join to ensure all years within the range are included
+full_data <- complete_combinations %>%
+  left_join(actor_storyline_time, by = c("storyline", "actor_type", "year"))
+
+# Assuming full_data contains the filled in years with 0 frequencies as needed
+full_data <- full_data %>%
+  mutate(Frequency = replace_na(Frequency, 0)) %>%
+  arrange(storyline, actor_type, year) %>%
+  group_by(storyline, actor_type) %>%
+  mutate(
+    freq_change = abs(Frequency - lag(Frequency))
+  ) %>% 
+  ungroup()
+
+# Replace NA in freq_change with 0 (since there's no change for the first year)
+full_data <- full_data %>%
+  mutate(freq_change = replace_na(freq_change, 0))
+
+
+# Summarize the total frequency change for each combination
+summary_data <- full_data %>%
+  group_by(storyline, actor_type) %>%
+  summarise(total_freq_change = sum(freq_change), .groups = 'drop')
+
+
+# Create a heat map using ggplot2
+g11 <- ggplot(summary_data, aes(y = storyline, x = actor_type, fill = total_freq_change)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "dodgerblue2") +
+  labs(
+    title = "Movements between Actor Types and Storylines",
+    subtitle = "Sum of Absolute Year-over-Year Frequency Change",
+    y = "Storylines (Conflicts)",
+    x = "Actor Type",
+    fill = ""
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(legend.position = "right", legend.key.height = unit(1, "cm"))
+
+
+g11
+
+# Save plot
+png(paste0("outputs_diagrams/absChange_actor_conflicts.png"),
+    width = 8,
+    height = 5,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+g11
+dev.off()
+
+
+
+```
+
+### Testing R_Squared Linearity
+
+```{r}
+topactorstorylines <- unique(top_a(3, "storyline")$storyline)
+at <- sort(unique(events$actor_type))
+
+actor_storyline_time <- events %>% 
+  filter(storyline %in% topactorstorylines) %>%
+  mutate(storyline = factor(storyline, levels = rev(topactorstorylines))) %>%
+  mutate(actor_type = factor(actor_type, levels = rev(at))) %>%
+  group_by(storyline, actor_type, year) %>%
+  summarise(Frequency = n(), .groups = 'drop') 
+
+# Calculate the first and last year for each combination of storyline and actor_type
+year_ranges <- actor_storyline_time %>%
+  group_by(storyline, actor_type) %>%
+  summarise(
+    first_year = min(year),
+    last_year = max(year),
+    .groups = 'drop'
+  )
+
+# Create a dataframe with all years between the first and last year for each combination
+complete_years <- year_ranges %>%
+  rowwise() %>%
+  do({
+    tibble(
+      storyline = .$storyline,
+      actor_type = .$actor_type,
+      year = seq(.$first_year, .$last_year)
+    )
+  }) %>%
+  ungroup()
+
+complete_years
+
+# Perform a left join to ensure all years within the range are included
+full_data <- complete_years %>%
+  left_join(actor_storyline_time, by = c("storyline", "actor_type", "year"))
+
+# Replace NA values with 0
+full_data <- full_data %>%
+  mutate(Frequency = replace_na(Frequency, 0)) %>% drop_na()
+
+
+
+# Function to calculate slope and R²
+calculate_metrics <- function(data) {
+  results <- data %>%
+    group_by(actor_type, storyline) %>%
+    summarize(
+      Slope = if (n() > 1) coef(lm(Frequency ~ year))[2] else NA,
+      R_squared = if (n() > 1) summary(lm(Frequency ~ year))$r.squared else NA
+    )
+  return(results)
+}
+
+# Calculate slope and R²
+metrics_df <- calculate_metrics(full_data)
+
+# Reshape the data for plotting
+metrics_long <- metrics_df %>%
+  pivot_longer(cols = c("Slope", "R_squared"), names_to = "Metric", values_to = "Value") %>%
+  pivot_wider(names_from = Metric, values_from = Value)
+
+
+
+# Basic Plot
+
+ggplot(metrics_long %>% drop_na(), aes(x = actor_type , y = storyline, fill = R_squared)) +
+  geom_tile() +
+  geom_text(aes(label=round(R_squared,2)),size=2)+
+  scale_fill_gradientn(colours = c("grey","dodgerblue2","dodgerblue2"),values = c(0,1,1))+
+  theme(axis.text.x = element_text(angle = 45,  hjust=1))
+  coord_fixed()
+
+
+```
+```

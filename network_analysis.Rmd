@@ -1,0 +1,668 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-07-16"
+---
+
+# Initialize Library
+```{r setup}
+library(igraph)
+library(readxl)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(statnet)
+library(pals)
+library(gridExtra)
+library(lubridate)
+library(reshape2)
+set.seed(12345)
+```
+
+# Intialization
+
+## Import data
+```{r}
+events <- read_excel("eventlist_11_7.xlsx", sheet = "eventlist")
+
+
+# create year category
+events <- events %>% 
+  mutate(year=year(time))
+
+# create phases
+events <- events %>%
+      mutate(phase = case_when(
+        time < as.POSIXct("2016-04-01") ~ 1,
+        time >= as.POSIXct("2016-04-01") & time <= as.POSIXct("2019-12-31") ~ 2,
+        time >= as.POSIXct("2020-01-01") & time <= as.POSIXct("2021-12-31") ~ 3,
+        time >= as.POSIXct("2022-01-01") & time <= as.POSIXct("2023-12-31") ~ 4,
+        TRUE ~ 5
+  ))
+
+
+# create actor list
+actorlist <- events %>% distinct(person, organization, actor_type)
+actorlist
+colnames(events)
+```
+## Establish Color Scheme for Organizations
+```{r}
+# Set colors
+n_actor_types <- length(unique(events$actor_type))
+palette <- cols25(n_actor_types) #alphabet2, cols25, glasbey, polychomre
+
+# Create a named vector for the actor type colors
+actor_type_colors <- setNames(palette, unique(actor_storyline_proportion$actor_type))
+actor_type_colors <- actor_type_colors[order(names(actor_type_colors))]
+
+# Save Legend
+png("outputs_diagrams/legend_actor.png",
+    width = 4,
+    height = 3,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+
+plot.new()
+legend("center", 
+       legend = names(actor_type_colors), 
+       cex=2,
+       box.lty=0,
+       pt.cex = 4,
+       fill = actor_type_colors, 
+       title = "Actor Types")
+
+dev.off()
+
+# Vector for actor type/person
+person_to_actor_type <- setNames(actorlist$actor_type, actorlist$person)
+
+#events <- events %>% mutate(color = actor_type_colors[actor_type])
+```
+
+
+```{r} 
+#Split data into eventlist, actor list
+
+# 
+# # create storyline list
+# storylist <- events %>% distinct(issue, storyline, sub_storyline)
+# 
+# # create edgelist
+# events %>% filter(time, person, )
+```
+
+
+
+# Concept Congruence
+
+## Define Concept Congruence Functions
+```{r}
+con_net <- function(df, weight_threshold, phs = 0, print = TRUE, seed = 1) {
+
+  # Subset original event list
+  if (phs == 1 || phs == 2 || phs == 3 || phs == 4 || phs == 5) { 
+    df1 <- df %>% filter(phase == phs) %>% select(person, storyline)} 
+  else {df1 <- df %>% select(person, storyline)}
+  
+  # Create a bipartite graph
+  g <- graph_from_data_frame(d = df1 , directed = T)
+  V(g)$type <- bipartite_mapping(g)$type # Assign the bipartite type 
+  proj <- bipartite_projection(g, multiplicity = TRUE)
+  
+  # Extract the projection for storylines
+  storyline_proj <- proj$proj2
+  
+  # Filter edges based on the weight threshold
+  storyline_proj <- delete_edges(storyline_proj, E(storyline_proj)[weight < weight_threshold])
+  
+  # Filter nodes with degree
+  storyline_proj <- delete_vertices(storyline_proj, 
+                                    V(storyline_proj)[igraph::degree(storyline_proj) == 0])
+  
+  # Scale Range
+  alpha_range <- c(0.2,0.7)
+  wei <- E(storyline_proj)$weight
+  scaled_a <- ((wei - min(wei)) / (max(wei) - min(wei))) *
+                    (alpha_range[2] - alpha_range[1]) +
+                    alpha_range[1]
+  
+  scaled_rgb <- sapply(scaled_a, function(a) rgb(0,0,0,a))
+  
+  if (print == TRUE){
+    
+    #Plot Graph
+    png(paste0("outputs_diagrams/concept",
+               "_p", phs,
+               "_w", weight_threshold,
+               ".png"),
+        width = 4,
+        height = 3,
+        units = "in",
+        pointsize = 4,
+        res=1200)
+  
+    set.seed(seed)
+    layout <- layout.fruchterman.reingold(storyline_proj, dim = 2)
+    
+    plot.igraph(storyline_proj, 
+                layout = layout,
+                vertex.size = igraph::degree(storyline_proj)/1,
+                #edge.width = (E(storyline_proj)$weight/2)^(1.5),
+                #edge.color = rgb(0.6, 0.2, 0.2, 0.5),
+                edge.width = 1,
+                edge.color = scaled_rgb,
+                vertex.color = rgb(1, 1, 1, 0.5),
+                vertex.label.dist = -0.5,
+                #vertex.label.cex = 1,
+                vertex.label.cex = igraph::degree(storyline_proj)/max(igraph::degree(storyline_proj))*1.3+0.4,
+                vertex.label.degree = -pi/2,
+                asp = 1.5,
+                main = paste0("Phase ", ifelse(phs==0, "All", phs))
+                #sub = paste0("Weight Threshold = ", weight_threshold)
+                )
+    
+    dev.off()
+    
+    return(     plot.igraph(storyline_proj, 
+                layout = layout,
+                vertex.size = igraph::degree(storyline_proj)/1,
+                #edge.width = (E(storyline_proj)$weight/2)^(1.5),
+                #edge.color = rgb(0.6, 0.2, 0.2, 0.5),
+                edge.width = 1,
+                edge.color = scaled_rgb,
+                vertex.color = rgb(1, 1, 1, 0.5),
+                vertex.label.dist = -0.5,
+                #vertex.label.cex = 1,
+                vertex.label.cex = igraph::degree(storyline_proj)/max(igraph::degree(storyline_proj))*1.3+0.4,
+                vertex.label.degree = -pi/2,
+                asp = 1.5,
+                main = paste0("Phase ", ifelse(phs==0, "All", phs))
+                #sub = paste0("Weight Threshold = ", weight_threshold)
+                )
+                
+            )
+  }
+  
+  else{
+    
+    return(storyline_proj)
+    
+  }
+}
+```
+
+## Compare between weighted thresholds 2,3,4
+```{r}
+
+
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 1,
+    print = TRUE)
+
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 2,
+    print = TRUE)
+
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 3,
+    print = TRUE)
+
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 4,
+    print = TRUE)
+
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 5,
+    print = TRUE)
+```
+## Compare phases
+```{r}
+
+png("outputs_diagrams/concept_phase_compile.png",
+    width = 7,
+    height = 7,
+    units = "in",
+    pointsize = 7,
+    res=1200)
+
+par(mfrow=c(2,2), mar = c(2,2,2,2.2))
+
+w = 2
+
+set.seed(922) #690, 909
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = w,
+    phs = 1,
+    seed = 922,
+    print = TRUE)
+
+set.seed(5)
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = w,
+    phs = 2,
+    seed = 5,
+    print = TRUE)
+
+set.seed(1043) #ok
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = w,
+    phs = 3,
+    seed = 1043,
+    print = TRUE)
+
+set.seed(100) #100. 10000,2999, 8899,34
+con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = w,
+    phs = 4,
+    seed = 100,
+    print = TRUE)
+
+dev.off()
+```
+# Actor Congruence
+
+## Define Actor Congruence Functions
+```{r}
+act_net <- function(df, weight_threshold, phs = 0, delete_nodes = TRUE, print = TRUE, seed = 1, cluster = FALSE) {
+  
+  # Subset original event list
+  if (phs == 1 || phs == 2 || phs == 3 || phs == 4 || phs == 5) { 
+    df1 <- df %>% filter(phase == phs) %>% select(person, storyline)} 
+  else {df1 <- df %>% select(person, storyline)}
+  
+  # Create a bipartite graph
+  g <- graph_from_data_frame(d = df1 , directed = T)
+  V(g)$type <- bipartite_mapping(g)$type # Assign the bipartite type 
+  proj <- bipartite_projection(g, multiplicity = TRUE)
+  
+  # Extract the projection for storylines
+  storyline_proj <- proj$proj1
+  
+  # Filter edges based on the weight threshold
+  storyline_proj <- delete_edges(storyline_proj, E(storyline_proj)[weight < weight_threshold])
+  
+  # Filter nodes with degree
+  if (delete_nodes == TRUE){
+    storyline_proj <- delete_vertices(storyline_proj, 
+                                      V(storyline_proj)[igraph::degree(storyline_proj) == 0])
+  }
+
+  
+  # Assign actor type attribute to vertices
+  V(storyline_proj)$actor_type <- person_to_actor_type[V(storyline_proj)$name]
+
+  # Map actor types to colors
+  V(storyline_proj)$color <- actor_type_colors[V(storyline_proj)$actor_type]
+
+  # Vertex size based on deg
+  vertex_size_range <- c(3, 10)
+  deg <- igraph::degree(storyline_proj)
+  scaled_v_size <- ((deg - min(deg)) / (max(deg) - min(deg))) * 
+                    (vertex_size_range[2] - vertex_size_range[1]) + 
+                    vertex_size_range[1]
+  
+  # Edge size based on weight
+  edge_size_range <- c(0.5, 1)
+  wei <- E(storyline_proj)$weight
+  scaled_e_size <- ((wei - min(wei)) / (max(wei) - min(wei))) * 
+                    (vertex_size_range[2] - vertex_size_range[1]) + 
+                    vertex_size_range[1]
+  
+  # Edge alpha based on weight
+  alpha_range <- c(0.15,1)
+  wei <- E(storyline_proj)$weight
+  scaled_a <- ((wei - min(wei)) / (max(wei) - min(wei))) *
+                    (alpha_range[2] - alpha_range[1]) +
+                    alpha_range[1]
+  
+  scaled_rgb <- sapply(scaled_a, function(a) rgb(0,0,0,a))
+  
+  # Fix Layout Seed
+  set.seed(seed)
+  layout <- layout.fruchterman.reingold(storyline_proj)
+  
+  
+  if (print == TRUE){
+    
+    
+    if (cluster == TRUE){ # Clustered Graphs
+    png(paste0("outputs_diagrams/actor",
+               "_p", phs,
+               "_w", weight_threshold,
+               ".png"),
+        width = 4,
+        height = 3,
+        units = "in",
+        pointsize = 4,
+        res=1200)
+      
+    ceb <- cluster_edge_betweenness(storyline_proj)
+
+    plot(ceb, storyline_proj, 
+                layout = layout,
+                #vertex.size = scaled_v_size,
+                vertex.size = 4,
+                edge.width = 0.5,
+                col = V(storyline_proj)$color,
+                mark.col = NA,
+                asp = 1,
+                mark.border="grey",
+                vertex.label = NA,
+                main = paste0("Phase ", ifelse(phs==0, "All", phs)))  
+    dev.off()
+    
+    return (
+      plot(ceb, storyline_proj, 
+           layout = layout,
+           #vertex.size = scaled_v_size,
+            vertex.size = 4,
+            edge.width = 0.5,
+            col = V(storyline_proj)$color,
+            mark.col = NA,
+            asp = 1,
+            mark.border="grey",
+            vertex.label = NA,
+            main = paste0("Phase ", ifelse(phs==0, "All", phs)))
+    )
+    
+    } else {
+    #Plot Graph
+
+    png(paste0("outputs_diagrams/actor",
+           "_p", phs,
+           "_w", weight_threshold,
+           ".png"),
+    width = 4,
+    height = 3,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+      
+    plot.igraph(storyline_proj, 
+                layout = layout,
+                #vertex.size = scaled_v_size,
+                vertex.size = 5,
+                edge.width = 1,
+                vertex.color = V(storyline_proj)$color,
+                vertex.label = "",
+                edge.color = scaled_rgb,
+                #edge.color = "black",
+                asp = 1,
+                main = paste0("Phase ", ifelse(phs==0, "All", phs))
+                )
+    
+    dev.off()
+    }
+    
+    return(    
+      
+      plot.igraph(storyline_proj, 
+                  layout = layout,
+                  #vertex.size = scaled_v_size,
+                  vertex.size = 5,
+                  edge.width = 1,
+                  vertex.color = V(storyline_proj)$color,
+                  vertex.label = "",
+                  edge.color = scaled_rgb,
+                  #edge.color = "black",
+                  asp = 1,
+                  main = paste0("Phase ", ifelse(phs==0, "All", phs)))
+      )
+  }
+  
+  else{
+    return(storyline_proj)
+  }
+}
+```
+
+## Compare between weighted thresholds 2,3,4
+```{r}
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 2,
+    phs = 0,
+    print = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 3,
+    phs = 0,
+    print = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 4,
+    phs = 0,
+    print = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 5,
+    phs = 0,
+    delete_nodes = FALSE,
+    print = TRUE)
+
+
+```
+
+## Compare Phases
+```{r}
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 1,
+    delete_nodes = FALSE,
+    print = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 2,
+    delete_nodes = FALSE,
+    print = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 3,
+    delete_nodes = FALSE,
+    print = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 4,
+    delete_nodes = FALSE,
+    print = TRUE)
+
+
+```
+# Actor Congruence + Community Detection
+
+## Actor Networks + Community Borders (by Phases)
+
+```{r}
+
+png("outputs_diagrams/actor_phase_compile.png",
+    width = 7,
+    height = 7,
+    units = "in",
+    pointsize = 9,
+    res=1200)
+
+par(mfrow=c(2,2), mar = c(2,2,2,2))
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 1,
+    delete_nodes = FALSE,
+    print = TRUE,
+    cluster = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 2,
+    delete_nodes = FALSE,
+    print = TRUE,
+    cluster = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 3,
+    delete_nodes = FALSE,
+    print = TRUE,
+    cluster = TRUE)
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 4,
+    delete_nodes = FALSE,
+    print = TRUE,
+    cluster = TRUE)
+
+dev.off()
+
+act_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = 0,
+    phs = 5,
+    delete_nodes = FALSE,
+    print = TRUE,
+    cluster = TRUE)
+```
+
+## Heatmap of Community vs Storyline Exploration
+```{r}
+
+for (ps in 1:4) {
+  
+  storyline_proj <- act_net(df = events %>% select(person, storyline, phase),
+      weight_threshold = 0,
+      phs = ps,
+      delete_nodes = FALSE,
+      print = FALSE)
+  
+  # Community Detection Algorithms
+  ceb <- cluster_edge_betweenness(storyline_proj)
+  communities <- membership(ceb)
+  V(storyline_proj)$community <- communities
+  storylines_and_communities <- data.frame(storyline = V(storyline_proj)$name, 
+                                           community =V(storyline_proj)$community)
+  
+  # Analyze and display storyline composition for each community
+  community_composition <- split(storylines_and_communities$storyline, 
+                                 storylines_and_communities$community)
+  
+  # Order them based on sizes
+  community_composition <- community_composition[order(sapply(community_composition, length),
+                                                       decreasing = TRUE)]
+  
+  community_df <- data_frame()
+  
+  for (i in 1:length(community_composition)){
+    
+    # Filter events dataframe for rows where person is in largest_community_composition
+    filtered_events <- subset(events, person %in% community_composition[[i]])
+    
+    # Count the number of unique persons associated with each storyline
+    storyline_counts <- aggregate(person ~ storyline, 
+                                  data = filtered_events, 
+                                  function(x) length(unique(x)))
+    
+    # Filter out storylines associated with only one person
+    shared_storylines <- subset(storyline_counts, person > 1)
+  
+    
+    if (nrow(shared_storylines) > 0) {
+      shared_storylines$community <- i
+      community_df <- rbind(community_df, shared_storylines)
+    }
+  }
+  
+  community_df <- community_df %>% arrange(community, person)
+  df_melt <- melt(community_df, id.vars = c("storyline", "community"))
+  
+  k <- ggplot(df_melt, aes(x = community, y = storyline)) +
+  geom_tile(aes(fill = value), color = "white") +
+  scale_fill_gradient(low="azure1", high="dodgerblue2") +
+  theme_minimal() +
+  labs(title = "Heatmap of Storylines by Community",
+       subtitle = paste0("Phase = ", ps),
+       x = "Community",
+       y = "Storyline",
+       fill = "Value") +
+  scale_x_continuous(breaks = seq(min(df_melt$community), max(df_melt$community), by = 1),
+                     minor_breaks = NULL) +
+  theme(axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10))
+  
+  png(paste0("outputs_diagrams/community_analysis/community",
+           "_p", ps,
+           ".png"),
+    width = 9,
+    height = 5,
+    units = "in",
+    pointsize = 4,
+    res=1200)
+  
+  plot(k)
+  
+  dev.off()
+  
+
+}
+
+
+```
+# MISC
+
+## TEST DENDO
+```{r}
+png("outputs_diagrams/gomi/dendo_actor.png",
+        width = 4,
+        height = 3,
+        units = "in",
+        pointsize = 4,
+        res=1200)
+
+# Plot the dendrogram
+plot(ceb, storyline_proj, 
+      vertex.label = NA,
+      main = "Dendrogram of Storylines",
+      layout = layout_with_fr,
+      #vertex.size = scaled_v_size,
+      vertex.size = 5,
+      edge.width = 1,
+      col = V(storyline_proj)$color,
+      #color = 'green',
+     sub = paste0("weight threshold = ", w))
+
+dev.off()
+
+```
+
+## TEST DENDO
+```{r}
+w = 2
+
+p <- con_net(df = events %>% select(person, storyline, phase),
+    weight_threshold = w,
+    print = FALSE)
+
+adj_matrix <- as_adjacency_matrix(p, attr = "weight")
+
+# Convert the adjacency matrix to a distance matrix
+dist_matrix <- as.dist(1 / (adj_matrix + 1)) # Adding 1 to avoid division by zero
+
+# Perform hierarchical clustering using the complete linkage method
+hc <- hclust(dist_matrix, method = "complete")
+
+png("outputs_diagrams/gomi/dendo_concept.png",
+        width = 4,
+        height = 3,
+        units = "in",
+        pointsize = 4,
+        res=1200)
+
+# Plot the dendrogram
+plot(hc, labels = V(p)$name, 
+     main = "Dendrogram of Storylines",
+     sub = paste0("weight threshold = ", w))
+
+dev.off()
+```

@@ -1,0 +1,164 @@
+"","actor_type","sub_storyline","count","fraction","actor_sum"
+"1","Academic and Research","(D) Decentralization allows local govt to set rules for protection",4,0.0975609756097561,41
+"2","Academic and Research","(C) Decentralization loses coherence for national issues",3,0.0731707317073171,41
+"3","Academic and Research","EPA is legally problematic",3,0.0731707317073171,41
+"4","Academic and Research","(C) Decentralization causes environmental standards to fall",2,0.0487804878048781,41
+"5","Academic and Research","(C) Market driven approach causes problems",2,0.0487804878048781,41
+"6","Academic and Research","(Cancel) DSO is flawed",2,0.0487804878048781,41
+"7","Academic and Research","(D) Decentralization allows municipalities to weigh interests better",2,0.0487804878048781,41
+"8","Academic and Research","(Postpone) More time for municipalities to prepare",2,0.0487804878048781,41
+"9","Academic and Research","(Simple) Rule bundling makes rules clearer",2,0.0487804878048781,41
+"10","Academic and Research","Municipalities take on too many new tasks",2,0.0487804878048781,41
+"11","Academic and Research","Uncertainties from EPA causes risks to actors",2,0.0487804878048781,41
+"12","Architectural & Planning Associations","(D) Decentralization allows local govt to set rules for protection",1,0.5,2
+"13","Architectural & Planning Associations","Legal issues causes EPA to be ineffective",1,0.5,2
+"14","Community and Civic Groups","(CP) Process involves citizens more",2,0.111111111111111,18
+"15","Community and Civic Groups","(D) Decentralization allows local govt to set rules for protection",2,0.111111111111111,18
+"16","Community and Civic Groups","New noise standards are good to curb noise pollution",2,0.111111111111111,18
+"17","Community and Civic Groups","(C) Decentralization causes environmental standards to fall",1,0.0555555555555556,18
+"18","Community and Civic Groups","(C) Decentralization loses coherence for national issues",1,0.0555555555555556,18
+"19","Community and Civic Groups","(D) Decentralization provides local govt development opportunities",1,0.0555555555555556,18
+"20","Community and Civic Groups","(Not CP) EPA favours minority",1,0.0555555555555556,18
+"21","Community and Civic Groups","(Not CP) Implementation was lacking",1,0.0555555555555556,18
+"22","Community and Civic Groups","(Not CP) Municipalities have too much control",1,0.0555555555555556,18
+"23","Community and Civic Groups","(Simple) Rule bundling makes initation process simpler",1,0.0555555555555556,18
+"24","Community and Civic Groups","EPA is legally problematic",1,0.0555555555555556,18
+"25","Community and Civic Groups","EPA must strike a balance between using and protecting space",1,0.0555555555555556,18
+"26","Community and Civic Groups","EV can be more ambitious",1,0.0555555555555556,18
+"27","Community and Civic Groups","Municipalities can do more for citizen participation",1,0.0555555555555556,18
+"28","Community and Civic Groups","Simplification benefits initators not government",1,0.0555555555555556,18
+"29","Developers and Construction","(CP) Process involves citizens more",6,0.176470588235294,34
+"30","Developers and Construction","(C) Decentralization loses coherence for national issues",4,0.117647058823529,34
+"31","Developers and Construction","Citizen participation makes progress slower",2,0.0588235294117647,34
+"32","Developers and Construction","Municipalities are understaffed for implementation",2,0.0588235294117647,34
+"33","Developers and Construction","(CP) Considers citizen interest better",1,0.0294117647058824,34
+"34","Developers and Construction","(CP) Simplification of rules improves citizen participation",1,0.0294117647058824,34
+"35","Developers and Construction","(D) Decentralization allows local govt to set rules for protection",1,0.0294117647058824,34
+"36","Developers and Construction","(D) Decentralization provides local govt development opportunities",1,0.0294117647058824,34
+"37","Developers and Construction","(Int) Instruments provides an integrated planning framework",1,0.0294117647058824,34
+"38","Developers and Construction","(Not CP) EPA favours minority",1,0.0294117647058824,34
+"39","Developers and Construction","(Not CP) Implementation was lacking",1,0.0294117647058824,34
+"40","Developers and Construction","(Not Simple) New rules are complicated for everyone",1,0.0294117647058824,34
+"41","Developers and Construction","(Not Simple) New rules are complicated for initators",1,0.0294117647058824,34
+"42","Developers and Construction","(Not Simple) Uncertainties in EPA complicates initiation",1,0.0294117647058824,34
+"43","Developers and Construction","(Simple) Rule bundling makes initation process simpler",1,0.0294117647058824,34
+"44","Developers and Construction","(Simple) Rule bundling makes rules clearer",1,0.0294117647058824,34
+"45","Developers and Construction","Citizen participation leads to conflicts",1,0.0294117647058824,34
+"46","Developers and Construction","Effect of WkB postponed",1,0.0294117647058824,34
+"47","Developers and Construction","Legal issues causes EPA to be ineffective",1,0.0294117647058824,34
+"48","Developers and Construction","Municipalities consume a lot of resources to implement EPA",1,0.0294117647058824,34
+"49","Developers and Construction","New noise standards hinder housing construction",1,0.0294117647058824,34
+"50","Developers and Construction","Simplification helps with housing construction",1,0.0294117647058824,34
+"51","Developers and Construction","Simplification is not better for planning",1,0.0294117647058824,34
+"52","Developers and Construction","System change delays progress",1,0.0294117647058824,34
+"53","Environmental Groups","(D) Decentralization allows local govt to set rules for protection",3,0.25,12
+"54","Environmental Groups","(C) ""Yes, provided"" makes it hard for protection",1,0.0833333333333333,12
+"55","Environmental Groups","(C) Decentralization loses coherence for national issues",1,0.0833333333333333,12
+"56","Environmental Groups","(C) Market driven approach causes problems",1,0.0833333333333333,12
+"57","Environmental Groups","(CP) Considers citizen interest better",1,0.0833333333333333,12
+"58","Environmental Groups","(CP) Process involves citizens more",1,0.0833333333333333,12
+"59","Environmental Groups","(Not Simple) New rules are complicated for citizens",1,0.0833333333333333,12
+"60","Environmental Groups","Errors from DSO causes legal issues",1,0.0833333333333333,12
+"61","Environmental Groups","Municipalities can do more for citizen participation",1,0.0833333333333333,12
+"62","Environmental Groups","New noise standards hinder housing construction",1,0.0833333333333333,12
+"63","Government (Municipal)","(CP) Process involves citizens more",10,0.0892857142857143,112
+"64","Government (Municipal)","(D) Decentralization allows local govt to set rules for protection",10,0.0892857142857143,112
+"65","Government (Municipal)","System change delays progress",8,0.0714285714285714,112
+"66","Government (Municipal)","Municipalities have funding gaps for implementation",7,0.0625,112
+"67","Government (Municipal)","New noise standards hinder housing construction",5,0.0446428571428571,112
+"68","Government (Municipal)","(C) Decentralization loses coherence for national issues",4,0.0357142857142857,112
+"69","Government (Municipal)","(CP) Considers citizen interest better",4,0.0357142857142857,112
+"70","Government (Municipal)","(D) Decentralization provides local govt development opportunities",4,0.0357142857142857,112
+"71","Government (Municipal)","Municipalites cannot prioritize EPA",4,0.0357142857142857,112
+"72","Government (Municipal)","(Int) Instruments forces long-term planning",3,0.0267857142857143,112
+"73","Government (Municipal)","(Not CP) EPA favours minority",3,0.0267857142857143,112
+"74","Government (Municipal)","(Postpone) More time for municipalities to prepare",3,0.0267857142857143,112
+"75","Government (Municipal)","Municipalities take on too many new tasks",3,0.0267857142857143,112
+"76","Government (National)","(Not CP) EPA favours minority",7,0.0603448275862069,116
+"77","Government (National)","(Postpone) Introduction now is risky",7,0.0603448275862069,116
+"78","Government (National)","(C) Decentralization loses coherence for national issues",6,0.0517241379310345,116
+"79","Government (National)","(D) Decentralization allows local govt to set rules for protection",6,0.0517241379310345,116
+"80","Government (National)","(D) Decentralization provides local govt development opportunities",6,0.0517241379310345,116
+"81","Government (National)","(Postpone) More time to work on DSO",5,0.0431034482758621,116
+"82","Government (National)","EPA is legally problematic",5,0.0431034482758621,116
+"83","Government (National)","(Postpone) More time for legal adjustments",3,0.0258620689655172,116
+"84","Government (National)","(C) Decentralization causes environmental standards to fall",2,0.0172413793103448,116
+"85","Government (National)","(D) Decentralization allows municipalities to weigh interests better",2,0.0172413793103448,116
+"86","Government (National)","(D) Decentralization still allows for adequate environmental protection",2,0.0172413793103448,116
+"87","Government (National)","(Not CP) Implementation was lacking",2,0.0172413793103448,116
+"88","Government (National)","(Not Postpone) Postponement does not improve situation",2,0.0172413793103448,116
+"89","Government (National)","(Not Simple) New rules are complicated for everyone",2,0.0172413793103448,116
+"90","Government (National)","(Not Simple) New rules are complicated for initators",2,0.0172413793103448,116
+"91","Government (National)","(Postpone) More time for municipalities to prepare",2,0.0172413793103448,116
+"92","Government (National)","(Simple) Rule bundling makes initation process simpler",2,0.0172413793103448,116
+"93","Government (National)","DSO will cause legal issues",2,0.0172413793103448,116
+"94","Government (National)","Implementation is difficult because of internal tensions",2,0.0172413793103448,116
+"95","Government (National)","Intention is good but effectiveness depends on implementation",2,0.0172413793103448,116
+"96","Government (National)","More direction and support from national government",2,0.0172413793103448,116
+"97","Government (National)","Municipalities are understaffed for implementation",2,0.0172413793103448,116
+"98","Government (National)","Simplification helps with housing construction",2,0.0172413793103448,116
+"99","Government (National)","Simplification reduced unnecessary bureaucracy",2,0.0172413793103448,116
+"100","Government (National)","Uncertainties from EPA causes risks to actors",2,0.0172413793103448,116
+"101","Government (Provincial)","(D) Decentralization allows local govt to set rules for protection",3,0.111111111111111,27
+"102","Government (Provincial)","(C) Decentralization loses coherence for national issues",2,0.0740740740740741,27
+"103","Government (Provincial)","Implementing decentralization is difficult",2,0.0740740740740741,27
+"104","Government (Provincial)","New noise standards hinder housing construction",2,0.0740740740740741,27
+"105","Government (Provincial)","(C) Decentralization threatens roles of provinces",1,0.037037037037037,27
+"106","Government (Provincial)","(CP) Considers citizen interest better",1,0.037037037037037,27
+"107","Government (Provincial)","(D) Decentralization provides local govt development opportunities",1,0.037037037037037,27
+"108","Government (Provincial)","(Int) Instruments provides an integrated planning framework",1,0.037037037037037,27
+"109","Government (Provincial)","(Int) Instruments stimulates better internal coordination",1,0.037037037037037,27
+"110","Government (Provincial)","(Not CP) Implementation was lacking",1,0.037037037037037,27
+"111","Government (Provincial)","(Not Postpone) Preserve Momentum",1,0.037037037037037,27
+"112","Government (Provincial)","(Not Postpone) Prevent Additional Costs",1,0.037037037037037,27
+"113","Government (Provincial)","(Not Simple) DSO is too complexly designed",1,0.037037037037037,27
+"114","Government (Provincial)","(Not Simple) Uncertainties in EPA complicates initiation",1,0.037037037037037,27
+"115","Government (Provincial)","(Postpone) More time to work on DSO",1,0.037037037037037,27
+"116","Government (Provincial)","(Simple) Rule bundling makes initation process simpler",1,0.037037037037037,27
+"117","Government (Provincial)","EPA has potential but implementation is difficult",1,0.037037037037037,27
+"118","Government (Provincial)","Municipalities have funding gaps for implementation",1,0.037037037037037,27
+"119","Government (Provincial)","New noise standards are good to curb noise pollution",1,0.037037037037037,27
+"120","Government (Provincial)","New noise standards does not deal with aviation",1,0.037037037037037,27
+"121","Government (Provincial)","Simplification is not better for planning",1,0.037037037037037,27
+"122","Government (Provincial)","System change causes lawsuits",1,0.037037037037037,27
+"123","Government (Waterboard)","(D) Decentralization allows local govt to set rules for protection",1,0.5,2
+"124","Government (Waterboard)","(D) Decentralization provides local govt development opportunities",1,0.5,2
+"125","ICT Companies","Communication of progress was not transparent",3,0.2,15
+"126","ICT Companies","(Not Simple) DSO is too complexly designed",2,0.133333333333333,15
+"127","ICT Companies","(Postpone) Introduction now is risky",2,0.133333333333333,15
+"128","ICT Companies","(Postpone) More time to work on DSO",2,0.133333333333333,15
+"129","ICT Companies","(Cancel) DSO is flawed",1,0.0666666666666667,15
+"130","ICT Companies","DSO is formulated too broad, makes it difficult to coordinate data",1,0.0666666666666667,15
+"131","ICT Companies","DSO is not managed properly",1,0.0666666666666667,15
+"132","ICT Companies","DSO is too expensive",1,0.0666666666666667,15
+"133","ICT Companies","DSO should be simpler",1,0.0666666666666667,15
+"134","ICT Companies","Government should prioritize DSO",1,0.0666666666666667,15
+"135","Independent","(CP) Process involves citizens more",2,0.117647058823529,17
+"136","Independent","(D) Decentralization provides local govt development opportunities",2,0.117647058823529,17
+"137","Independent","(Not CP) EPA favours minority",2,0.117647058823529,17
+"138","Independent","(Not CP) Municipalities have too much control",2,0.117647058823529,17
+"139","Independent","New noise standards are good to curb noise pollution",2,0.117647058823529,17
+"140","Independent","(C) Decentralization threatens roles of provinces",1,0.0588235294117647,17
+"141","Independent","(D) Decentralization allows local govt to set rules for protection",1,0.0588235294117647,17
+"142","Independent","(Int) Instruments provides an integrated planning framework",1,0.0588235294117647,17
+"143","Independent","(Not Simple) New rules are complicated for initators",1,0.0588235294117647,17
+"144","Independent","EPA is legally problematic",1,0.0588235294117647,17
+"145","Independent","Municipalities take on too many new tasks",1,0.0588235294117647,17
+"146","Independent","Overfocus on implementation than policy adjustment",1,0.0588235294117647,17
+"147","Industries and Businesses","New municipal plans affects my interest negatively",4,0.4,10
+"148","Industries and Businesses","Uncertainties from EPA causes risks to actors",2,0.2,10
+"149","Industries and Businesses","(Not CP) EPA favours minority",1,0.1,10
+"150","Industries and Businesses","(Not Simple) New rules are complicated for initators",1,0.1,10
+"151","Industries and Businesses","Municipalities can do more for citizen participation",1,0.1,10
+"152","Industries and Businesses","New municipal rules affects my interest negatively",1,0.1,10
+"153","Intermediaries","Citizen participation makes progress slower",3,0.1875,16
+"154","Intermediaries","Municipalities are understaffed for implementation",3,0.1875,16
+"155","Intermediaries","(Not Postpone) Preserve Momentum",2,0.125,16
+"156","Intermediaries","(C) Decentralization loses coherence for national issues",1,0.0625,16
+"157","Intermediaries","(CP) Process involves citizens more",1,0.0625,16
+"158","Intermediaries","(D) Decentralization allows local govt to set rules for protection",1,0.0625,16
+"159","Intermediaries","(Not CP) EPA favours minority",1,0.0625,16
+"160","Intermediaries","(Postpone) More time for municipalities to prepare",1,0.0625,16
+"161","Intermediaries","Municipalites cannot prioritize EPA",1,0.0625,16
+"162","Intermediaries","New municipal rules affects my interest negatively",1,0.0625,16
+"163","Intermediaries","System change delays progress",1,0.0625,16

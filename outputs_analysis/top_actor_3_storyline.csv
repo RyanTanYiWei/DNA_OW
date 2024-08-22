@@ -1,0 +1,47 @@
+"","actor_type","storyline","count","fraction","actor_sum"
+"1","Academic and Research","[Decentralization is beneficial (D)]",8,0.195121951219512,41
+"2","Academic and Research","[Centralization is needed instead (C)]",7,0.170731707317073,41
+"3","Academic and Research","[Introducing EPA leads to legal Issues]",4,0.0975609756097561,41
+"4","Architectural & Planning Associations","[Decentralization is beneficial (D)]",1,0.5,2
+"5","Architectural & Planning Associations","[Introducing EPA leads to legal Issues]",1,0.5,2
+"6","Community and Civic Groups","[Decentralization is beneficial (D)]",3,0.166666666666667,18
+"7","Community and Civic Groups","[EPA not effective for CP (Not CP)]",3,0.166666666666667,18
+"8","Community and Civic Groups","New noise standards are good to curb noise pollution",2,0.111111111111111,18
+"9","Community and Civic Groups","[Centralization is needed instead (C)]",2,0.111111111111111,18
+"10","Community and Civic Groups","[EPA is effective for CP (CP)]",2,0.111111111111111,18
+"11","Developers and Construction","[EPA is effective for CP (CP)]",8,0.235294117647059,34
+"12","Developers and Construction","[Centralization is needed instead (C)]",4,0.117647058823529,34
+"13","Developers and Construction","[EPA does not simplify procedures (Not Simple)]",3,0.0882352941176471,34
+"14","Developers and Construction","[Resources are lacking for municipalities]",3,0.0882352941176471,34
+"15","Environmental Groups","[Centralization is needed instead (C)]",3,0.25,12
+"16","Environmental Groups","[Decentralization is beneficial (D)]",3,0.25,12
+"17","Environmental Groups","[EPA is effective for CP (CP)]",2,0.166666666666667,12
+"18","Government (Municipal)","[Resources are lacking for municipalities]",17,0.151785714285714,112
+"19","Government (Municipal)","[Decentralization is beneficial (D)]",14,0.125,112
+"20","Government (Municipal)","[EPA is effective for CP (CP)]",14,0.125,112
+"21","Government (National)","[EPA's Introduction should (Postpone)]",18,0.155172413793103,116
+"22","Government (National)","[Decentralization is beneficial (D)]",17,0.146551724137931,116
+"23","Government (National)","[EPA not effective for CP (Not CP)]",11,0.0948275862068965,116
+"24","Government (Provincial)","[Decentralization is beneficial (D)]",4,0.148148148148148,27
+"25","Government (Provincial)","[Centralization is needed instead (C)]",3,0.111111111111111,27
+"26","Government (Provincial)","Implementing decentralization is difficult",2,0.0740740740740741,27
+"27","Government (Provincial)","New noise standards hinder housing construction",2,0.0740740740740741,27
+"28","Government (Provincial)","[EPA does not simplify procedures (Not Simple)]",2,0.0740740740740741,27
+"29","Government (Provincial)","[EPA is effective at sectoral integration]",2,0.0740740740740741,27
+"30","Government (Provincial)","[EPA's Introduction should (Not Postpone)]",2,0.0740740740740741,27
+"31","Government (Waterboard)","[Decentralization is beneficial (D)]",2,1,2
+"32","ICT Companies","[EPA's Introduction should (Postpone)]",4,0.266666666666667,15
+"33","ICT Companies","Communication of progress was not transparent",3,0.2,15
+"34","ICT Companies","[EPA does not simplify procedures (Not Simple)]",2,0.133333333333333,15
+"35","Independent","[EPA not effective for CP (Not CP)]",4,0.235294117647059,17
+"36","Independent","[Decentralization is beneficial (D)]",3,0.176470588235294,17
+"37","Independent","New noise standards are good to curb noise pollution",2,0.117647058823529,17
+"38","Independent","[EPA is effective for CP (CP)]",2,0.117647058823529,17
+"39","Industries and Businesses","[New changes affect my interest negatively]",5,0.5,10
+"40","Industries and Businesses","[Process of Implementation threatens me]",2,0.2,10
+"41","Industries and Businesses","Municipalities can do more for citizen participation",1,0.1,10
+"42","Industries and Businesses","[EPA does not simplify procedures (Not Simple)]",1,0.1,10
+"43","Industries and Businesses","[EPA not effective for CP (Not CP)]",1,0.1,10
+"44","Intermediaries","[Resources are lacking for municipalities]",4,0.25,16
+"45","Intermediaries","Citizen participation makes progress slower",3,0.1875,16
+"46","Intermediaries","[EPA's Introduction should (Not Postpone)]",2,0.125,16

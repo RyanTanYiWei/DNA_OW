@@ -1,0 +1,82 @@
+"","year","issue","count","fraction","year_sum"
+"1",2024,"Instrument Logic",16,0.347826086956522,46
+"2",2024,"Stances on Implementation",9,0.195652173913043,46
+"3",2024,"Viability of Implementation",8,0.173913043478261,46
+"4",2024,"Effectiveness of Policy (Citizen Participation)",7,0.152173913043478,46
+"5",2024,"Prioritization of objectives",3,0.0652173913043478,46
+"6",2024,"Effectiveness of Policy (Simplification)",2,0.0434782608695652,46
+"7",2024,"Effectiveness of Policy (Integration)",1,0.0217391304347826,46
+"8",2023,"Stances on Implementation",13,0.206349206349206,63
+"9",2023,"Viability of Implementation",11,0.174603174603175,63
+"10",2023,"Effectiveness of Policy (Simplification)",8,0.126984126984127,63
+"11",2023,"Instrument Logic",7,0.111111111111111,63
+"12",2023,"Threats from Implementation",7,0.111111111111111,63
+"13",2023,"Effectiveness of Policy (Citizen Participation)",5,0.0793650793650794,63
+"14",2023,"General Implementation Beliefs",5,0.0793650793650794,63
+"15",2023,"Effectiveness of Policy (Integration)",3,0.0476190476190476,63
+"16",2023,"Prioritization of objectives",3,0.0476190476190476,63
+"17",2023,"Effectiveness of Policy (Noise)",1,0.0158730158730159,63
+"18",2022,"Stances on Implementation",26,0.295454545454545,88
+"19",2022,"Instrument Logic",18,0.204545454545455,88
+"20",2022,"Viability of Implementation",12,0.136363636363636,88
+"21",2022,"Effectiveness of Policy (Citizen Participation)",11,0.125,88
+"22",2022,"Prioritization of objectives",7,0.0795454545454545,88
+"23",2022,"Threats from Implementation",5,0.0568181818181818,88
+"24",2022,"General Implementation Beliefs",4,0.0454545454545455,88
+"25",2022,"Effectiveness of Policy (Simplification)",3,0.0340909090909091,88
+"26",2022,"Effectiveness of Policy (Noise)",2,0.0227272727272727,88
+"27",2021,"Viability of Implementation",21,0.21875,96
+"28",2021,"Instrument Logic",20,0.208333333333333,96
+"29",2021,"Stances on Implementation",16,0.166666666666667,96
+"30",2021,"Effectiveness of Policy (Citizen Participation)",15,0.15625,96
+"31",2021,"Threats from Implementation",12,0.125,96
+"32",2021,"Prioritization of objectives",5,0.0520833333333333,96
+"33",2021,"Effectiveness of Policy (Noise)",3,0.03125,96
+"34",2021,"General Implementation Beliefs",2,0.0208333333333333,96
+"35",2021,"Effectiveness of Policy (Integration)",1,0.0104166666666667,96
+"36",2021,"Effectiveness of Policy (Simplification)",1,0.0104166666666667,96
+"37",2020,"Instrument Logic",6,0.171428571428571,35
+"38",2020,"Stances on Implementation",6,0.171428571428571,35
+"39",2020,"Effectiveness of Policy (Citizen Participation)",5,0.142857142857143,35
+"40",2020,"General Implementation Beliefs",4,0.114285714285714,35
+"41",2020,"Prioritization of objectives",4,0.114285714285714,35
+"42",2020,"Threats from Implementation",3,0.0857142857142857,35
+"43",2020,"Viability of Implementation",3,0.0857142857142857,35
+"44",2020,"Effectiveness of Policy (Noise)",2,0.0571428571428571,35
+"45",2020,"Effectiveness of Policy (Simplification)",2,0.0571428571428571,35
+"46",2019,"Stances on Implementation",6,0.214285714285714,28
+"47",2019,"Instrument Logic",5,0.178571428571429,28
+"48",2019,"Viability of Implementation",5,0.178571428571429,28
+"49",2019,"Effectiveness of Policy (Citizen Participation)",4,0.142857142857143,28
+"50",2019,"General Implementation Beliefs",4,0.142857142857143,28
+"51",2019,"Effectiveness of Policy (Integration)",2,0.0714285714285714,28
+"52",2019,"Effectiveness of Policy (Simplification)",1,0.0357142857142857,28
+"53",2019,"Prioritization of objectives",1,0.0357142857142857,28
+"54",2018,"Instrument Logic",6,0.285714285714286,21
+"55",2018,"Effectiveness of Policy (Citizen Participation)",5,0.238095238095238,21
+"56",2018,"Effectiveness of Policy (Integration)",2,0.0952380952380952,21
+"57",2018,"Effectiveness of Policy (Simplification)",2,0.0952380952380952,21
+"58",2018,"General Implementation Beliefs",2,0.0952380952380952,21
+"59",2018,"Stances on Implementation",2,0.0952380952380952,21
+"60",2018,"Viability of Implementation",2,0.0952380952380952,21
+"61",2017,"Instrument Logic",6,0.428571428571429,14
+"62",2017,"Effectiveness of Policy (Citizen Participation)",3,0.214285714285714,14
+"63",2017,"Threats from Implementation",2,0.142857142857143,14
+"64",2017,"Viability of Implementation",2,0.142857142857143,14
+"65",2017,"Stances on Implementation",1,0.0714285714285714,14
+"66",2016,"Effectiveness of Policy (Citizen Participation)",8,0.421052631578947,19
+"67",2016,"Instrument Logic",4,0.210526315789474,19
+"68",2016,"Effectiveness of Policy (Integration)",3,0.157894736842105,19
+"69",2016,"Effectiveness of Policy (Simplification)",1,0.0526315789473684,19
+"70",2016,"Prioritization of objectives",1,0.0526315789473684,19
+"71",2016,"Stances on Implementation",1,0.0526315789473684,19
+"72",2016,"Viability of Implementation",1,0.0526315789473684,19
+"73",2015,"Instrument Logic",1,1,1
+"74",2014,"Instrument Logic",1,1,1
+"75",2013,"Effectiveness of Policy (Simplification)",2,0.4,5
+"76",2013,"Prioritization of objectives",2,0.4,5
+"77",2013,"Instrument Logic",1,0.2,5
+"78",2012,"Effectiveness of Policy (Simplification)",1,0.5,2
+"79",2012,"Instrument Logic",1,0.5,2
+"80",2011,"Effectiveness of Policy (Simplification)",2,0.666666666666667,3
+"81",2011,"Instrument Logic",1,0.333333333333333,3
