@@ -1,7 +1,7 @@
 # Discourse Network Analysis - Omgevingswet in the Netherlands
 
 ## Abstract
-This thesis looks into Duch newspaper articles to study the public discourse surrounding the recently introduced the Environmental and Planning Act, a policy that shifts the spatial planning paradigm in the Netherlands. The study focuses on policy beliefs as a means to describe and explain the implementation challenges involved in this system revision. Results describe the emergent topics of discourse, points of conflicts, and the evolution of discourse coalitions and frames.
+This thesis looks into Duch newspaper articles to study the public discourse surrounding the recently introduced the Environmental and Planning Act, a policy that shifts the spatial planning paradigm in the Netherlands. The study focuses on policy beliefs as a means to describe and explain the implementation challenges involved in this system revision. Results describe the emergent topics of discourse, points of conflicts, evolution of discourse coalitions and context, and also changing behaviours of groups of actors.
 
 ## Folder Structure
 The repository is structured as follows:
